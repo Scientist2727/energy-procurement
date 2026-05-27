@@ -19,6 +19,14 @@ jobs:
           python-version: '3.12'
           cache: pip
 
+      - name: Restore SMARD parquet cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw/smard_raw.parquet
+          # Key rotates weekly so historical data refreshes once a week
+          key: smard-parquet-${{ github.run_id }}
+          restore-keys: smard-parquet-
+
       - name: Install dependencies
         run: pip install -e ".[dev]"
 
