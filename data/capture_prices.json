@@ -1,0 +1,2390 @@
+{
+  "meta": {
+    "last_updated": "2026-05-27T21:25:11.613266+00:00",
+    "source": "SMARD.de",
+    "units": "EUR/MWh, %",
+    "description": "Monthly volume-weighted capture prices for solar, wind onshore, wind offshore, and combined renewables; includes baseload reference and capture rate."
+  },
+  "data": [
+    {
+      "period": "2018-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 57.815,
+      "baseload_eur_mwh": 57.815,
+      "capture_rate_pct": 100.0
+    },
+    {
+      "period": "2018-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 57.8727451324,
+      "baseload_eur_mwh": 57.815,
+      "capture_rate_pct": 100.0998791531
+    },
+    {
+      "period": "2018-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 57.6090095677,
+      "baseload_eur_mwh": 57.815,
+      "capture_rate_pct": 99.6437076325
+    },
+    {
+      "period": "2018-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 57.7903932292,
+      "baseload_eur_mwh": 57.815,
+      "capture_rate_pct": 99.9574387774
+    },
+    {
+      "period": "2018-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 53.2659646423,
+      "baseload_eur_mwh": 53.0821236559,
+      "capture_rate_pct": 100.3463331415
+    },
+    {
+      "period": "2018-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 43.7988542089,
+      "baseload_eur_mwh": 53.0821236559,
+      "capture_rate_pct": 82.5114957586
+    },
+    {
+      "period": "2018-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 49.3772480078,
+      "baseload_eur_mwh": 53.0821236559,
+      "capture_rate_pct": 93.02048337
+    },
+    {
+      "period": "2018-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 46.5582475642,
+      "baseload_eur_mwh": 53.0821236559,
+      "capture_rate_pct": 87.7098434607
+    },
+    {
+      "period": "2018-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 59.7619582795,
+      "baseload_eur_mwh": 56.6808333333,
+      "capture_rate_pct": 105.4359203367
+    },
+    {
+      "period": "2018-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 52.2072243205,
+      "baseload_eur_mwh": 56.6808333333,
+      "capture_rate_pct": 92.1073690174
+    },
+    {
+      "period": "2018-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 54.3344044637,
+      "baseload_eur_mwh": 56.6808333333,
+      "capture_rate_pct": 95.8602781017
+    },
+    {
+      "period": "2018-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 53.3728264126,
+      "baseload_eur_mwh": 56.6808333333,
+      "capture_rate_pct": 94.1637997781
+    },
+    {
+      "period": "2018-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 56.0839152469,
+      "baseload_eur_mwh": 48.1106048387,
+      "capture_rate_pct": 116.5728750136
+    },
+    {
+      "period": "2018-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 39.8823696033,
+      "baseload_eur_mwh": 48.1106048387,
+      "capture_rate_pct": 82.8972525643
+    },
+    {
+      "period": "2018-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 44.6793293445,
+      "baseload_eur_mwh": 48.1106048387,
+      "capture_rate_pct": 92.8679435526
+    },
+    {
+      "period": "2018-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 41.2065132741,
+      "baseload_eur_mwh": 48.1106048387,
+      "capture_rate_pct": 85.6495431979
+    },
+    {
+      "period": "2019-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 59.1455524056,
+      "baseload_eur_mwh": 49.413844086,
+      "capture_rate_pct": 119.694295191
+    },
+    {
+      "period": "2019-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 39.1125374882,
+      "baseload_eur_mwh": 49.413844086,
+      "capture_rate_pct": 79.1529948977
+    },
+    {
+      "period": "2019-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 45.6496241736,
+      "baseload_eur_mwh": 49.413844086,
+      "capture_rate_pct": 92.3822564667
+    },
+    {
+      "period": "2019-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 40.9907622974,
+      "baseload_eur_mwh": 49.413844086,
+      "capture_rate_pct": 82.9540041978
+    },
+    {
+      "period": "2019-02-28T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 42.1205048278,
+      "baseload_eur_mwh": 42.8146130952,
+      "capture_rate_pct": 98.378805232
+    },
+    {
+      "period": "2019-02-28T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 38.4351441626,
+      "baseload_eur_mwh": 42.8146130952,
+      "capture_rate_pct": 89.7710883831
+    },
+    {
+      "period": "2019-02-28T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 41.9536068284,
+      "baseload_eur_mwh": 42.8146130952,
+      "capture_rate_pct": 97.988989729
+    },
+    {
+      "period": "2019-02-28T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 39.5770337406,
+      "baseload_eur_mwh": 42.8146130952,
+      "capture_rate_pct": 92.4381440808
+    },
+    {
+      "period": "2019-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 30.8024306508,
+      "baseload_eur_mwh": 30.6148521505,
+      "capture_rate_pct": 100.61270425
+    },
+    {
+      "period": "2019-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 24.7084260215,
+      "baseload_eur_mwh": 30.6148521505,
+      "capture_rate_pct": 80.7073178078
+    },
+    {
+      "period": "2019-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 27.645499452,
+      "baseload_eur_mwh": 30.6148521505,
+      "capture_rate_pct": 90.3009405894
+    },
+    {
+      "period": "2019-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 26.050449198,
+      "baseload_eur_mwh": 30.6148521505,
+      "capture_rate_pct": 85.0908868345
+    },
+    {
+      "period": "2019-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 31.7256028122,
+      "baseload_eur_mwh": 36.9728194444,
+      "capture_rate_pct": 85.8079077792
+    },
+    {
+      "period": "2019-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 34.0876780252,
+      "baseload_eur_mwh": 36.9728194444,
+      "capture_rate_pct": 92.196588027
+    },
+    {
+      "period": "2019-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 35.2650989219,
+      "baseload_eur_mwh": 36.9728194444,
+      "capture_rate_pct": 95.3811460737
+    },
+    {
+      "period": "2019-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 33.3843141469,
+      "baseload_eur_mwh": 36.9728194444,
+      "capture_rate_pct": 90.294207065
+    },
+    {
+      "period": "2019-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 35.273790816,
+      "baseload_eur_mwh": 37.8320833333,
+      "capture_rate_pct": 93.2377699247
+    },
+    {
+      "period": "2019-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 35.9154796535,
+      "baseload_eur_mwh": 37.8320833333,
+      "capture_rate_pct": 94.9339198083
+    },
+    {
+      "period": "2019-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 35.5351984999,
+      "baseload_eur_mwh": 37.8320833333,
+      "capture_rate_pct": 93.9287381739
+    },
+    {
+      "period": "2019-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 35.6200922134,
+      "baseload_eur_mwh": 37.8320833333,
+      "capture_rate_pct": 94.1531342578
+    },
+    {
+      "period": "2019-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 29.0758799661,
+      "baseload_eur_mwh": 32.5044583333,
+      "capture_rate_pct": 89.4519750735
+    },
+    {
+      "period": "2019-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 24.3204686444,
+      "baseload_eur_mwh": 32.5044583333,
+      "capture_rate_pct": 74.821947177
+    },
+    {
+      "period": "2019-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 27.6142540597,
+      "baseload_eur_mwh": 32.5044583333,
+      "capture_rate_pct": 84.9552814464
+    },
+    {
+      "period": "2019-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 27.0474443499,
+      "baseload_eur_mwh": 32.5044583333,
+      "capture_rate_pct": 83.2114907822
+    },
+    {
+      "period": "2019-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 39.1538221892,
+      "baseload_eur_mwh": 39.7130645161,
+      "capture_rate_pct": 98.5917925656
+    },
+    {
+      "period": "2019-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 36.5785806475,
+      "baseload_eur_mwh": 39.7130645161,
+      "capture_rate_pct": 92.107172018
+    },
+    {
+      "period": "2019-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 36.4671332779,
+      "baseload_eur_mwh": 39.7130645161,
+      "capture_rate_pct": 91.8265405156
+    },
+    {
+      "period": "2019-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 37.7712451213,
+      "baseload_eur_mwh": 39.7130645161,
+      "capture_rate_pct": 95.1103763498
+    },
+    {
+      "period": "2019-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 33.7560722746,
+      "baseload_eur_mwh": 36.8186962366,
+      "capture_rate_pct": 91.6818782981
+    },
+    {
+      "period": "2019-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 30.6713068044,
+      "baseload_eur_mwh": 36.8186962366,
+      "capture_rate_pct": 83.3036200069
+    },
+    {
+      "period": "2019-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 32.3454763893,
+      "baseload_eur_mwh": 36.8186962366,
+      "capture_rate_pct": 87.8506837435
+    },
+    {
+      "period": "2019-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 32.3368202356,
+      "baseload_eur_mwh": 36.8186962366,
+      "capture_rate_pct": 87.8271735311
+    },
+    {
+      "period": "2019-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 33.4436271758,
+      "baseload_eur_mwh": 35.7656666667,
+      "capture_rate_pct": 93.5076297823
+    },
+    {
+      "period": "2019-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 30.9142992119,
+      "baseload_eur_mwh": 35.7656666667,
+      "capture_rate_pct": 86.4356856537
+    },
+    {
+      "period": "2019-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 33.4245740576,
+      "baseload_eur_mwh": 35.7656666667,
+      "capture_rate_pct": 93.4543576921
+    },
+    {
+      "period": "2019-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 32.0626888414,
+      "baseload_eur_mwh": 35.7656666667,
+      "capture_rate_pct": 89.6465572422
+    },
+    {
+      "period": "2019-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 37.8583895516,
+      "baseload_eur_mwh": 36.9475403226,
+      "capture_rate_pct": 102.4652499762
+    },
+    {
+      "period": "2019-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 32.2931965122,
+      "baseload_eur_mwh": 36.9475403226,
+      "capture_rate_pct": 87.4028317724
+    },
+    {
+      "period": "2019-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 33.4456698961,
+      "baseload_eur_mwh": 36.9475403226,
+      "capture_rate_pct": 90.5220472163
+    },
+    {
+      "period": "2019-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 33.4380991791,
+      "baseload_eur_mwh": 36.9475403226,
+      "capture_rate_pct": 90.5015567671
+    },
+    {
+      "period": "2019-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 43.824967939,
+      "baseload_eur_mwh": 41.0048333333,
+      "capture_rate_pct": 106.8775663169
+    },
+    {
+      "period": "2019-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 37.0932586468,
+      "baseload_eur_mwh": 41.0048333333,
+      "capture_rate_pct": 90.4606984871
+    },
+    {
+      "period": "2019-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 38.3621319646,
+      "baseload_eur_mwh": 41.0048333333,
+      "capture_rate_pct": 93.5551466647
+    },
+    {
+      "period": "2019-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 37.9697179687,
+      "baseload_eur_mwh": 41.0048333333,
+      "capture_rate_pct": 92.598152174
+    },
+    {
+      "period": "2019-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 36.9559475128,
+      "baseload_eur_mwh": 31.9706182796,
+      "capture_rate_pct": 115.5934714482
+    },
+    {
+      "period": "2019-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 26.5296249955,
+      "baseload_eur_mwh": 31.9706182796,
+      "capture_rate_pct": 82.9812697506
+    },
+    {
+      "period": "2019-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 30.3034175714,
+      "baseload_eur_mwh": 31.9706182796,
+      "capture_rate_pct": 94.7852096774
+    },
+    {
+      "period": "2019-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 27.8282224289,
+      "baseload_eur_mwh": 31.9706182796,
+      "capture_rate_pct": 87.0431162311
+    },
+    {
+      "period": "2020-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 38.3162299225,
+      "baseload_eur_mwh": 34.9787096774,
+      "capture_rate_pct": 109.5415762211
+    },
+    {
+      "period": "2020-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 31.072307861,
+      "baseload_eur_mwh": 34.9787096774,
+      "capture_rate_pct": 88.8320585508
+    },
+    {
+      "period": "2020-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 33.7395298743,
+      "baseload_eur_mwh": 34.9787096774,
+      "capture_rate_pct": 96.4573312895
+    },
+    {
+      "period": "2020-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 32.0466874449,
+      "baseload_eur_mwh": 34.9787096774,
+      "capture_rate_pct": 91.6176947076
+    },
+    {
+      "period": "2020-02-29T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 23.1952782243,
+      "baseload_eur_mwh": 21.9118390805,
+      "capture_rate_pct": 105.8572862788
+    },
+    {
+      "period": "2020-02-29T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 17.5567018141,
+      "baseload_eur_mwh": 21.9118390805,
+      "capture_rate_pct": 80.1242732281
+    },
+    {
+      "period": "2020-02-29T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 20.2665051712,
+      "baseload_eur_mwh": 21.9118390805,
+      "capture_rate_pct": 92.4911190558
+    },
+    {
+      "period": "2020-02-29T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 18.3602194145,
+      "baseload_eur_mwh": 21.9118390805,
+      "capture_rate_pct": 83.7913209707
+    },
+    {
+      "period": "2020-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 16.2099229065,
+      "baseload_eur_mwh": 22.5193145161,
+      "capture_rate_pct": 71.9823105403
+    },
+    {
+      "period": "2020-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 18.4443767925,
+      "baseload_eur_mwh": 22.5193145161,
+      "capture_rate_pct": 81.9046990942
+    },
+    {
+      "period": "2020-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 19.4752855041,
+      "baseload_eur_mwh": 22.5193145161,
+      "capture_rate_pct": 86.4825858271
+    },
+    {
+      "period": "2020-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 18.0879570511,
+      "baseload_eur_mwh": 22.5193145161,
+      "capture_rate_pct": 80.3219700056
+    },
+    {
+      "period": "2020-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 8.9531734571,
+      "baseload_eur_mwh": 17.0491944444,
+      "capture_rate_pct": 52.513762373
+    },
+    {
+      "period": "2020-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 11.1621937513,
+      "baseload_eur_mwh": 17.0491944444,
+      "capture_rate_pct": 65.470505294
+    },
+    {
+      "period": "2020-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 13.2008237104,
+      "baseload_eur_mwh": 17.0491944444,
+      "capture_rate_pct": 77.4278441917
+    },
+    {
+      "period": "2020-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 10.4793855213,
+      "baseload_eur_mwh": 17.0491944444,
+      "capture_rate_pct": 61.4655757221
+    },
+    {
+      "period": "2020-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 14.1126852666,
+      "baseload_eur_mwh": 17.6048790323,
+      "capture_rate_pct": 80.1634890009
+    },
+    {
+      "period": "2020-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 13.0818069237,
+      "baseload_eur_mwh": 17.6048790323,
+      "capture_rate_pct": 74.3078489762
+    },
+    {
+      "period": "2020-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 14.1849420524,
+      "baseload_eur_mwh": 17.6048790323,
+      "capture_rate_pct": 80.5739251399
+    },
+    {
+      "period": "2020-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 13.6682323433,
+      "baseload_eur_mwh": 17.6048790323,
+      "capture_rate_pct": 77.6388881642
+    },
+    {
+      "period": "2020-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 24.7043349553,
+      "baseload_eur_mwh": 26.2291666667,
+      "capture_rate_pct": 94.1865034038
+    },
+    {
+      "period": "2020-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 22.3167771036,
+      "baseload_eur_mwh": 26.2291666667,
+      "capture_rate_pct": 85.0838205696
+    },
+    {
+      "period": "2020-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 22.4143325629,
+      "baseload_eur_mwh": 26.2291666667,
+      "capture_rate_pct": 85.4557556012
+    },
+    {
+      "period": "2020-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 23.452918857,
+      "baseload_eur_mwh": 26.2291666667,
+      "capture_rate_pct": 89.4154174055
+    },
+    {
+      "period": "2020-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 26.2198757971,
+      "baseload_eur_mwh": 30.0749462366,
+      "capture_rate_pct": 87.1817877607
+    },
+    {
+      "period": "2020-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 21.7969860983,
+      "baseload_eur_mwh": 30.0749462366,
+      "capture_rate_pct": 72.4755613088
+    },
+    {
+      "period": "2020-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 24.1018910951,
+      "baseload_eur_mwh": 30.0749462366,
+      "capture_rate_pct": 80.1394320228
+    },
+    {
+      "period": "2020-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 24.1512669779,
+      "baseload_eur_mwh": 30.0749462366,
+      "capture_rate_pct": 80.3036081526
+    },
+    {
+      "period": "2020-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 33.1848795255,
+      "baseload_eur_mwh": 34.8897043011,
+      "capture_rate_pct": 95.1136737622
+    },
+    {
+      "period": "2020-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 30.1357777587,
+      "baseload_eur_mwh": 34.8897043011,
+      "capture_rate_pct": 86.3744143506
+    },
+    {
+      "period": "2020-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 32.0356569508,
+      "baseload_eur_mwh": 34.8897043011,
+      "capture_rate_pct": 91.8198006906
+    },
+    {
+      "period": "2020-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 31.7455580828,
+      "baseload_eur_mwh": 34.8897043011,
+      "capture_rate_pct": 90.9883265528
+    },
+    {
+      "period": "2020-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 39.7566694555,
+      "baseload_eur_mwh": 43.6780972222,
+      "capture_rate_pct": 91.0219812305
+    },
+    {
+      "period": "2020-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 38.055281618,
+      "baseload_eur_mwh": 43.6780972222,
+      "capture_rate_pct": 87.1266928695
+    },
+    {
+      "period": "2020-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 38.4327204148,
+      "baseload_eur_mwh": 43.6780972222,
+      "capture_rate_pct": 87.9908303222
+    },
+    {
+      "period": "2020-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 38.8316392127,
+      "baseload_eur_mwh": 43.6780972222,
+      "capture_rate_pct": 88.9041457442
+    },
+    {
+      "period": "2020-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 32.6536008403,
+      "baseload_eur_mwh": 33.9559005376,
+      "capture_rate_pct": 96.1647322653
+    },
+    {
+      "period": "2020-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 30.0542022791,
+      "baseload_eur_mwh": 33.9559005376,
+      "capture_rate_pct": 88.5095132311
+    },
+    {
+      "period": "2020-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 31.7195477108,
+      "baseload_eur_mwh": 33.9559005376,
+      "capture_rate_pct": 93.4139492947
+    },
+    {
+      "period": "2020-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 30.7214130787,
+      "baseload_eur_mwh": 33.9559005376,
+      "capture_rate_pct": 90.4744465389
+    },
+    {
+      "period": "2020-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 39.9626048372,
+      "baseload_eur_mwh": 38.7965138889,
+      "capture_rate_pct": 103.0056590953
+    },
+    {
+      "period": "2020-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 32.1922243381,
+      "baseload_eur_mwh": 38.7965138889,
+      "capture_rate_pct": 82.9771057016
+    },
+    {
+      "period": "2020-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 35.2407801778,
+      "baseload_eur_mwh": 38.7965138889,
+      "capture_rate_pct": 90.8349143914
+    },
+    {
+      "period": "2020-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 33.7237825812,
+      "baseload_eur_mwh": 38.7965138889,
+      "capture_rate_pct": 86.9247754521
+    },
+    {
+      "period": "2020-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 48.0771031587,
+      "baseload_eur_mwh": 43.5450537634,
+      "capture_rate_pct": 110.4077248816
+    },
+    {
+      "period": "2020-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 33.8378532447,
+      "baseload_eur_mwh": 43.5450537634,
+      "capture_rate_pct": 77.7076850762
+    },
+    {
+      "period": "2020-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 39.8953598401,
+      "baseload_eur_mwh": 43.5450537634,
+      "capture_rate_pct": 91.6185798205
+    },
+    {
+      "period": "2020-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 35.8973044007,
+      "baseload_eur_mwh": 43.5450537634,
+      "capture_rate_pct": 82.437157147
+    },
+    {
+      "period": "2021-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 55.4186559151,
+      "baseload_eur_mwh": 52.7931989247,
+      "capture_rate_pct": 104.9730969971
+    },
+    {
+      "period": "2021-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 46.6643241135,
+      "baseload_eur_mwh": 52.7931989247,
+      "capture_rate_pct": 88.3907871922
+    },
+    {
+      "period": "2021-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 48.9307197679,
+      "baseload_eur_mwh": 52.7931989247,
+      "capture_rate_pct": 92.6837561741
+    },
+    {
+      "period": "2021-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 47.52474986,
+      "baseload_eur_mwh": 52.7931989247,
+      "capture_rate_pct": 90.0205913413
+    },
+    {
+      "period": "2021-02-28T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 44.8835742887,
+      "baseload_eur_mwh": 48.7069047619,
+      "capture_rate_pct": 92.150331679
+    },
+    {
+      "period": "2021-02-28T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 44.0000288495,
+      "baseload_eur_mwh": 48.7069047619,
+      "capture_rate_pct": 90.3363271893
+    },
+    {
+      "period": "2021-02-28T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 47.4565718528,
+      "baseload_eur_mwh": 48.7069047619,
+      "capture_rate_pct": 97.4329452564
+    },
+    {
+      "period": "2021-02-28T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 44.8502196014,
+      "baseload_eur_mwh": 48.7069047619,
+      "capture_rate_pct": 92.0818512706
+    },
+    {
+      "period": "2021-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 41.01579153,
+      "baseload_eur_mwh": 47.1816801075,
+      "capture_rate_pct": 86.9316044628
+    },
+    {
+      "period": "2021-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 35.0689559507,
+      "baseload_eur_mwh": 47.1816801075,
+      "capture_rate_pct": 74.3274844617
+    },
+    {
+      "period": "2021-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 39.7427183243,
+      "baseload_eur_mwh": 47.1816801075,
+      "capture_rate_pct": 84.2333681923
+    },
+    {
+      "period": "2021-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 37.346818448,
+      "baseload_eur_mwh": 47.1816801075,
+      "capture_rate_pct": 79.1553381798
+    },
+    {
+      "period": "2021-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 45.4663642178,
+      "baseload_eur_mwh": 53.6571527778,
+      "capture_rate_pct": 84.7349549205
+    },
+    {
+      "period": "2021-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 45.0428789917,
+      "baseload_eur_mwh": 53.6571527778,
+      "capture_rate_pct": 83.9457120997
+    },
+    {
+      "period": "2021-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 46.9191512732,
+      "baseload_eur_mwh": 53.6571527778,
+      "capture_rate_pct": 87.4424915305
+    },
+    {
+      "period": "2021-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 45.4196375192,
+      "baseload_eur_mwh": 53.6571527778,
+      "capture_rate_pct": 84.6478710998
+    },
+    {
+      "period": "2021-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 41.9157524293,
+      "baseload_eur_mwh": 53.3315053763,
+      "capture_rate_pct": 78.5947295759
+    },
+    {
+      "period": "2021-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 43.221602427,
+      "baseload_eur_mwh": 53.3315053763,
+      "capture_rate_pct": 81.0432822438
+    },
+    {
+      "period": "2021-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 41.7079829499,
+      "baseload_eur_mwh": 53.3315053763,
+      "capture_rate_pct": 78.2051484494
+    },
+    {
+      "period": "2021-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 42.6197135338,
+      "baseload_eur_mwh": 53.3315053763,
+      "capture_rate_pct": 79.9147018879
+    },
+    {
+      "period": "2021-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 68.5778138689,
+      "baseload_eur_mwh": 74.1307222222,
+      "capture_rate_pct": 92.5093022342
+    },
+    {
+      "period": "2021-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 64.1768917385,
+      "baseload_eur_mwh": 74.1307222222,
+      "capture_rate_pct": 86.5725974531
+    },
+    {
+      "period": "2021-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 69.5823700624,
+      "baseload_eur_mwh": 74.1307222222,
+      "capture_rate_pct": 93.8644167716
+    },
+    {
+      "period": "2021-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 67.3845439559,
+      "baseload_eur_mwh": 74.1307222222,
+      "capture_rate_pct": 90.899618857
+    },
+    {
+      "period": "2021-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 74.0806166561,
+      "baseload_eur_mwh": 81.2948924731,
+      "capture_rate_pct": 91.1257945025
+    },
+    {
+      "period": "2021-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 69.4477791022,
+      "baseload_eur_mwh": 81.2948924731,
+      "capture_rate_pct": 85.4269893095
+    },
+    {
+      "period": "2021-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 73.5967215083,
+      "baseload_eur_mwh": 81.2948924731,
+      "capture_rate_pct": 90.5305601243
+    },
+    {
+      "period": "2021-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 72.2442364457,
+      "baseload_eur_mwh": 81.2948924731,
+      "capture_rate_pct": 88.8668823439
+    },
+    {
+      "period": "2021-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 76.8015692741,
+      "baseload_eur_mwh": 82.8118548387,
+      "capture_rate_pct": 92.7422401342
+    },
+    {
+      "period": "2021-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 73.7187238306,
+      "baseload_eur_mwh": 82.8118548387,
+      "capture_rate_pct": 89.0195298417
+    },
+    {
+      "period": "2021-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 76.7234487383,
+      "baseload_eur_mwh": 82.8118548387,
+      "capture_rate_pct": 92.6479051674
+    },
+    {
+      "period": "2021-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 75.3629668965,
+      "baseload_eur_mwh": 82.8118548387,
+      "capture_rate_pct": 91.0050463708
+    },
+    {
+      "period": "2021-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 117.0378715453,
+      "baseload_eur_mwh": 128.3357777778,
+      "capture_rate_pct": 91.1966043857
+    },
+    {
+      "period": "2021-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 118.248871966,
+      "baseload_eur_mwh": 128.3357777778,
+      "capture_rate_pct": 92.1402231035
+    },
+    {
+      "period": "2021-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 125.4363265135,
+      "baseload_eur_mwh": 128.3357777778,
+      "capture_rate_pct": 97.7407303602
+    },
+    {
+      "period": "2021-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 118.6257443344,
+      "baseload_eur_mwh": 128.3357777778,
+      "capture_rate_pct": 92.4338842905
+    },
+    {
+      "period": "2021-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 128.0471408258,
+      "baseload_eur_mwh": 139.5433870968,
+      "capture_rate_pct": 91.7615255655
+    },
+    {
+      "period": "2021-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 111.9999391366,
+      "baseload_eur_mwh": 139.5433870968,
+      "capture_rate_pct": 80.261731829
+    },
+    {
+      "period": "2021-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 128.5439952372,
+      "baseload_eur_mwh": 139.5433870968,
+      "capture_rate_pct": 92.1175828619
+    },
+    {
+      "period": "2021-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 118.1170318602,
+      "baseload_eur_mwh": 139.5433870968,
+      "capture_rate_pct": 84.6453811375
+    },
+    {
+      "period": "2021-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 182.8203711716,
+      "baseload_eur_mwh": 176.2458472222,
+      "capture_rate_pct": 103.7303142474
+    },
+    {
+      "period": "2021-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 142.7335524838,
+      "baseload_eur_mwh": 176.2458472222,
+      "capture_rate_pct": 80.9854840459
+    },
+    {
+      "period": "2021-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 159.3674281784,
+      "baseload_eur_mwh": 176.2458472222,
+      "capture_rate_pct": 90.4233663886
+    },
+    {
+      "period": "2021-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 150.2779645273,
+      "baseload_eur_mwh": 176.2458472222,
+      "capture_rate_pct": 85.2661023767
+    },
+    {
+      "period": "2021-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 271.2525159606,
+      "baseload_eur_mwh": 220.9566263441,
+      "capture_rate_pct": 122.7627885385
+    },
+    {
+      "period": "2021-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 165.4794820516,
+      "baseload_eur_mwh": 220.9566263441,
+      "capture_rate_pct": 74.8922921161
+    },
+    {
+      "period": "2021-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 189.4209634868,
+      "baseload_eur_mwh": 220.9566263441,
+      "capture_rate_pct": 85.7276681949
+    },
+    {
+      "period": "2021-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 175.9053601005,
+      "baseload_eur_mwh": 220.9566263441,
+      "capture_rate_pct": 79.610810054
+    },
+    {
+      "period": "2022-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 178.3163862659,
+      "baseload_eur_mwh": 167.8745564516,
+      "capture_rate_pct": 106.2200193019
+    },
+    {
+      "period": "2022-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 132.5340932584,
+      "baseload_eur_mwh": 167.8745564516,
+      "capture_rate_pct": 78.94829095
+    },
+    {
+      "period": "2022-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 148.9244193497,
+      "baseload_eur_mwh": 167.8745564516,
+      "capture_rate_pct": 88.7117276718
+    },
+    {
+      "period": "2022-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 138.0653141229,
+      "baseload_eur_mwh": 167.8745564516,
+      "capture_rate_pct": 82.2431445487
+    },
+    {
+      "period": "2022-02-28T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 118.7412189497,
+      "baseload_eur_mwh": 128.7774107143,
+      "capture_rate_pct": 92.2065588142
+    },
+    {
+      "period": "2022-02-28T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 110.7152835495,
+      "baseload_eur_mwh": 128.7774107143,
+      "capture_rate_pct": 85.9741494532
+    },
+    {
+      "period": "2022-02-28T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 123.7240229565,
+      "baseload_eur_mwh": 128.7774107143,
+      "capture_rate_pct": 96.0758740763
+    },
+    {
+      "period": "2022-02-28T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 113.1874578013,
+      "baseload_eur_mwh": 128.7774107143,
+      "capture_rate_pct": 87.893876087
+    },
+    {
+      "period": "2022-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 207.1220871651,
+      "baseload_eur_mwh": 251.7597849462,
+      "capture_rate_pct": 82.2697267593
+    },
+    {
+      "period": "2022-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 205.6501326016,
+      "baseload_eur_mwh": 251.7597849462,
+      "capture_rate_pct": 81.6850604816
+    },
+    {
+      "period": "2022-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 221.6335970645,
+      "baseload_eur_mwh": 251.7597849462,
+      "capture_rate_pct": 88.0337569051
+    },
+    {
+      "period": "2022-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 207.8723069852,
+      "baseload_eur_mwh": 251.7597849462,
+      "capture_rate_pct": 82.5677170917
+    },
+    {
+      "period": "2022-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 145.6266419167,
+      "baseload_eur_mwh": 166.0018194444,
+      "capture_rate_pct": 87.7259312
+    },
+    {
+      "period": "2022-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 131.3369574196,
+      "baseload_eur_mwh": 166.0018194444,
+      "capture_rate_pct": 79.1177818768
+    },
+    {
+      "period": "2022-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 140.935846683,
+      "baseload_eur_mwh": 166.0018194444,
+      "capture_rate_pct": 84.9001819104
+    },
+    {
+      "period": "2022-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 137.21144631,
+      "baseload_eur_mwh": 166.0018194444,
+      "capture_rate_pct": 82.6565918188
+    },
+    {
+      "period": "2022-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 151.3539544363,
+      "baseload_eur_mwh": 177.5061827957,
+      "capture_rate_pct": 85.2668634143
+    },
+    {
+      "period": "2022-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 140.4262947565,
+      "baseload_eur_mwh": 177.5061827957,
+      "capture_rate_pct": 79.1106498629
+    },
+    {
+      "period": "2022-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 148.9069023747,
+      "baseload_eur_mwh": 177.5061827957,
+      "capture_rate_pct": 83.8882905538
+    },
+    {
+      "period": "2022-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 146.5935385206,
+      "baseload_eur_mwh": 177.5061827957,
+      "capture_rate_pct": 82.58503237
+    },
+    {
+      "period": "2022-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 189.5282478625,
+      "baseload_eur_mwh": 218.1820138889,
+      "capture_rate_pct": 86.8670356847
+    },
+    {
+      "period": "2022-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 198.9083581907,
+      "baseload_eur_mwh": 218.1820138889,
+      "capture_rate_pct": 91.1662490621
+    },
+    {
+      "period": "2022-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 198.0633485306,
+      "baseload_eur_mwh": 218.1820138889,
+      "capture_rate_pct": 90.7789533153
+    },
+    {
+      "period": "2022-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 193.311488886,
+      "baseload_eur_mwh": 218.1820138889,
+      "capture_rate_pct": 88.6010195985
+    },
+    {
+      "period": "2022-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 260.6452655984,
+      "baseload_eur_mwh": 315.2624865591,
+      "capture_rate_pct": 82.6756359258
+    },
+    {
+      "period": "2022-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 283.3766795396,
+      "baseload_eur_mwh": 315.2624865591,
+      "capture_rate_pct": 89.8859495249
+    },
+    {
+      "period": "2022-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 294.8089149564,
+      "baseload_eur_mwh": 315.2624865591,
+      "capture_rate_pct": 93.5122088816
+    },
+    {
+      "period": "2022-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 272.8869433209,
+      "baseload_eur_mwh": 315.2624865591,
+      "capture_rate_pct": 86.5586471449
+    },
+    {
+      "period": "2022-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 399.0158837254,
+      "baseload_eur_mwh": 465.5141666667,
+      "capture_rate_pct": 85.7150893135
+    },
+    {
+      "period": "2022-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 462.2237453294,
+      "baseload_eur_mwh": 465.5141666667,
+      "capture_rate_pct": 99.2931640812
+    },
+    {
+      "period": "2022-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 476.8874723081,
+      "baseload_eur_mwh": 465.5141666667,
+      "capture_rate_pct": 102.4431706822
+    },
+    {
+      "period": "2022-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 424.6203656372,
+      "baseload_eur_mwh": 465.5141666667,
+      "capture_rate_pct": 91.2153476827
+    },
+    {
+      "period": "2022-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 316.5484322778,
+      "baseload_eur_mwh": 344.9385555556,
+      "capture_rate_pct": 91.7695129116
+    },
+    {
+      "period": "2022-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 286.4016519517,
+      "baseload_eur_mwh": 344.9385555556,
+      "capture_rate_pct": 83.0297591669
+    },
+    {
+      "period": "2022-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 305.13748204,
+      "baseload_eur_mwh": 344.9385555556,
+      "capture_rate_pct": 88.4614019296
+    },
+    {
+      "period": "2022-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 300.3051549426,
+      "baseload_eur_mwh": 344.9385555556,
+      "capture_rate_pct": 87.0604779042
+    },
+    {
+      "period": "2022-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 128.7838480521,
+      "baseload_eur_mwh": 152.7453494624,
+      "capture_rate_pct": 84.3127784285
+    },
+    {
+      "period": "2022-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 129.4833257303,
+      "baseload_eur_mwh": 152.7453494624,
+      "capture_rate_pct": 84.7707155642
+    },
+    {
+      "period": "2022-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 141.4024656365,
+      "baseload_eur_mwh": 152.7453494624,
+      "capture_rate_pct": 92.57399072
+    },
+    {
+      "period": "2022-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 131.3262270748,
+      "baseload_eur_mwh": 152.7453494624,
+      "capture_rate_pct": 85.9772343558
+    },
+    {
+      "period": "2022-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 153.2397879724,
+      "baseload_eur_mwh": 173.928,
+      "capture_rate_pct": 88.1053010282
+    },
+    {
+      "period": "2022-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 138.9932039232,
+      "baseload_eur_mwh": 173.928,
+      "capture_rate_pct": 79.914219633
+    },
+    {
+      "period": "2022-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 151.950090106,
+      "baseload_eur_mwh": 173.928,
+      "capture_rate_pct": 87.3637885251
+    },
+    {
+      "period": "2022-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 143.1294550901,
+      "baseload_eur_mwh": 173.928,
+      "capture_rate_pct": 82.2923595339
+    },
+    {
+      "period": "2022-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 249.1418606867,
+      "baseload_eur_mwh": 251.2168951613,
+      "capture_rate_pct": 99.1740067987
+    },
+    {
+      "period": "2022-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 152.8023697701,
+      "baseload_eur_mwh": 251.2168951613,
+      "capture_rate_pct": 60.8248779096
+    },
+    {
+      "period": "2022-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 214.8643451619,
+      "baseload_eur_mwh": 251.2168951613,
+      "capture_rate_pct": 85.5294167313
+    },
+    {
+      "period": "2022-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 170.6995140689,
+      "baseload_eur_mwh": 251.2168951613,
+      "capture_rate_pct": 67.9490581074
+    },
+    {
+      "period": "2023-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 123.0619260962,
+      "baseload_eur_mwh": 117.9437096774,
+      "capture_rate_pct": 104.3395416617
+    },
+    {
+      "period": "2023-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 90.0417368023,
+      "baseload_eur_mwh": 117.9437096774,
+      "capture_rate_pct": 76.3429750078
+    },
+    {
+      "period": "2023-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 102.1269254074,
+      "baseload_eur_mwh": 117.9437096774,
+      "capture_rate_pct": 86.5895482571
+    },
+    {
+      "period": "2023-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 93.3463057063,
+      "baseload_eur_mwh": 117.9437096774,
+      "capture_rate_pct": 79.1447937
+    },
+    {
+      "period": "2023-02-28T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 123.3703929457,
+      "baseload_eur_mwh": 128.390922619,
+      "capture_rate_pct": 96.0896537147
+    },
+    {
+      "period": "2023-02-28T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 107.5875940353,
+      "baseload_eur_mwh": 128.390922619,
+      "capture_rate_pct": 83.7968852008
+    },
+    {
+      "period": "2023-02-28T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 117.9983470819,
+      "baseload_eur_mwh": 128.390922619,
+      "capture_rate_pct": 91.9055215703
+    },
+    {
+      "period": "2023-02-28T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 111.3226607231,
+      "baseload_eur_mwh": 128.390922619,
+      "capture_rate_pct": 86.7060213076
+    },
+    {
+      "period": "2023-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 88.8697066724,
+      "baseload_eur_mwh": 102.4011424731,
+      "capture_rate_pct": 86.7858546556
+    },
+    {
+      "period": "2023-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 87.1730272138,
+      "baseload_eur_mwh": 102.4011424731,
+      "capture_rate_pct": 85.1289596077
+    },
+    {
+      "period": "2023-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 94.0115418501,
+      "baseload_eur_mwh": 102.4011424731,
+      "capture_rate_pct": 91.8071220493
+    },
+    {
+      "period": "2023-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 88.4289253132,
+      "baseload_eur_mwh": 102.4011424731,
+      "capture_rate_pct": 86.355408912
+    },
+    {
+      "period": "2023-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 80.3021277005,
+      "baseload_eur_mwh": 100.8324861111,
+      "capture_rate_pct": 79.6391428969
+    },
+    {
+      "period": "2023-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 91.3464277173,
+      "baseload_eur_mwh": 100.8324861111,
+      "capture_rate_pct": 90.5922597373
+    },
+    {
+      "period": "2023-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 93.0942220087,
+      "baseload_eur_mwh": 100.8324861111,
+      "capture_rate_pct": 92.3256240118
+    },
+    {
+      "period": "2023-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 87.6208694433,
+      "baseload_eur_mwh": 100.8324861111,
+      "capture_rate_pct": 86.8974601566
+    },
+    {
+      "period": "2023-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 54.0328431781,
+      "baseload_eur_mwh": 81.6463709677,
+      "capture_rate_pct": 66.179111867
+    },
+    {
+      "period": "2023-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 82.4608145168,
+      "baseload_eur_mwh": 81.6463709677,
+      "capture_rate_pct": 100.9975257191
+    },
+    {
+      "period": "2023-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 83.1218566518,
+      "baseload_eur_mwh": 81.6463709677,
+      "capture_rate_pct": 101.8071662789
+    },
+    {
+      "period": "2023-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 68.5771311705,
+      "baseload_eur_mwh": 81.6463709677,
+      "capture_rate_pct": 83.9928711561
+    },
+    {
+      "period": "2023-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 71.3880116401,
+      "baseload_eur_mwh": 94.8397222222,
+      "capture_rate_pct": 75.2722698542
+    },
+    {
+      "period": "2023-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 93.2539044417,
+      "baseload_eur_mwh": 94.8397222222,
+      "capture_rate_pct": 98.3278970632
+    },
+    {
+      "period": "2023-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 94.9441341111,
+      "baseload_eur_mwh": 94.8397222222,
+      "capture_rate_pct": 100.1100929931
+    },
+    {
+      "period": "2023-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 80.3427664567,
+      "baseload_eur_mwh": 94.8397222222,
+      "capture_rate_pct": 84.714257459
+    },
+    {
+      "period": "2023-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 52.4673996551,
+      "baseload_eur_mwh": 77.4827956989,
+      "capture_rate_pct": 67.7149026204
+    },
+    {
+      "period": "2023-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 62.0617518845,
+      "baseload_eur_mwh": 77.4827956989,
+      "capture_rate_pct": 80.0974607648
+    },
+    {
+      "period": "2023-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 70.3203934347,
+      "baseload_eur_mwh": 77.4827956989,
+      "capture_rate_pct": 90.7561385729
+    },
+    {
+      "period": "2023-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 58.7518887845,
+      "baseload_eur_mwh": 77.4827956989,
+      "capture_rate_pct": 75.8257213805
+    },
+    {
+      "period": "2023-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 75.6491287283,
+      "baseload_eur_mwh": 94.4132795699,
+      "capture_rate_pct": 80.1255173773
+    },
+    {
+      "period": "2023-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 69.3716586185,
+      "baseload_eur_mwh": 94.4132795699,
+      "capture_rate_pct": 73.4765903001
+    },
+    {
+      "period": "2023-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 83.844820882,
+      "baseload_eur_mwh": 94.4132795699,
+      "capture_rate_pct": 88.8061735213
+    },
+    {
+      "period": "2023-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 73.7001067769,
+      "baseload_eur_mwh": 94.4132795699,
+      "capture_rate_pct": 78.0611658791
+    },
+    {
+      "period": "2023-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 74.6524267777,
+      "baseload_eur_mwh": 100.7262638889,
+      "capture_rate_pct": 74.1141623797
+    },
+    {
+      "period": "2023-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 88.4424165904,
+      "baseload_eur_mwh": 100.7262638889,
+      "capture_rate_pct": 87.8047225975
+    },
+    {
+      "period": "2023-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 98.0377467487,
+      "baseload_eur_mwh": 100.7262638889,
+      "capture_rate_pct": 97.3308678031
+    },
+    {
+      "period": "2023-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 82.5519708202,
+      "baseload_eur_mwh": 100.7262638889,
+      "capture_rate_pct": 81.9567485509
+    },
+    {
+      "period": "2023-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 67.6759880319,
+      "baseload_eur_mwh": 87.3163037634,
+      "capture_rate_pct": 77.5067027749
+    },
+    {
+      "period": "2023-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 70.5569043132,
+      "baseload_eur_mwh": 87.3163037634,
+      "capture_rate_pct": 80.8061052427
+    },
+    {
+      "period": "2023-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 80.0975308751,
+      "baseload_eur_mwh": 87.3163037634,
+      "capture_rate_pct": 91.7326174182
+    },
+    {
+      "period": "2023-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 71.4006817892,
+      "baseload_eur_mwh": 87.3163037634,
+      "capture_rate_pct": 81.7724510907
+    },
+    {
+      "period": "2023-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 85.1925443944,
+      "baseload_eur_mwh": 91.1799722222,
+      "capture_rate_pct": 93.4333958632
+    },
+    {
+      "period": "2023-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 77.3653893523,
+      "baseload_eur_mwh": 91.1799722222,
+      "capture_rate_pct": 84.849103884
+    },
+    {
+      "period": "2023-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 81.8574499683,
+      "baseload_eur_mwh": 91.1799722222,
+      "capture_rate_pct": 89.7756908379
+    },
+    {
+      "period": "2023-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 78.5306989026,
+      "baseload_eur_mwh": 91.1799722222,
+      "capture_rate_pct": 86.1271362435
+    },
+    {
+      "period": "2023-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 65.8078992525,
+      "baseload_eur_mwh": 68.375766129,
+      "capture_rate_pct": 96.2444780923
+    },
+    {
+      "period": "2023-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 46.4106312143,
+      "baseload_eur_mwh": 68.375766129,
+      "capture_rate_pct": 67.8758481868
+    },
+    {
+      "period": "2023-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 58.6671044721,
+      "baseload_eur_mwh": 68.375766129,
+      "capture_rate_pct": 85.801019562
+    },
+    {
+      "period": "2023-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 48.9724514089,
+      "baseload_eur_mwh": 68.375766129,
+      "capture_rate_pct": 71.622526783
+    },
+    {
+      "period": "2024-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 75.2369275813,
+      "baseload_eur_mwh": 76.6342607527,
+      "capture_rate_pct": 98.176620799
+    },
+    {
+      "period": "2024-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 65.7445024913,
+      "baseload_eur_mwh": 76.6342607527,
+      "capture_rate_pct": 85.789961103
+    },
+    {
+      "period": "2024-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 73.7237083009,
+      "baseload_eur_mwh": 76.6342607527,
+      "capture_rate_pct": 96.2020218852
+    },
+    {
+      "period": "2024-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 67.631675525,
+      "baseload_eur_mwh": 76.6342607527,
+      "capture_rate_pct": 88.2525320408
+    },
+    {
+      "period": "2024-02-29T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 58.7766714632,
+      "baseload_eur_mwh": 61.3573706897,
+      "capture_rate_pct": 95.7939866108
+    },
+    {
+      "period": "2024-02-29T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 54.1158460019,
+      "baseload_eur_mwh": 61.3573706897,
+      "capture_rate_pct": 88.1977917138
+    },
+    {
+      "period": "2024-02-29T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 58.0994902395,
+      "baseload_eur_mwh": 61.3573706897,
+      "capture_rate_pct": 94.6903193316
+    },
+    {
+      "period": "2024-02-29T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 55.2408788523,
+      "baseload_eur_mwh": 61.3573706897,
+      "capture_rate_pct": 90.0313658023
+    },
+    {
+      "period": "2024-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 49.4944359406,
+      "baseload_eur_mwh": 64.6646102151,
+      "capture_rate_pct": 76.5402215772
+    },
+    {
+      "period": "2024-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 56.1018500091,
+      "baseload_eur_mwh": 64.6646102151,
+      "capture_rate_pct": 86.7581971382
+    },
+    {
+      "period": "2024-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 59.6842871557,
+      "baseload_eur_mwh": 64.6646102151,
+      "capture_rate_pct": 92.2982245732
+    },
+    {
+      "period": "2024-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 54.7769235639,
+      "baseload_eur_mwh": 64.6646102151,
+      "capture_rate_pct": 84.7092766534
+    },
+    {
+      "period": "2024-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 38.7503300878,
+      "baseload_eur_mwh": 62.3927222222,
+      "capture_rate_pct": 62.1071315815
+    },
+    {
+      "period": "2024-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 50.6353014486,
+      "baseload_eur_mwh": 62.3927222222,
+      "capture_rate_pct": 81.1557817084
+    },
+    {
+      "period": "2024-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 57.7646186424,
+      "baseload_eur_mwh": 62.3927222222,
+      "capture_rate_pct": 92.5823022061
+    },
+    {
+      "period": "2024-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 47.2170305212,
+      "baseload_eur_mwh": 62.3927222222,
+      "capture_rate_pct": 75.6771444481
+    },
+    {
+      "period": "2024-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 32.7783502091,
+      "baseload_eur_mwh": 67.2846102151,
+      "capture_rate_pct": 48.7159695275
+    },
+    {
+      "period": "2024-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 60.1208516758,
+      "baseload_eur_mwh": 67.2846102151,
+      "capture_rate_pct": 89.3530503984
+    },
+    {
+      "period": "2024-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 63.5040742622,
+      "baseload_eur_mwh": 67.2846102151,
+      "capture_rate_pct": 94.3812768763
+    },
+    {
+      "period": "2024-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 46.0573722903,
+      "baseload_eur_mwh": 67.2846102151,
+      "capture_rate_pct": 68.4515703415
+    },
+    {
+      "period": "2024-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 44.4805844529,
+      "baseload_eur_mwh": 72.8902222222,
+      "capture_rate_pct": 61.0240757907
+    },
+    {
+      "period": "2024-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 59.8470437619,
+      "baseload_eur_mwh": 72.8902222222,
+      "capture_rate_pct": 82.1057227393
+    },
+    {
+      "period": "2024-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 68.1643541354,
+      "baseload_eur_mwh": 72.8902222222,
+      "capture_rate_pct": 93.5164581165
+    },
+    {
+      "period": "2024-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 52.1812647313,
+      "baseload_eur_mwh": 72.8902222222,
+      "capture_rate_pct": 71.5888402319
+    },
+    {
+      "period": "2024-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 35.8193481799,
+      "baseload_eur_mwh": 67.71,
+      "capture_rate_pct": 52.9011197458
+    },
+    {
+      "period": "2024-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 53.9086108164,
+      "baseload_eur_mwh": 67.71,
+      "capture_rate_pct": 79.6169115588
+    },
+    {
+      "period": "2024-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 59.1773621994,
+      "baseload_eur_mwh": 67.71,
+      "capture_rate_pct": 87.3982605219
+    },
+    {
+      "period": "2024-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 44.1986546813,
+      "baseload_eur_mwh": 67.71,
+      "capture_rate_pct": 65.276406264
+    },
+    {
+      "period": "2024-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 43.1308445477,
+      "baseload_eur_mwh": 82.0349327957,
+      "capture_rate_pct": 52.5761929435
+    },
+    {
+      "period": "2024-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 67.0467805162,
+      "baseload_eur_mwh": 82.0349327957,
+      "capture_rate_pct": 81.7295489022
+    },
+    {
+      "period": "2024-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 76.4746113667,
+      "baseload_eur_mwh": 82.0349327957,
+      "capture_rate_pct": 93.2220076991
+    },
+    {
+      "period": "2024-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 54.1683839565,
+      "baseload_eur_mwh": 82.0349327957,
+      "capture_rate_pct": 66.0308750315
+    },
+    {
+      "period": "2024-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 45.1733589181,
+      "baseload_eur_mwh": 78.0648888889,
+      "capture_rate_pct": 57.866423127
+    },
+    {
+      "period": "2024-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 64.7957641759,
+      "baseload_eur_mwh": 78.0648888889,
+      "capture_rate_pct": 83.0024420686
+    },
+    {
+      "period": "2024-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 70.8102658604,
+      "baseload_eur_mwh": 78.0648888889,
+      "capture_rate_pct": 90.7069322307
+    },
+    {
+      "period": "2024-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 58.3062227392,
+      "baseload_eur_mwh": 78.0648888889,
+      "capture_rate_pct": 74.6894328155
+    },
+    {
+      "period": "2024-10-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 67.3743796237,
+      "baseload_eur_mwh": 86.2929973118,
+      "capture_rate_pct": 78.0763001895
+    },
+    {
+      "period": "2024-10-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 70.2181315975,
+      "baseload_eur_mwh": 86.2929973118,
+      "capture_rate_pct": 81.3717610756
+    },
+    {
+      "period": "2024-10-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 79.2394989873,
+      "baseload_eur_mwh": 86.2929973118,
+      "capture_rate_pct": 91.8261057742
+    },
+    {
+      "period": "2024-10-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 70.9343390126,
+      "baseload_eur_mwh": 86.2929973118,
+      "capture_rate_pct": 82.2017327272
+    },
+    {
+      "period": "2024-11-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 100.6291287525,
+      "baseload_eur_mwh": 113.9568888889,
+      "capture_rate_pct": 88.3045594994
+    },
+    {
+      "period": "2024-11-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 91.1428277907,
+      "baseload_eur_mwh": 113.9568888889,
+      "capture_rate_pct": 79.980094823
+    },
+    {
+      "period": "2024-11-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 100.8594227793,
+      "baseload_eur_mwh": 113.9568888889,
+      "capture_rate_pct": 88.506648227
+    },
+    {
+      "period": "2024-11-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 93.7212865848,
+      "baseload_eur_mwh": 113.9568888889,
+      "capture_rate_pct": 82.2427564482
+    },
+    {
+      "period": "2024-12-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 111.5422669256,
+      "baseload_eur_mwh": 108.1845430108,
+      "capture_rate_pct": 103.1037002342
+    },
+    {
+      "period": "2024-12-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 73.3452151777,
+      "baseload_eur_mwh": 108.1845430108,
+      "capture_rate_pct": 67.7963904422
+    },
+    {
+      "period": "2024-12-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 87.4333006844,
+      "baseload_eur_mwh": 108.1845430108,
+      "capture_rate_pct": 80.818662492
+    },
+    {
+      "period": "2024-12-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 77.6553067672,
+      "baseload_eur_mwh": 108.1845430108,
+      "capture_rate_pct": 71.7804083708
+    },
+    {
+      "period": "2025-01-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 115.5664420593,
+      "baseload_eur_mwh": 114.3213037634,
+      "capture_rate_pct": 101.0891568368
+    },
+    {
+      "period": "2025-01-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 87.2665306562,
+      "baseload_eur_mwh": 114.3213037634,
+      "capture_rate_pct": 76.3344431733
+    },
+    {
+      "period": "2025-01-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 104.0264003081,
+      "baseload_eur_mwh": 114.3213037634,
+      "capture_rate_pct": 90.9947637785
+    },
+    {
+      "period": "2025-01-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 92.3682996076,
+      "baseload_eur_mwh": 114.3213037634,
+      "capture_rate_pct": 80.7971012986
+    },
+    {
+      "period": "2025-02-28T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 110.8962024614,
+      "baseload_eur_mwh": 128.509360119,
+      "capture_rate_pct": 86.2942608683
+    },
+    {
+      "period": "2025-02-28T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 116.1716426616,
+      "baseload_eur_mwh": 128.509360119,
+      "capture_rate_pct": 90.3993627811
+    },
+    {
+      "period": "2025-02-28T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 118.766247621,
+      "baseload_eur_mwh": 128.509360119,
+      "capture_rate_pct": 92.4183635425
+    },
+    {
+      "period": "2025-02-28T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 115.3639748546,
+      "baseload_eur_mwh": 128.509360119,
+      "capture_rate_pct": 89.7708733027
+    },
+    {
+      "period": "2025-03-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 50.8227593032,
+      "baseload_eur_mwh": 94.6920967742,
+      "capture_rate_pct": 53.6715956606
+    },
+    {
+      "period": "2025-03-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 80.1593209747,
+      "baseload_eur_mwh": 94.6920967742,
+      "capture_rate_pct": 84.6525990082
+    },
+    {
+      "period": "2025-03-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 88.4963133701,
+      "baseload_eur_mwh": 94.6920967742,
+      "capture_rate_pct": 93.4569160308
+    },
+    {
+      "period": "2025-03-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 67.9208791546,
+      "baseload_eur_mwh": 94.6920967742,
+      "capture_rate_pct": 71.7281393784
+    },
+    {
+      "period": "2025-04-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 31.3425735259,
+      "baseload_eur_mwh": 77.9255277778,
+      "capture_rate_pct": 40.2211886396
+    },
+    {
+      "period": "2025-04-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 77.5715242755,
+      "baseload_eur_mwh": 77.9255277778,
+      "capture_rate_pct": 99.5457156179
+    },
+    {
+      "period": "2025-04-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 78.7110006516,
+      "baseload_eur_mwh": 77.9255277778,
+      "capture_rate_pct": 101.0079788951
+    },
+    {
+      "period": "2025-04-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 51.5655534386,
+      "baseload_eur_mwh": 77.9255277778,
+      "capture_rate_pct": 66.1728638986
+    },
+    {
+      "period": "2025-05-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 21.6641521074,
+      "baseload_eur_mwh": 67.3231182796,
+      "capture_rate_pct": 32.1793652181
+    },
+    {
+      "period": "2025-05-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 65.5497918716,
+      "baseload_eur_mwh": 67.3231182796,
+      "capture_rate_pct": 97.36594731
+    },
+    {
+      "period": "2025-05-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 71.318477507,
+      "baseload_eur_mwh": 67.3231182796,
+      "capture_rate_pct": 105.9346021539
+    },
+    {
+      "period": "2025-05-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 43.5849864334,
+      "baseload_eur_mwh": 67.3231182796,
+      "capture_rate_pct": 64.7399994938
+    },
+    {
+      "period": "2025-06-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 20.060489286,
+      "baseload_eur_mwh": 64.0275277778,
+      "capture_rate_pct": 31.3310383554
+    },
+    {
+      "period": "2025-06-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 56.9931992166,
+      "baseload_eur_mwh": 64.0275277778,
+      "capture_rate_pct": 89.0135871159
+    },
+    {
+      "period": "2025-06-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 69.0889000401,
+      "baseload_eur_mwh": 64.0275277778,
+      "capture_rate_pct": 107.9049940518
+    },
+    {
+      "period": "2025-06-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 39.5508845802,
+      "baseload_eur_mwh": 64.0275277778,
+      "capture_rate_pct": 61.7716878239
+    },
+    {
+      "period": "2025-07-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 59.8299044237,
+      "baseload_eur_mwh": 87.7915725806,
+      "capture_rate_pct": 68.1499404384
+    },
+    {
+      "period": "2025-07-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 82.9762745788,
+      "baseload_eur_mwh": 87.7915725806,
+      "capture_rate_pct": 94.5150794543
+    },
+    {
+      "period": "2025-07-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 85.6853255031,
+      "baseload_eur_mwh": 87.7915725806,
+      "capture_rate_pct": 97.6008550529
+    },
+    {
+      "period": "2025-07-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 70.7124201549,
+      "baseload_eur_mwh": 87.7915725806,
+      "capture_rate_pct": 80.5457950875
+    },
+    {
+      "period": "2025-08-31T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 39.0585692577,
+      "baseload_eur_mwh": 76.9387231183,
+      "capture_rate_pct": 50.7658142412
+    },
+    {
+      "period": "2025-08-31T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 70.6401072364,
+      "baseload_eur_mwh": 76.9387231183,
+      "capture_rate_pct": 91.8134644993
+    },
+    {
+      "period": "2025-08-31T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 71.6724889665,
+      "baseload_eur_mwh": 76.9387231183,
+      "capture_rate_pct": 93.1552878208
+    },
+    {
+      "period": "2025-08-31T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 52.5881127163,
+      "baseload_eur_mwh": 76.9387231183,
+      "capture_rate_pct": 68.3506439735
+    },
+    {
+      "period": "2025-09-30T00:00:00.000Z",
+      "asset": "solar",
+      "capture_price_eur_mwh": 42.6546799887,
+      "baseload_eur_mwh": 81.7442672414,
+      "capture_rate_pct": 52.1806377722
+    },
+    {
+      "period": "2025-09-30T00:00:00.000Z",
+      "asset": "wind_onshore",
+      "capture_price_eur_mwh": 65.2345683422,
+      "baseload_eur_mwh": 81.7442672414,
+      "capture_rate_pct": 79.8032333565
+    },
+    {
+      "period": "2025-09-30T00:00:00.000Z",
+      "asset": "wind_offshore",
+      "capture_price_eur_mwh": 73.0040739286,
+      "baseload_eur_mwh": 81.7442672414,
+      "capture_rate_pct": 89.3078822433
+    },
+    {
+      "period": "2025-09-30T00:00:00.000Z",
+      "asset": "combined_renewables",
+      "capture_price_eur_mwh": 58.4759705336,
+      "baseload_eur_mwh": 81.7442672414,
+      "capture_rate_pct": 71.5352556296
+    }
+  ]
+}

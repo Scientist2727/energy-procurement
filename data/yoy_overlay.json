@@ -1,0 +1,8675 @@
+{
+  "meta": {
+    "last_updated": "2026-05-27T21:25:11.620899+00:00",
+    "source": "SMARD.de",
+    "units": "EUR/MWh",
+    "description": "DA spot price daily averages reshaped by day-of-year for the last 5 years."
+  },
+  "data": [
+    {
+      "day_of_year": 1,
+      "year": 2021,
+      "value": 48.2241666667
+    },
+    {
+      "day_of_year": 2,
+      "year": 2021,
+      "value": 50.5383333333
+    },
+    {
+      "day_of_year": 3,
+      "year": 2021,
+      "value": 37.9233333333
+    },
+    {
+      "day_of_year": 4,
+      "year": 2021,
+      "value": 48.36
+    },
+    {
+      "day_of_year": 5,
+      "year": 2021,
+      "value": 55.6233333333
+    },
+    {
+      "day_of_year": 6,
+      "year": 2021,
+      "value": 52.95875
+    },
+    {
+      "day_of_year": 7,
+      "year": 2021,
+      "value": 70.90625
+    },
+    {
+      "day_of_year": 8,
+      "year": 2021,
+      "value": 78.51125
+    },
+    {
+      "day_of_year": 9,
+      "year": 2021,
+      "value": 59.3154166667
+    },
+    {
+      "day_of_year": 10,
+      "year": 2021,
+      "value": 51.7583333333
+    },
+    {
+      "day_of_year": 11,
+      "year": 2021,
+      "value": 47.0716666667
+    },
+    {
+      "day_of_year": 12,
+      "year": 2021,
+      "value": 46.7516666667
+    },
+    {
+      "day_of_year": 13,
+      "year": 2021,
+      "value": 42.585
+    },
+    {
+      "day_of_year": 14,
+      "year": 2021,
+      "value": 71.06375
+    },
+    {
+      "day_of_year": 15,
+      "year": 2021,
+      "value": 73.2841666667
+    },
+    {
+      "day_of_year": 16,
+      "year": 2021,
+      "value": 55.41125
+    },
+    {
+      "day_of_year": 17,
+      "year": 2021,
+      "value": 54.0916666667
+    },
+    {
+      "day_of_year": 18,
+      "year": 2021,
+      "value": 55.3895833333
+    },
+    {
+      "day_of_year": 19,
+      "year": 2021,
+      "value": 44.6895833333
+    },
+    {
+      "day_of_year": 20,
+      "year": 2021,
+      "value": 36.05375
+    },
+    {
+      "day_of_year": 21,
+      "year": 2021,
+      "value": 29.4183333333
+    },
+    {
+      "day_of_year": 22,
+      "year": 2021,
+      "value": 44.00875
+    },
+    {
+      "day_of_year": 23,
+      "year": 2021,
+      "value": 51.72875
+    },
+    {
+      "day_of_year": 24,
+      "year": 2021,
+      "value": 49.2433333333
+    },
+    {
+      "day_of_year": 25,
+      "year": 2021,
+      "value": 61.0175
+    },
+    {
+      "day_of_year": 26,
+      "year": 2021,
+      "value": 61.2020833333
+    },
+    {
+      "day_of_year": 27,
+      "year": 2021,
+      "value": 57.9929166667
+    },
+    {
+      "day_of_year": 28,
+      "year": 2021,
+      "value": 55.1341666667
+    },
+    {
+      "day_of_year": 29,
+      "year": 2021,
+      "value": 49.6558333333
+    },
+    {
+      "day_of_year": 30,
+      "year": 2021,
+      "value": 48.4795833333
+    },
+    {
+      "day_of_year": 31,
+      "year": 2021,
+      "value": 48.1966666667
+    },
+    {
+      "day_of_year": 32,
+      "year": 2021,
+      "value": 57.6795833333
+    },
+    {
+      "day_of_year": 33,
+      "year": 2021,
+      "value": 54.17875
+    },
+    {
+      "day_of_year": 34,
+      "year": 2021,
+      "value": 44.455
+    },
+    {
+      "day_of_year": 35,
+      "year": 2021,
+      "value": 52.52875
+    },
+    {
+      "day_of_year": 36,
+      "year": 2021,
+      "value": 51.1829166667
+    },
+    {
+      "day_of_year": 37,
+      "year": 2021,
+      "value": 34.635
+    },
+    {
+      "day_of_year": 38,
+      "year": 2021,
+      "value": 19.7491666667
+    },
+    {
+      "day_of_year": 39,
+      "year": 2021,
+      "value": 45.1875
+    },
+    {
+      "day_of_year": 40,
+      "year": 2021,
+      "value": 64.4779166667
+    },
+    {
+      "day_of_year": 41,
+      "year": 2021,
+      "value": 72.3804166667
+    },
+    {
+      "day_of_year": 42,
+      "year": 2021,
+      "value": 79.1058333333
+    },
+    {
+      "day_of_year": 43,
+      "year": 2021,
+      "value": 62.01
+    },
+    {
+      "day_of_year": 44,
+      "year": 2021,
+      "value": 53.1183333333
+    },
+    {
+      "day_of_year": 45,
+      "year": 2021,
+      "value": 45.5866666667
+    },
+    {
+      "day_of_year": 46,
+      "year": 2021,
+      "value": 51.0720833333
+    },
+    {
+      "day_of_year": 47,
+      "year": 2021,
+      "value": 52.2554166667
+    },
+    {
+      "day_of_year": 48,
+      "year": 2021,
+      "value": 49.6754166667
+    },
+    {
+      "day_of_year": 49,
+      "year": 2021,
+      "value": 45.1854166667
+    },
+    {
+      "day_of_year": 50,
+      "year": 2021,
+      "value": 47.8125
+    },
+    {
+      "day_of_year": 51,
+      "year": 2021,
+      "value": 33.1970833333
+    },
+    {
+      "day_of_year": 52,
+      "year": 2021,
+      "value": 33.7945833333
+    },
+    {
+      "day_of_year": 53,
+      "year": 2021,
+      "value": 49.9733333333
+    },
+    {
+      "day_of_year": 54,
+      "year": 2021,
+      "value": 44.7054166667
+    },
+    {
+      "day_of_year": 55,
+      "year": 2021,
+      "value": 38.7558333333
+    },
+    {
+      "day_of_year": 56,
+      "year": 2021,
+      "value": 46.5604166667
+    },
+    {
+      "day_of_year": 57,
+      "year": 2021,
+      "value": 47.585
+    },
+    {
+      "day_of_year": 58,
+      "year": 2021,
+      "value": 44.8395833333
+    },
+    {
+      "day_of_year": 59,
+      "year": 2021,
+      "value": 42.1054166667
+    },
+    {
+      "day_of_year": 60,
+      "year": 2021,
+      "value": 49.8408333333
+    },
+    {
+      "day_of_year": 61,
+      "year": 2021,
+      "value": 53.5491666667
+    },
+    {
+      "day_of_year": 62,
+      "year": 2021,
+      "value": 52.0195833333
+    },
+    {
+      "day_of_year": 63,
+      "year": 2021,
+      "value": 53.9716666667
+    },
+    {
+      "day_of_year": 64,
+      "year": 2021,
+      "value": 53.7020833333
+    },
+    {
+      "day_of_year": 65,
+      "year": 2021,
+      "value": 44.5916666667
+    },
+    {
+      "day_of_year": 66,
+      "year": 2021,
+      "value": 44.91
+    },
+    {
+      "day_of_year": 67,
+      "year": 2021,
+      "value": 61.6158333333
+    },
+    {
+      "day_of_year": 68,
+      "year": 2021,
+      "value": 61.25125
+    },
+    {
+      "day_of_year": 69,
+      "year": 2021,
+      "value": 49.2483333333
+    },
+    {
+      "day_of_year": 70,
+      "year": 2021,
+      "value": 27.4229166667
+    },
+    {
+      "day_of_year": 71,
+      "year": 2021,
+      "value": 22.66125
+    },
+    {
+      "day_of_year": 72,
+      "year": 2021,
+      "value": 10.61375
+    },
+    {
+      "day_of_year": 73,
+      "year": 2021,
+      "value": 17.6529166667
+    },
+    {
+      "day_of_year": 74,
+      "year": 2021,
+      "value": 49.4758333333
+    },
+    {
+      "day_of_year": 75,
+      "year": 2021,
+      "value": 56.0395833333
+    },
+    {
+      "day_of_year": 76,
+      "year": 2021,
+      "value": 57.8525
+    },
+    {
+      "day_of_year": 77,
+      "year": 2021,
+      "value": 65.2741666667
+    },
+    {
+      "day_of_year": 78,
+      "year": 2021,
+      "value": 56.3558333333
+    },
+    {
+      "day_of_year": 79,
+      "year": 2021,
+      "value": 50.545
+    },
+    {
+      "day_of_year": 80,
+      "year": 2021,
+      "value": 35.8304166667
+    },
+    {
+      "day_of_year": 81,
+      "year": 2021,
+      "value": 60.6854166667
+    },
+    {
+      "day_of_year": 82,
+      "year": 2021,
+      "value": 62.0441666667
+    },
+    {
+      "day_of_year": 83,
+      "year": 2021,
+      "value": 55.8304166667
+    },
+    {
+      "day_of_year": 84,
+      "year": 2021,
+      "value": 58.75875
+    },
+    {
+      "day_of_year": 85,
+      "year": 2021,
+      "value": 50.9833333333
+    },
+    {
+      "day_of_year": 86,
+      "year": 2021,
+      "value": 24.7266666667
+    },
+    {
+      "day_of_year": 87,
+      "year": 2021,
+      "value": 17.7754166667
+    },
+    {
+      "day_of_year": 88,
+      "year": 2021,
+      "value": 42.595
+    },
+    {
+      "day_of_year": 89,
+      "year": 2021,
+      "value": 56.3095833333
+    },
+    {
+      "day_of_year": 90,
+      "year": 2021,
+      "value": 58.49875
+    },
+    {
+      "day_of_year": 91,
+      "year": 2021,
+      "value": 52.3641666667
+    },
+    {
+      "day_of_year": 92,
+      "year": 2021,
+      "value": 35.5154166667
+    },
+    {
+      "day_of_year": 93,
+      "year": 2021,
+      "value": 39.9195833333
+    },
+    {
+      "day_of_year": 94,
+      "year": 2021,
+      "value": 23.5666666667
+    },
+    {
+      "day_of_year": 95,
+      "year": 2021,
+      "value": -15.3904166667
+    },
+    {
+      "day_of_year": 96,
+      "year": 2021,
+      "value": 38.4316666667
+    },
+    {
+      "day_of_year": 97,
+      "year": 2021,
+      "value": 49.4033333333
+    },
+    {
+      "day_of_year": 98,
+      "year": 2021,
+      "value": 57.7470833333
+    },
+    {
+      "day_of_year": 99,
+      "year": 2021,
+      "value": 55.7308333333
+    },
+    {
+      "day_of_year": 100,
+      "year": 2021,
+      "value": 57.6675
+    },
+    {
+      "day_of_year": 101,
+      "year": 2021,
+      "value": 48.59625
+    },
+    {
+      "day_of_year": 102,
+      "year": 2021,
+      "value": 62.9866666667
+    },
+    {
+      "day_of_year": 103,
+      "year": 2021,
+      "value": 57.49625
+    },
+    {
+      "day_of_year": 104,
+      "year": 2021,
+      "value": 70.16875
+    },
+    {
+      "day_of_year": 105,
+      "year": 2021,
+      "value": 66.3625
+    },
+    {
+      "day_of_year": 106,
+      "year": 2021,
+      "value": 63.7279166667
+    },
+    {
+      "day_of_year": 107,
+      "year": 2021,
+      "value": 61.6475
+    },
+    {
+      "day_of_year": 108,
+      "year": 2021,
+      "value": 62.1520833333
+    },
+    {
+      "day_of_year": 109,
+      "year": 2021,
+      "value": 75.9291666667
+    },
+    {
+      "day_of_year": 110,
+      "year": 2021,
+      "value": 75.8791666667
+    },
+    {
+      "day_of_year": 111,
+      "year": 2021,
+      "value": 58.3629166667
+    },
+    {
+      "day_of_year": 112,
+      "year": 2021,
+      "value": 47.21875
+    },
+    {
+      "day_of_year": 113,
+      "year": 2021,
+      "value": 62.0629166667
+    },
+    {
+      "day_of_year": 114,
+      "year": 2021,
+      "value": 51.5091666667
+    },
+    {
+      "day_of_year": 115,
+      "year": 2021,
+      "value": 37.6558333333
+    },
+    {
+      "day_of_year": 116,
+      "year": 2021,
+      "value": 62.0066666667
+    },
+    {
+      "day_of_year": 117,
+      "year": 2021,
+      "value": 59.7279166667
+    },
+    {
+      "day_of_year": 118,
+      "year": 2021,
+      "value": 61.5179166667
+    },
+    {
+      "day_of_year": 119,
+      "year": 2021,
+      "value": 59.7208333333
+    },
+    {
+      "day_of_year": 120,
+      "year": 2021,
+      "value": 70.0295833333
+    },
+    {
+      "day_of_year": 121,
+      "year": 2021,
+      "value": 55.59625
+    },
+    {
+      "day_of_year": 122,
+      "year": 2021,
+      "value": 43.78
+    },
+    {
+      "day_of_year": 123,
+      "year": 2021,
+      "value": 61.4279166667
+    },
+    {
+      "day_of_year": 124,
+      "year": 2021,
+      "value": 28.7133333333
+    },
+    {
+      "day_of_year": 125,
+      "year": 2021,
+      "value": 33.9129166667
+    },
+    {
+      "day_of_year": 126,
+      "year": 2021,
+      "value": 66.9595833333
+    },
+    {
+      "day_of_year": 127,
+      "year": 2021,
+      "value": 70.6445833333
+    },
+    {
+      "day_of_year": 128,
+      "year": 2021,
+      "value": 46.2816666667
+    },
+    {
+      "day_of_year": 129,
+      "year": 2021,
+      "value": 6.3504166667
+    },
+    {
+      "day_of_year": 130,
+      "year": 2021,
+      "value": 59.4454166667
+    },
+    {
+      "day_of_year": 131,
+      "year": 2021,
+      "value": 71.5691666667
+    },
+    {
+      "day_of_year": 132,
+      "year": 2021,
+      "value": 69.0675
+    },
+    {
+      "day_of_year": 133,
+      "year": 2021,
+      "value": 63.41
+    },
+    {
+      "day_of_year": 134,
+      "year": 2021,
+      "value": 71.5833333333
+    },
+    {
+      "day_of_year": 135,
+      "year": 2021,
+      "value": 58.59875
+    },
+    {
+      "day_of_year": 136,
+      "year": 2021,
+      "value": 40.405
+    },
+    {
+      "day_of_year": 137,
+      "year": 2021,
+      "value": 74.3895833333
+    },
+    {
+      "day_of_year": 138,
+      "year": 2021,
+      "value": 74.5154166667
+    },
+    {
+      "day_of_year": 139,
+      "year": 2021,
+      "value": 77.515
+    },
+    {
+      "day_of_year": 140,
+      "year": 2021,
+      "value": 66.9395833333
+    },
+    {
+      "day_of_year": 141,
+      "year": 2021,
+      "value": 29.8375
+    },
+    {
+      "day_of_year": 142,
+      "year": 2021,
+      "value": -6.4308333333
+    },
+    {
+      "day_of_year": 143,
+      "year": 2021,
+      "value": 22.84625
+    },
+    {
+      "day_of_year": 144,
+      "year": 2021,
+      "value": 32.5570833333
+    },
+    {
+      "day_of_year": 145,
+      "year": 2021,
+      "value": 60.3883333333
+    },
+    {
+      "day_of_year": 146,
+      "year": 2021,
+      "value": 65.7004166667
+    },
+    {
+      "day_of_year": 147,
+      "year": 2021,
+      "value": 72.4366666667
+    },
+    {
+      "day_of_year": 148,
+      "year": 2021,
+      "value": 73.8070833333
+    },
+    {
+      "day_of_year": 149,
+      "year": 2021,
+      "value": 55.4758333333
+    },
+    {
+      "day_of_year": 150,
+      "year": 2021,
+      "value": 37.9283333333
+    },
+    {
+      "day_of_year": 151,
+      "year": 2021,
+      "value": 67.6245833333
+    },
+    {
+      "day_of_year": 152,
+      "year": 2021,
+      "value": 68.4808333333
+    },
+    {
+      "day_of_year": 153,
+      "year": 2021,
+      "value": 66.085
+    },
+    {
+      "day_of_year": 154,
+      "year": 2021,
+      "value": 62.6875
+    },
+    {
+      "day_of_year": 155,
+      "year": 2021,
+      "value": 72.24625
+    },
+    {
+      "day_of_year": 156,
+      "year": 2021,
+      "value": 61.5929166667
+    },
+    {
+      "day_of_year": 157,
+      "year": 2021,
+      "value": 59.8229166667
+    },
+    {
+      "day_of_year": 158,
+      "year": 2021,
+      "value": 77.7270833333
+    },
+    {
+      "day_of_year": 159,
+      "year": 2021,
+      "value": 76.8770833333
+    },
+    {
+      "day_of_year": 160,
+      "year": 2021,
+      "value": 77.4341666667
+    },
+    {
+      "day_of_year": 161,
+      "year": 2021,
+      "value": 79.0558333333
+    },
+    {
+      "day_of_year": 162,
+      "year": 2021,
+      "value": 77.78375
+    },
+    {
+      "day_of_year": 163,
+      "year": 2021,
+      "value": 34.4279166667
+    },
+    {
+      "day_of_year": 164,
+      "year": 2021,
+      "value": 23.4095833333
+    },
+    {
+      "day_of_year": 165,
+      "year": 2021,
+      "value": 74.9870833333
+    },
+    {
+      "day_of_year": 166,
+      "year": 2021,
+      "value": 82.54875
+    },
+    {
+      "day_of_year": 167,
+      "year": 2021,
+      "value": 84.33375
+    },
+    {
+      "day_of_year": 168,
+      "year": 2021,
+      "value": 78.02625
+    },
+    {
+      "day_of_year": 169,
+      "year": 2021,
+      "value": 80.5270833333
+    },
+    {
+      "day_of_year": 170,
+      "year": 2021,
+      "value": 69.6145833333
+    },
+    {
+      "day_of_year": 171,
+      "year": 2021,
+      "value": 57.855
+    },
+    {
+      "day_of_year": 172,
+      "year": 2021,
+      "value": 78.1933333333
+    },
+    {
+      "day_of_year": 173,
+      "year": 2021,
+      "value": 84.7020833333
+    },
+    {
+      "day_of_year": 174,
+      "year": 2021,
+      "value": 93.4720833333
+    },
+    {
+      "day_of_year": 175,
+      "year": 2021,
+      "value": 94.9966666667
+    },
+    {
+      "day_of_year": 176,
+      "year": 2021,
+      "value": 90.1020833333
+    },
+    {
+      "day_of_year": 177,
+      "year": 2021,
+      "value": 78.8175
+    },
+    {
+      "day_of_year": 178,
+      "year": 2021,
+      "value": 65.2404166667
+    },
+    {
+      "day_of_year": 179,
+      "year": 2021,
+      "value": 88.8458333333
+    },
+    {
+      "day_of_year": 180,
+      "year": 2021,
+      "value": 91.7508333333
+    },
+    {
+      "day_of_year": 181,
+      "year": 2021,
+      "value": 92.2775
+    },
+    {
+      "day_of_year": 182,
+      "year": 2021,
+      "value": 90.1675
+    },
+    {
+      "day_of_year": 183,
+      "year": 2021,
+      "value": 96.62125
+    },
+    {
+      "day_of_year": 184,
+      "year": 2021,
+      "value": 83.76625
+    },
+    {
+      "day_of_year": 185,
+      "year": 2021,
+      "value": 81.9575
+    },
+    {
+      "day_of_year": 186,
+      "year": 2021,
+      "value": 94.1833333333
+    },
+    {
+      "day_of_year": 187,
+      "year": 2021,
+      "value": 80.36375
+    },
+    {
+      "day_of_year": 188,
+      "year": 2021,
+      "value": 99.7316666667
+    },
+    {
+      "day_of_year": 189,
+      "year": 2021,
+      "value": 108.77625
+    },
+    {
+      "day_of_year": 190,
+      "year": 2021,
+      "value": 91.4045833333
+    },
+    {
+      "day_of_year": 191,
+      "year": 2021,
+      "value": 80.4870833333
+    },
+    {
+      "day_of_year": 192,
+      "year": 2021,
+      "value": 77.44625
+    },
+    {
+      "day_of_year": 193,
+      "year": 2021,
+      "value": 93.975
+    },
+    {
+      "day_of_year": 194,
+      "year": 2021,
+      "value": 94.23125
+    },
+    {
+      "day_of_year": 195,
+      "year": 2021,
+      "value": 87.455
+    },
+    {
+      "day_of_year": 196,
+      "year": 2021,
+      "value": 89.7054166667
+    },
+    {
+      "day_of_year": 197,
+      "year": 2021,
+      "value": 84.4991666667
+    },
+    {
+      "day_of_year": 198,
+      "year": 2021,
+      "value": 60.6554166667
+    },
+    {
+      "day_of_year": 199,
+      "year": 2021,
+      "value": 46.70875
+    },
+    {
+      "day_of_year": 200,
+      "year": 2021,
+      "value": 90.3225
+    },
+    {
+      "day_of_year": 201,
+      "year": 2021,
+      "value": 91.4095833333
+    },
+    {
+      "day_of_year": 202,
+      "year": 2021,
+      "value": 89.9929166667
+    },
+    {
+      "day_of_year": 203,
+      "year": 2021,
+      "value": 87.8016666667
+    },
+    {
+      "day_of_year": 204,
+      "year": 2021,
+      "value": 88.77125
+    },
+    {
+      "day_of_year": 205,
+      "year": 2021,
+      "value": 73.5920833333
+    },
+    {
+      "day_of_year": 206,
+      "year": 2021,
+      "value": 62.1520833333
+    },
+    {
+      "day_of_year": 207,
+      "year": 2021,
+      "value": 88.8104166667
+    },
+    {
+      "day_of_year": 208,
+      "year": 2021,
+      "value": 87.3329166667
+    },
+    {
+      "day_of_year": 209,
+      "year": 2021,
+      "value": 77.2420833333
+    },
+    {
+      "day_of_year": 210,
+      "year": 2021,
+      "value": 46.4883333333
+    },
+    {
+      "day_of_year": 211,
+      "year": 2021,
+      "value": 64.7041666667
+    },
+    {
+      "day_of_year": 212,
+      "year": 2021,
+      "value": 29.38625
+    },
+    {
+      "day_of_year": 213,
+      "year": 2021,
+      "value": 59.1795833333
+    },
+    {
+      "day_of_year": 214,
+      "year": 2021,
+      "value": 82.0304166667
+    },
+    {
+      "day_of_year": 215,
+      "year": 2021,
+      "value": 96.6070833333
+    },
+    {
+      "day_of_year": 216,
+      "year": 2021,
+      "value": 98.1770833333
+    },
+    {
+      "day_of_year": 217,
+      "year": 2021,
+      "value": 92.9266666667
+    },
+    {
+      "day_of_year": 218,
+      "year": 2021,
+      "value": 71.3904166667
+    },
+    {
+      "day_of_year": 219,
+      "year": 2021,
+      "value": 57.0870833333
+    },
+    {
+      "day_of_year": 220,
+      "year": 2021,
+      "value": 8.37875
+    },
+    {
+      "day_of_year": 221,
+      "year": 2021,
+      "value": 70.14625
+    },
+    {
+      "day_of_year": 222,
+      "year": 2021,
+      "value": 92.0829166667
+    },
+    {
+      "day_of_year": 223,
+      "year": 2021,
+      "value": 101.2704166667
+    },
+    {
+      "day_of_year": 224,
+      "year": 2021,
+      "value": 106.20375
+    },
+    {
+      "day_of_year": 225,
+      "year": 2021,
+      "value": 93.7979166667
+    },
+    {
+      "day_of_year": 226,
+      "year": 2021,
+      "value": 62.9479166667
+    },
+    {
+      "day_of_year": 227,
+      "year": 2021,
+      "value": 61.5129166667
+    },
+    {
+      "day_of_year": 228,
+      "year": 2021,
+      "value": 66.615
+    },
+    {
+      "day_of_year": 229,
+      "year": 2021,
+      "value": 57.92125
+    },
+    {
+      "day_of_year": 230,
+      "year": 2021,
+      "value": 78.9775
+    },
+    {
+      "day_of_year": 231,
+      "year": 2021,
+      "value": 93.7454166667
+    },
+    {
+      "day_of_year": 232,
+      "year": 2021,
+      "value": 102.8670833333
+    },
+    {
+      "day_of_year": 233,
+      "year": 2021,
+      "value": 90.0504166667
+    },
+    {
+      "day_of_year": 234,
+      "year": 2021,
+      "value": 77.5658333333
+    },
+    {
+      "day_of_year": 235,
+      "year": 2021,
+      "value": 94.1866666667
+    },
+    {
+      "day_of_year": 236,
+      "year": 2021,
+      "value": 95.6133333333
+    },
+    {
+      "day_of_year": 237,
+      "year": 2021,
+      "value": 83.4995833333
+    },
+    {
+      "day_of_year": 238,
+      "year": 2021,
+      "value": 93.5604166667
+    },
+    {
+      "day_of_year": 239,
+      "year": 2021,
+      "value": 96.0
+    },
+    {
+      "day_of_year": 240,
+      "year": 2021,
+      "value": 83.9516666667
+    },
+    {
+      "day_of_year": 241,
+      "year": 2021,
+      "value": 81.0129166667
+    },
+    {
+      "day_of_year": 242,
+      "year": 2021,
+      "value": 107.6904166667
+    },
+    {
+      "day_of_year": 243,
+      "year": 2021,
+      "value": 110.1708333333
+    },
+    {
+      "day_of_year": 244,
+      "year": 2021,
+      "value": 112.1741666667
+    },
+    {
+      "day_of_year": 245,
+      "year": 2021,
+      "value": 118.29375
+    },
+    {
+      "day_of_year": 246,
+      "year": 2021,
+      "value": 111.4629166667
+    },
+    {
+      "day_of_year": 247,
+      "year": 2021,
+      "value": 106.4158333333
+    },
+    {
+      "day_of_year": 248,
+      "year": 2021,
+      "value": 97.6716666667
+    },
+    {
+      "day_of_year": 249,
+      "year": 2021,
+      "value": 128.3491666667
+    },
+    {
+      "day_of_year": 250,
+      "year": 2021,
+      "value": 128.0775
+    },
+    {
+      "day_of_year": 251,
+      "year": 2021,
+      "value": 124.38125
+    },
+    {
+      "day_of_year": 252,
+      "year": 2021,
+      "value": 130.9829166667
+    },
+    {
+      "day_of_year": 253,
+      "year": 2021,
+      "value": 139.8066666667
+    },
+    {
+      "day_of_year": 254,
+      "year": 2021,
+      "value": 126.28
+    },
+    {
+      "day_of_year": 255,
+      "year": 2021,
+      "value": 105.9304166667
+    },
+    {
+      "day_of_year": 256,
+      "year": 2021,
+      "value": 142.26125
+    },
+    {
+      "day_of_year": 257,
+      "year": 2021,
+      "value": 144.2658333333
+    },
+    {
+      "day_of_year": 258,
+      "year": 2021,
+      "value": 167.89375
+    },
+    {
+      "day_of_year": 259,
+      "year": 2021,
+      "value": 158.6058333333
+    },
+    {
+      "day_of_year": 260,
+      "year": 2021,
+      "value": 158.10375
+    },
+    {
+      "day_of_year": 261,
+      "year": 2021,
+      "value": 128.8266666667
+    },
+    {
+      "day_of_year": 262,
+      "year": 2021,
+      "value": 95.60625
+    },
+    {
+      "day_of_year": 263,
+      "year": 2021,
+      "value": 153.21125
+    },
+    {
+      "day_of_year": 264,
+      "year": 2021,
+      "value": 147.7279166667
+    },
+    {
+      "day_of_year": 265,
+      "year": 2021,
+      "value": 145.4091666667
+    },
+    {
+      "day_of_year": 266,
+      "year": 2021,
+      "value": 70.185
+    },
+    {
+      "day_of_year": 267,
+      "year": 2021,
+      "value": 112.4008333333
+    },
+    {
+      "day_of_year": 268,
+      "year": 2021,
+      "value": 130.3779166667
+    },
+    {
+      "day_of_year": 269,
+      "year": 2021,
+      "value": 124.67875
+    },
+    {
+      "day_of_year": 270,
+      "year": 2021,
+      "value": 141.5441666667
+    },
+    {
+      "day_of_year": 271,
+      "year": 2021,
+      "value": 156.1804166667
+    },
+    {
+      "day_of_year": 272,
+      "year": 2021,
+      "value": 129.3195833333
+    },
+    {
+      "day_of_year": 273,
+      "year": 2021,
+      "value": 113.64875
+    },
+    {
+      "day_of_year": 274,
+      "year": 2021,
+      "value": 102.7829166667
+    },
+    {
+      "day_of_year": 275,
+      "year": 2021,
+      "value": 94.8741666667
+    },
+    {
+      "day_of_year": 276,
+      "year": 2021,
+      "value": 47.0191666667
+    },
+    {
+      "day_of_year": 277,
+      "year": 2021,
+      "value": 161.8175
+    },
+    {
+      "day_of_year": 278,
+      "year": 2021,
+      "value": 156.4754166667
+    },
+    {
+      "day_of_year": 279,
+      "year": 2021,
+      "value": 199.0358333333
+    },
+    {
+      "day_of_year": 280,
+      "year": 2021,
+      "value": 295.4475
+    },
+    {
+      "day_of_year": 281,
+      "year": 2021,
+      "value": 200.33
+    },
+    {
+      "day_of_year": 282,
+      "year": 2021,
+      "value": 139.8704166667
+    },
+    {
+      "day_of_year": 283,
+      "year": 2021,
+      "value": 145.2991666667
+    },
+    {
+      "day_of_year": 284,
+      "year": 2021,
+      "value": 163.8645833333
+    },
+    {
+      "day_of_year": 285,
+      "year": 2021,
+      "value": 171.9616666667
+    },
+    {
+      "day_of_year": 286,
+      "year": 2021,
+      "value": 187.18375
+    },
+    {
+      "day_of_year": 287,
+      "year": 2021,
+      "value": 161.36125
+    },
+    {
+      "day_of_year": 288,
+      "year": 2021,
+      "value": 122.0470833333
+    },
+    {
+      "day_of_year": 289,
+      "year": 2021,
+      "value": 155.1641666667
+    },
+    {
+      "day_of_year": 290,
+      "year": 2021,
+      "value": 142.89875
+    },
+    {
+      "day_of_year": 291,
+      "year": 2021,
+      "value": 189.195
+    },
+    {
+      "day_of_year": 292,
+      "year": 2021,
+      "value": 145.13375
+    },
+    {
+      "day_of_year": 293,
+      "year": 2021,
+      "value": 61.7841666667
+    },
+    {
+      "day_of_year": 294,
+      "year": 2021,
+      "value": 64.1558333333
+    },
+    {
+      "day_of_year": 295,
+      "year": 2021,
+      "value": 72.6366666667
+    },
+    {
+      "day_of_year": 296,
+      "year": 2021,
+      "value": 143.7404166667
+    },
+    {
+      "day_of_year": 297,
+      "year": 2021,
+      "value": 96.0375
+    },
+    {
+      "day_of_year": 298,
+      "year": 2021,
+      "value": 177.2041666667
+    },
+    {
+      "day_of_year": 299,
+      "year": 2021,
+      "value": 174.9108333333
+    },
+    {
+      "day_of_year": 300,
+      "year": 2021,
+      "value": 147.2458333333
+    },
+    {
+      "day_of_year": 301,
+      "year": 2021,
+      "value": 150.22375
+    },
+    {
+      "day_of_year": 302,
+      "year": 2021,
+      "value": 111.6525
+    },
+    {
+      "day_of_year": 303,
+      "year": 2021,
+      "value": 82.8925
+    },
+    {
+      "day_of_year": 304,
+      "year": 2021,
+      "value": 61.59875
+    },
+    {
+      "day_of_year": 305,
+      "year": 2021,
+      "value": 99.0604166667
+    },
+    {
+      "day_of_year": 306,
+      "year": 2021,
+      "value": 204.17875
+    },
+    {
+      "day_of_year": 307,
+      "year": 2021,
+      "value": 193.9175
+    },
+    {
+      "day_of_year": 308,
+      "year": 2021,
+      "value": 169.7783333333
+    },
+    {
+      "day_of_year": 309,
+      "year": 2021,
+      "value": 158.9083333333
+    },
+    {
+      "day_of_year": 310,
+      "year": 2021,
+      "value": 73.6583333333
+    },
+    {
+      "day_of_year": 311,
+      "year": 2021,
+      "value": 37.435
+    },
+    {
+      "day_of_year": 312,
+      "year": 2021,
+      "value": 181.4808333333
+    },
+    {
+      "day_of_year": 313,
+      "year": 2021,
+      "value": 160.6666666667
+    },
+    {
+      "day_of_year": 314,
+      "year": 2021,
+      "value": 179.355
+    },
+    {
+      "day_of_year": 315,
+      "year": 2021,
+      "value": 190.41375
+    },
+    {
+      "day_of_year": 316,
+      "year": 2021,
+      "value": 164.0329166667
+    },
+    {
+      "day_of_year": 317,
+      "year": 2021,
+      "value": 160.4695833333
+    },
+    {
+      "day_of_year": 318,
+      "year": 2021,
+      "value": 168.50875
+    },
+    {
+      "day_of_year": 319,
+      "year": 2021,
+      "value": 228.65
+    },
+    {
+      "day_of_year": 320,
+      "year": 2021,
+      "value": 237.94625
+    },
+    {
+      "day_of_year": 321,
+      "year": 2021,
+      "value": 176.68625
+    },
+    {
+      "day_of_year": 322,
+      "year": 2021,
+      "value": 138.725
+    },
+    {
+      "day_of_year": 323,
+      "year": 2021,
+      "value": 133.1004166667
+    },
+    {
+      "day_of_year": 324,
+      "year": 2021,
+      "value": 108.7841666667
+    },
+    {
+      "day_of_year": 325,
+      "year": 2021,
+      "value": 149.1375
+    },
+    {
+      "day_of_year": 326,
+      "year": 2021,
+      "value": 232.8554166667
+    },
+    {
+      "day_of_year": 327,
+      "year": 2021,
+      "value": 242.7729166667
+    },
+    {
+      "day_of_year": 328,
+      "year": 2021,
+      "value": 274.3004166667
+    },
+    {
+      "day_of_year": 329,
+      "year": 2021,
+      "value": 241.48875
+    },
+    {
+      "day_of_year": 330,
+      "year": 2021,
+      "value": 187.3183333333
+    },
+    {
+      "day_of_year": 331,
+      "year": 2021,
+      "value": 205.5583333333
+    },
+    {
+      "day_of_year": 332,
+      "year": 2021,
+      "value": 199.5591666667
+    },
+    {
+      "day_of_year": 333,
+      "year": 2021,
+      "value": 264.2329166667
+    },
+    {
+      "day_of_year": 334,
+      "year": 2021,
+      "value": 124.3954166667
+    },
+    {
+      "day_of_year": 335,
+      "year": 2021,
+      "value": 87.2429166667
+    },
+    {
+      "day_of_year": 336,
+      "year": 2021,
+      "value": 199.91375
+    },
+    {
+      "day_of_year": 337,
+      "year": 2021,
+      "value": 148.7683333333
+    },
+    {
+      "day_of_year": 338,
+      "year": 2021,
+      "value": 194.6979166667
+    },
+    {
+      "day_of_year": 339,
+      "year": 2021,
+      "value": 162.2966666667
+    },
+    {
+      "day_of_year": 340,
+      "year": 2021,
+      "value": 262.6391666667
+    },
+    {
+      "day_of_year": 341,
+      "year": 2021,
+      "value": 214.2691666667
+    },
+    {
+      "day_of_year": 342,
+      "year": 2021,
+      "value": 188.4025
+    },
+    {
+      "day_of_year": 343,
+      "year": 2021,
+      "value": 278.2291666667
+    },
+    {
+      "day_of_year": 344,
+      "year": 2021,
+      "value": 240.7445833333
+    },
+    {
+      "day_of_year": 345,
+      "year": 2021,
+      "value": 233.81125
+    },
+    {
+      "day_of_year": 346,
+      "year": 2021,
+      "value": 185.1029166667
+    },
+    {
+      "day_of_year": 347,
+      "year": 2021,
+      "value": 264.7320833333
+    },
+    {
+      "day_of_year": 348,
+      "year": 2021,
+      "value": 297.6825
+    },
+    {
+      "day_of_year": 349,
+      "year": 2021,
+      "value": 295.6583333333
+    },
+    {
+      "day_of_year": 350,
+      "year": 2021,
+      "value": 346.3058333333
+    },
+    {
+      "day_of_year": 351,
+      "year": 2021,
+      "value": 339.0091666667
+    },
+    {
+      "day_of_year": 352,
+      "year": 2021,
+      "value": 250.05
+    },
+    {
+      "day_of_year": 353,
+      "year": 2021,
+      "value": 122.8504166667
+    },
+    {
+      "day_of_year": 354,
+      "year": 2021,
+      "value": 336.5641666667
+    },
+    {
+      "day_of_year": 355,
+      "year": 2021,
+      "value": 435.0895833333
+    },
+    {
+      "day_of_year": 356,
+      "year": 2021,
+      "value": 414.8079166667
+    },
+    {
+      "day_of_year": 357,
+      "year": 2021,
+      "value": 292.2825
+    },
+    {
+      "day_of_year": 358,
+      "year": 2021,
+      "value": 199.1333333333
+    },
+    {
+      "day_of_year": 359,
+      "year": 2021,
+      "value": 198.2141666667
+    },
+    {
+      "day_of_year": 360,
+      "year": 2021,
+      "value": 169.0158333333
+    },
+    {
+      "day_of_year": 361,
+      "year": 2021,
+      "value": 147.9366666667
+    },
+    {
+      "day_of_year": 362,
+      "year": 2021,
+      "value": 105.795
+    },
+    {
+      "day_of_year": 363,
+      "year": 2021,
+      "value": 153.9791666667
+    },
+    {
+      "day_of_year": 364,
+      "year": 2021,
+      "value": 70.455
+    },
+    {
+      "day_of_year": 365,
+      "year": 2021,
+      "value": 13.9754166667
+    },
+    {
+      "day_of_year": 1,
+      "year": 2022,
+      "value": 82.87125
+    },
+    {
+      "day_of_year": 2,
+      "year": 2022,
+      "value": 44.9883333333
+    },
+    {
+      "day_of_year": 3,
+      "year": 2022,
+      "value": 80.415
+    },
+    {
+      "day_of_year": 4,
+      "year": 2022,
+      "value": 153.98375
+    },
+    {
+      "day_of_year": 5,
+      "year": 2022,
+      "value": 107.6408333333
+    },
+    {
+      "day_of_year": 6,
+      "year": 2022,
+      "value": 195.30875
+    },
+    {
+      "day_of_year": 7,
+      "year": 2022,
+      "value": 168.6495833333
+    },
+    {
+      "day_of_year": 8,
+      "year": 2022,
+      "value": 162.6
+    },
+    {
+      "day_of_year": 9,
+      "year": 2022,
+      "value": 151.1925
+    },
+    {
+      "day_of_year": 10,
+      "year": 2022,
+      "value": 262.13625
+    },
+    {
+      "day_of_year": 11,
+      "year": 2022,
+      "value": 254.8395833333
+    },
+    {
+      "day_of_year": 12,
+      "year": 2022,
+      "value": 232.3358333333
+    },
+    {
+      "day_of_year": 13,
+      "year": 2022,
+      "value": 177.94375
+    },
+    {
+      "day_of_year": 14,
+      "year": 2022,
+      "value": 183.0108333333
+    },
+    {
+      "day_of_year": 15,
+      "year": 2022,
+      "value": 216.1579166667
+    },
+    {
+      "day_of_year": 16,
+      "year": 2022,
+      "value": 126.9354166667
+    },
+    {
+      "day_of_year": 17,
+      "year": 2022,
+      "value": 133.93375
+    },
+    {
+      "day_of_year": 18,
+      "year": 2022,
+      "value": 235.0395833333
+    },
+    {
+      "day_of_year": 19,
+      "year": 2022,
+      "value": 168.8895833333
+    },
+    {
+      "day_of_year": 20,
+      "year": 2022,
+      "value": 118.9095833333
+    },
+    {
+      "day_of_year": 21,
+      "year": 2022,
+      "value": 159.4525
+    },
+    {
+      "day_of_year": 22,
+      "year": 2022,
+      "value": 177.7620833333
+    },
+    {
+      "day_of_year": 23,
+      "year": 2022,
+      "value": 194.18
+    },
+    {
+      "day_of_year": 24,
+      "year": 2022,
+      "value": 247.2979166667
+    },
+    {
+      "day_of_year": 25,
+      "year": 2022,
+      "value": 297.02125
+    },
+    {
+      "day_of_year": 26,
+      "year": 2022,
+      "value": 231.7320833333
+    },
+    {
+      "day_of_year": 27,
+      "year": 2022,
+      "value": 118.6483333333
+    },
+    {
+      "day_of_year": 28,
+      "year": 2022,
+      "value": 176.3570833333
+    },
+    {
+      "day_of_year": 29,
+      "year": 2022,
+      "value": 86.7979166667
+    },
+    {
+      "day_of_year": 30,
+      "year": 2022,
+      "value": 60.2945833333
+    },
+    {
+      "day_of_year": 31,
+      "year": 2022,
+      "value": 196.7854166667
+    },
+    {
+      "day_of_year": 32,
+      "year": 2022,
+      "value": 145.055
+    },
+    {
+      "day_of_year": 33,
+      "year": 2022,
+      "value": 145.2808333333
+    },
+    {
+      "day_of_year": 34,
+      "year": 2022,
+      "value": 192.7966666667
+    },
+    {
+      "day_of_year": 35,
+      "year": 2022,
+      "value": 130.7120833333
+    },
+    {
+      "day_of_year": 36,
+      "year": 2022,
+      "value": 85.2029166667
+    },
+    {
+      "day_of_year": 37,
+      "year": 2022,
+      "value": 53.1875
+    },
+    {
+      "day_of_year": 38,
+      "year": 2022,
+      "value": 88.9225
+    },
+    {
+      "day_of_year": 39,
+      "year": 2022,
+      "value": 137.52125
+    },
+    {
+      "day_of_year": 40,
+      "year": 2022,
+      "value": 169.4491666667
+    },
+    {
+      "day_of_year": 41,
+      "year": 2022,
+      "value": 191.9675
+    },
+    {
+      "day_of_year": 42,
+      "year": 2022,
+      "value": 185.2429166667
+    },
+    {
+      "day_of_year": 43,
+      "year": 2022,
+      "value": 138.5570833333
+    },
+    {
+      "day_of_year": 44,
+      "year": 2022,
+      "value": 81.8479166667
+    },
+    {
+      "day_of_year": 45,
+      "year": 2022,
+      "value": 104.97875
+    },
+    {
+      "day_of_year": 46,
+      "year": 2022,
+      "value": 154.2541666667
+    },
+    {
+      "day_of_year": 47,
+      "year": 2022,
+      "value": 114.1795833333
+    },
+    {
+      "day_of_year": 48,
+      "year": 2022,
+      "value": 70.8675
+    },
+    {
+      "day_of_year": 49,
+      "year": 2022,
+      "value": 117.7220833333
+    },
+    {
+      "day_of_year": 50,
+      "year": 2022,
+      "value": 40.8929166667
+    },
+    {
+      "day_of_year": 51,
+      "year": 2022,
+      "value": 63.3791666667
+    },
+    {
+      "day_of_year": 52,
+      "year": 2022,
+      "value": 78.71875
+    },
+    {
+      "day_of_year": 53,
+      "year": 2022,
+      "value": 122.90125
+    },
+    {
+      "day_of_year": 54,
+      "year": 2022,
+      "value": 131.4754166667
+    },
+    {
+      "day_of_year": 55,
+      "year": 2022,
+      "value": 122.5420833333
+    },
+    {
+      "day_of_year": 56,
+      "year": 2022,
+      "value": 122.2620833333
+    },
+    {
+      "day_of_year": 57,
+      "year": 2022,
+      "value": 227.3325
+    },
+    {
+      "day_of_year": 58,
+      "year": 2022,
+      "value": 181.6475
+    },
+    {
+      "day_of_year": 59,
+      "year": 2022,
+      "value": 206.8704166667
+    },
+    {
+      "day_of_year": 60,
+      "year": 2022,
+      "value": 245.8958333333
+    },
+    {
+      "day_of_year": 61,
+      "year": 2022,
+      "value": 282.1145833333
+    },
+    {
+      "day_of_year": 62,
+      "year": 2022,
+      "value": 339.0291666667
+    },
+    {
+      "day_of_year": 63,
+      "year": 2022,
+      "value": 359.3108333333
+    },
+    {
+      "day_of_year": 64,
+      "year": 2022,
+      "value": 345.5166666667
+    },
+    {
+      "day_of_year": 65,
+      "year": 2022,
+      "value": 340.2541666667
+    },
+    {
+      "day_of_year": 66,
+      "year": 2022,
+      "value": 413.3704166667
+    },
+    {
+      "day_of_year": 67,
+      "year": 2022,
+      "value": 486.4908333333
+    },
+    {
+      "day_of_year": 68,
+      "year": 2022,
+      "value": 442.9183333333
+    },
+    {
+      "day_of_year": 69,
+      "year": 2022,
+      "value": 268.27375
+    },
+    {
+      "day_of_year": 70,
+      "year": 2022,
+      "value": 79.6045833333
+    },
+    {
+      "day_of_year": 71,
+      "year": 2022,
+      "value": 128.04875
+    },
+    {
+      "day_of_year": 72,
+      "year": 2022,
+      "value": 117.00625
+    },
+    {
+      "day_of_year": 73,
+      "year": 2022,
+      "value": 283.2325
+    },
+    {
+      "day_of_year": 74,
+      "year": 2022,
+      "value": 300.7245833333
+    },
+    {
+      "day_of_year": 75,
+      "year": 2022,
+      "value": 241.2908333333
+    },
+    {
+      "day_of_year": 76,
+      "year": 2022,
+      "value": 227.31625
+    },
+    {
+      "day_of_year": 77,
+      "year": 2022,
+      "value": 228.635
+    },
+    {
+      "day_of_year": 78,
+      "year": 2022,
+      "value": 126.2591666667
+    },
+    {
+      "day_of_year": 79,
+      "year": 2022,
+      "value": 50.29875
+    },
+    {
+      "day_of_year": 80,
+      "year": 2022,
+      "value": 210.28875
+    },
+    {
+      "day_of_year": 81,
+      "year": 2022,
+      "value": 236.17125
+    },
+    {
+      "day_of_year": 82,
+      "year": 2022,
+      "value": 236.4345833333
+    },
+    {
+      "day_of_year": 83,
+      "year": 2022,
+      "value": 240.0595833333
+    },
+    {
+      "day_of_year": 84,
+      "year": 2022,
+      "value": 243.27375
+    },
+    {
+      "day_of_year": 85,
+      "year": 2022,
+      "value": 189.5125
+    },
+    {
+      "day_of_year": 86,
+      "year": 2022,
+      "value": 198.6125
+    },
+    {
+      "day_of_year": 87,
+      "year": 2022,
+      "value": 222.9029166667
+    },
+    {
+      "day_of_year": 88,
+      "year": 2022,
+      "value": 251.9295833333
+    },
+    {
+      "day_of_year": 89,
+      "year": 2022,
+      "value": 268.6529166667
+    },
+    {
+      "day_of_year": 90,
+      "year": 2022,
+      "value": 201.12375
+    },
+    {
+      "day_of_year": 91,
+      "year": 2022,
+      "value": 161.2
+    },
+    {
+      "day_of_year": 92,
+      "year": 2022,
+      "value": 172.8675
+    },
+    {
+      "day_of_year": 93,
+      "year": 2022,
+      "value": 165.3145833333
+    },
+    {
+      "day_of_year": 94,
+      "year": 2022,
+      "value": 68.78875
+    },
+    {
+      "day_of_year": 95,
+      "year": 2022,
+      "value": 191.33
+    },
+    {
+      "day_of_year": 96,
+      "year": 2022,
+      "value": 116.6629166667
+    },
+    {
+      "day_of_year": 97,
+      "year": 2022,
+      "value": 68.4154166667
+    },
+    {
+      "day_of_year": 98,
+      "year": 2022,
+      "value": 130.3183333333
+    },
+    {
+      "day_of_year": 99,
+      "year": 2022,
+      "value": 54.2941666667
+    },
+    {
+      "day_of_year": 100,
+      "year": 2022,
+      "value": 85.9141666667
+    },
+    {
+      "day_of_year": 101,
+      "year": 2022,
+      "value": 224.21125
+    },
+    {
+      "day_of_year": 102,
+      "year": 2022,
+      "value": 182.3370833333
+    },
+    {
+      "day_of_year": 103,
+      "year": 2022,
+      "value": 227.21
+    },
+    {
+      "day_of_year": 104,
+      "year": 2022,
+      "value": 226.5954166667
+    },
+    {
+      "day_of_year": 105,
+      "year": 2022,
+      "value": 191.3466666667
+    },
+    {
+      "day_of_year": 106,
+      "year": 2022,
+      "value": 146.1175
+    },
+    {
+      "day_of_year": 107,
+      "year": 2022,
+      "value": 103.6845833333
+    },
+    {
+      "day_of_year": 108,
+      "year": 2022,
+      "value": 129.4429166667
+    },
+    {
+      "day_of_year": 109,
+      "year": 2022,
+      "value": 212.2783333333
+    },
+    {
+      "day_of_year": 110,
+      "year": 2022,
+      "value": 202.74625
+    },
+    {
+      "day_of_year": 111,
+      "year": 2022,
+      "value": 199.7766666667
+    },
+    {
+      "day_of_year": 112,
+      "year": 2022,
+      "value": 167.1495833333
+    },
+    {
+      "day_of_year": 113,
+      "year": 2022,
+      "value": 91.0904166667
+    },
+    {
+      "day_of_year": 114,
+      "year": 2022,
+      "value": 115.8275
+    },
+    {
+      "day_of_year": 115,
+      "year": 2022,
+      "value": 225.4983333333
+    },
+    {
+      "day_of_year": 116,
+      "year": 2022,
+      "value": 237.935
+    },
+    {
+      "day_of_year": 117,
+      "year": 2022,
+      "value": 222.7025
+    },
+    {
+      "day_of_year": 118,
+      "year": 2022,
+      "value": 229.845
+    },
+    {
+      "day_of_year": 119,
+      "year": 2022,
+      "value": 227.38625
+    },
+    {
+      "day_of_year": 120,
+      "year": 2022,
+      "value": 201.7675
+    },
+    {
+      "day_of_year": 121,
+      "year": 2022,
+      "value": 194.7675
+    },
+    {
+      "day_of_year": 122,
+      "year": 2022,
+      "value": 217.3666666667
+    },
+    {
+      "day_of_year": 123,
+      "year": 2022,
+      "value": 219.7983333333
+    },
+    {
+      "day_of_year": 124,
+      "year": 2022,
+      "value": 232.4416666667
+    },
+    {
+      "day_of_year": 125,
+      "year": 2022,
+      "value": 234.5179166667
+    },
+    {
+      "day_of_year": 126,
+      "year": 2022,
+      "value": 225.6770833333
+    },
+    {
+      "day_of_year": 127,
+      "year": 2022,
+      "value": 199.7341666667
+    },
+    {
+      "day_of_year": 128,
+      "year": 2022,
+      "value": 172.1045833333
+    },
+    {
+      "day_of_year": 129,
+      "year": 2022,
+      "value": 217.3825
+    },
+    {
+      "day_of_year": 130,
+      "year": 2022,
+      "value": 182.3991666667
+    },
+    {
+      "day_of_year": 131,
+      "year": 2022,
+      "value": 154.715
+    },
+    {
+      "day_of_year": 132,
+      "year": 2022,
+      "value": 174.0279166667
+    },
+    {
+      "day_of_year": 133,
+      "year": 2022,
+      "value": 165.7441666667
+    },
+    {
+      "day_of_year": 134,
+      "year": 2022,
+      "value": 155.9520833333
+    },
+    {
+      "day_of_year": 135,
+      "year": 2022,
+      "value": 146.4408333333
+    },
+    {
+      "day_of_year": 136,
+      "year": 2022,
+      "value": 213.6695833333
+    },
+    {
+      "day_of_year": 137,
+      "year": 2022,
+      "value": 225.5420833333
+    },
+    {
+      "day_of_year": 138,
+      "year": 2022,
+      "value": 206.4533333333
+    },
+    {
+      "day_of_year": 139,
+      "year": 2022,
+      "value": 211.8554166667
+    },
+    {
+      "day_of_year": 140,
+      "year": 2022,
+      "value": 203.0833333333
+    },
+    {
+      "day_of_year": 141,
+      "year": 2022,
+      "value": 107.8008333333
+    },
+    {
+      "day_of_year": 142,
+      "year": 2022,
+      "value": 164.96875
+    },
+    {
+      "day_of_year": 143,
+      "year": 2022,
+      "value": 181.2404166667
+    },
+    {
+      "day_of_year": 144,
+      "year": 2022,
+      "value": 171.10625
+    },
+    {
+      "day_of_year": 145,
+      "year": 2022,
+      "value": 171.0079166667
+    },
+    {
+      "day_of_year": 146,
+      "year": 2022,
+      "value": 64.5604166667
+    },
+    {
+      "day_of_year": 147,
+      "year": 2022,
+      "value": 41.9220833333
+    },
+    {
+      "day_of_year": 148,
+      "year": 2022,
+      "value": 48.7445833333
+    },
+    {
+      "day_of_year": 149,
+      "year": 2022,
+      "value": 160.3029166667
+    },
+    {
+      "day_of_year": 150,
+      "year": 2022,
+      "value": 225.38
+    },
+    {
+      "day_of_year": 151,
+      "year": 2022,
+      "value": 211.9841666667
+    },
+    {
+      "day_of_year": 152,
+      "year": 2022,
+      "value": 212.7304166667
+    },
+    {
+      "day_of_year": 153,
+      "year": 2022,
+      "value": 187.8166666667
+    },
+    {
+      "day_of_year": 154,
+      "year": 2022,
+      "value": 184.6720833333
+    },
+    {
+      "day_of_year": 155,
+      "year": 2022,
+      "value": 161.6170833333
+    },
+    {
+      "day_of_year": 156,
+      "year": 2022,
+      "value": 136.2241666667
+    },
+    {
+      "day_of_year": 157,
+      "year": 2022,
+      "value": 96.4870833333
+    },
+    {
+      "day_of_year": 158,
+      "year": 2022,
+      "value": 185.3791666667
+    },
+    {
+      "day_of_year": 159,
+      "year": 2022,
+      "value": 190.5829166667
+    },
+    {
+      "day_of_year": 160,
+      "year": 2022,
+      "value": 185.7808333333
+    },
+    {
+      "day_of_year": 161,
+      "year": 2022,
+      "value": 186.6770833333
+    },
+    {
+      "day_of_year": 162,
+      "year": 2022,
+      "value": 133.48125
+    },
+    {
+      "day_of_year": 163,
+      "year": 2022,
+      "value": 116.0054166667
+    },
+    {
+      "day_of_year": 164,
+      "year": 2022,
+      "value": 165.5858333333
+    },
+    {
+      "day_of_year": 165,
+      "year": 2022,
+      "value": 196.8266666667
+    },
+    {
+      "day_of_year": 166,
+      "year": 2022,
+      "value": 214.8595833333
+    },
+    {
+      "day_of_year": 167,
+      "year": 2022,
+      "value": 205.83625
+    },
+    {
+      "day_of_year": 168,
+      "year": 2022,
+      "value": 251.93125
+    },
+    {
+      "day_of_year": 169,
+      "year": 2022,
+      "value": 192.6516666667
+    },
+    {
+      "day_of_year": 170,
+      "year": 2022,
+      "value": 157.2995833333
+    },
+    {
+      "day_of_year": 171,
+      "year": 2022,
+      "value": 269.3183333333
+    },
+    {
+      "day_of_year": 172,
+      "year": 2022,
+      "value": 289.9941666667
+    },
+    {
+      "day_of_year": 173,
+      "year": 2022,
+      "value": 323.5725
+    },
+    {
+      "day_of_year": 174,
+      "year": 2022,
+      "value": 290.4983333333
+    },
+    {
+      "day_of_year": 175,
+      "year": 2022,
+      "value": 276.8425
+    },
+    {
+      "day_of_year": 176,
+      "year": 2022,
+      "value": 242.5883333333
+    },
+    {
+      "day_of_year": 177,
+      "year": 2022,
+      "value": 202.0491666667
+    },
+    {
+      "day_of_year": 178,
+      "year": 2022,
+      "value": 315.7808333333
+    },
+    {
+      "day_of_year": 179,
+      "year": 2022,
+      "value": 331.4241666667
+    },
+    {
+      "day_of_year": 180,
+      "year": 2022,
+      "value": 316.43
+    },
+    {
+      "day_of_year": 181,
+      "year": 2022,
+      "value": 324.5170833333
+    },
+    {
+      "day_of_year": 182,
+      "year": 2022,
+      "value": 314.6408333333
+    },
+    {
+      "day_of_year": 183,
+      "year": 2022,
+      "value": 217.5604166667
+    },
+    {
+      "day_of_year": 184,
+      "year": 2022,
+      "value": 203.8325
+    },
+    {
+      "day_of_year": 185,
+      "year": 2022,
+      "value": 297.295
+    },
+    {
+      "day_of_year": 186,
+      "year": 2022,
+      "value": 317.6008333333
+    },
+    {
+      "day_of_year": 187,
+      "year": 2022,
+      "value": 295.8608333333
+    },
+    {
+      "day_of_year": 188,
+      "year": 2022,
+      "value": 211.0366666667
+    },
+    {
+      "day_of_year": 189,
+      "year": 2022,
+      "value": 304.6379166667
+    },
+    {
+      "day_of_year": 190,
+      "year": 2022,
+      "value": 127.01125
+    },
+    {
+      "day_of_year": 191,
+      "year": 2022,
+      "value": 134.8154166667
+    },
+    {
+      "day_of_year": 192,
+      "year": 2022,
+      "value": 378.7191666667
+    },
+    {
+      "day_of_year": 193,
+      "year": 2022,
+      "value": 379.18625
+    },
+    {
+      "day_of_year": 194,
+      "year": 2022,
+      "value": 352.0270833333
+    },
+    {
+      "day_of_year": 195,
+      "year": 2022,
+      "value": 362.86
+    },
+    {
+      "day_of_year": 196,
+      "year": 2022,
+      "value": 332.6233333333
+    },
+    {
+      "day_of_year": 197,
+      "year": 2022,
+      "value": 166.3116666667
+    },
+    {
+      "day_of_year": 198,
+      "year": 2022,
+      "value": 229.665
+    },
+    {
+      "day_of_year": 199,
+      "year": 2022,
+      "value": 398.2816666667
+    },
+    {
+      "day_of_year": 200,
+      "year": 2022,
+      "value": 386.2029166667
+    },
+    {
+      "day_of_year": 201,
+      "year": 2022,
+      "value": 339.1408333333
+    },
+    {
+      "day_of_year": 202,
+      "year": 2022,
+      "value": 398.4858333333
+    },
+    {
+      "day_of_year": 203,
+      "year": 2022,
+      "value": 379.2195833333
+    },
+    {
+      "day_of_year": 204,
+      "year": 2022,
+      "value": 325.955
+    },
+    {
+      "day_of_year": 205,
+      "year": 2022,
+      "value": 254.4058333333
+    },
+    {
+      "day_of_year": 206,
+      "year": 2022,
+      "value": 310.78
+    },
+    {
+      "day_of_year": 207,
+      "year": 2022,
+      "value": 321.1470833333
+    },
+    {
+      "day_of_year": 208,
+      "year": 2022,
+      "value": 427.9295833333
+    },
+    {
+      "day_of_year": 209,
+      "year": 2022,
+      "value": 470.9791666667
+    },
+    {
+      "day_of_year": 210,
+      "year": 2022,
+      "value": 440.5325
+    },
+    {
+      "day_of_year": 211,
+      "year": 2022,
+      "value": 376.33125
+    },
+    {
+      "day_of_year": 212,
+      "year": 2022,
+      "value": 318.0616666667
+    },
+    {
+      "day_of_year": 213,
+      "year": 2022,
+      "value": 428.87
+    },
+    {
+      "day_of_year": 214,
+      "year": 2022,
+      "value": 377.2183333333
+    },
+    {
+      "day_of_year": 215,
+      "year": 2022,
+      "value": 389.5158333333
+    },
+    {
+      "day_of_year": 216,
+      "year": 2022,
+      "value": 409.9795833333
+    },
+    {
+      "day_of_year": 217,
+      "year": 2022,
+      "value": 376.6683333333
+    },
+    {
+      "day_of_year": 218,
+      "year": 2022,
+      "value": 266.8895833333
+    },
+    {
+      "day_of_year": 219,
+      "year": 2022,
+      "value": 217.8795833333
+    },
+    {
+      "day_of_year": 220,
+      "year": 2022,
+      "value": 361.5491666667
+    },
+    {
+      "day_of_year": 221,
+      "year": 2022,
+      "value": 342.9683333333
+    },
+    {
+      "day_of_year": 222,
+      "year": 2022,
+      "value": 336.1616666667
+    },
+    {
+      "day_of_year": 223,
+      "year": 2022,
+      "value": 377.19375
+    },
+    {
+      "day_of_year": 224,
+      "year": 2022,
+      "value": 436.8333333333
+    },
+    {
+      "day_of_year": 225,
+      "year": 2022,
+      "value": 377.1433333333
+    },
+    {
+      "day_of_year": 226,
+      "year": 2022,
+      "value": 327.2316666667
+    },
+    {
+      "day_of_year": 227,
+      "year": 2022,
+      "value": 433.2625
+    },
+    {
+      "day_of_year": 228,
+      "year": 2022,
+      "value": 495.4558333333
+    },
+    {
+      "day_of_year": 229,
+      "year": 2022,
+      "value": 551.7858333333
+    },
+    {
+      "day_of_year": 230,
+      "year": 2022,
+      "value": 562.6725
+    },
+    {
+      "day_of_year": 231,
+      "year": 2022,
+      "value": 516.53125
+    },
+    {
+      "day_of_year": 232,
+      "year": 2022,
+      "value": 449.6041666667
+    },
+    {
+      "day_of_year": 233,
+      "year": 2022,
+      "value": 371.2320833333
+    },
+    {
+      "day_of_year": 234,
+      "year": 2022,
+      "value": 566.8579166667
+    },
+    {
+      "day_of_year": 235,
+      "year": 2022,
+      "value": 608.3391666667
+    },
+    {
+      "day_of_year": 236,
+      "year": 2022,
+      "value": 621.2716666667
+    },
+    {
+      "day_of_year": 237,
+      "year": 2022,
+      "value": 605.2095833333
+    },
+    {
+      "day_of_year": 238,
+      "year": 2022,
+      "value": 705.3633333333
+    },
+    {
+      "day_of_year": 239,
+      "year": 2022,
+      "value": 597.30125
+    },
+    {
+      "day_of_year": 240,
+      "year": 2022,
+      "value": 403.4729166667
+    },
+    {
+      "day_of_year": 241,
+      "year": 2022,
+      "value": 661.6425
+    },
+    {
+      "day_of_year": 242,
+      "year": 2022,
+      "value": 653.6625
+    },
+    {
+      "day_of_year": 243,
+      "year": 2022,
+      "value": 601.1716666667
+    },
+    {
+      "day_of_year": 244,
+      "year": 2022,
+      "value": 567.0170833333
+    },
+    {
+      "day_of_year": 245,
+      "year": 2022,
+      "value": 405.6008333333
+    },
+    {
+      "day_of_year": 246,
+      "year": 2022,
+      "value": 285.2466666667
+    },
+    {
+      "day_of_year": 247,
+      "year": 2022,
+      "value": 245.8041666667
+    },
+    {
+      "day_of_year": 248,
+      "year": 2022,
+      "value": 360.8933333333
+    },
+    {
+      "day_of_year": 249,
+      "year": 2022,
+      "value": 426.7491666667
+    },
+    {
+      "day_of_year": 250,
+      "year": 2022,
+      "value": 464.5808333333
+    },
+    {
+      "day_of_year": 251,
+      "year": 2022,
+      "value": 430.5279166667
+    },
+    {
+      "day_of_year": 252,
+      "year": 2022,
+      "value": 354.93875
+    },
+    {
+      "day_of_year": 253,
+      "year": 2022,
+      "value": 406.25875
+    },
+    {
+      "day_of_year": 254,
+      "year": 2022,
+      "value": 387.1579166667
+    },
+    {
+      "day_of_year": 255,
+      "year": 2022,
+      "value": 405.4233333333
+    },
+    {
+      "day_of_year": 256,
+      "year": 2022,
+      "value": 393.81
+    },
+    {
+      "day_of_year": 257,
+      "year": 2022,
+      "value": 458.1408333333
+    },
+    {
+      "day_of_year": 258,
+      "year": 2022,
+      "value": 353.3629166667
+    },
+    {
+      "day_of_year": 259,
+      "year": 2022,
+      "value": 193.96875
+    },
+    {
+      "day_of_year": 260,
+      "year": 2022,
+      "value": 63.8008333333
+    },
+    {
+      "day_of_year": 261,
+      "year": 2022,
+      "value": 83.2304166667
+    },
+    {
+      "day_of_year": 262,
+      "year": 2022,
+      "value": 275.8933333333
+    },
+    {
+      "day_of_year": 263,
+      "year": 2022,
+      "value": 367.0920833333
+    },
+    {
+      "day_of_year": 264,
+      "year": 2022,
+      "value": 384.2154166667
+    },
+    {
+      "day_of_year": 265,
+      "year": 2022,
+      "value": 386.2366666667
+    },
+    {
+      "day_of_year": 266,
+      "year": 2022,
+      "value": 370.3845833333
+    },
+    {
+      "day_of_year": 267,
+      "year": 2022,
+      "value": 341.80625
+    },
+    {
+      "day_of_year": 268,
+      "year": 2022,
+      "value": 273.5858333333
+    },
+    {
+      "day_of_year": 269,
+      "year": 2022,
+      "value": 243.5320833333
+    },
+    {
+      "day_of_year": 270,
+      "year": 2022,
+      "value": 319.0004166667
+    },
+    {
+      "day_of_year": 271,
+      "year": 2022,
+      "value": 390.6058333333
+    },
+    {
+      "day_of_year": 272,
+      "year": 2022,
+      "value": 417.03625
+    },
+    {
+      "day_of_year": 273,
+      "year": 2022,
+      "value": 292.2554166667
+    },
+    {
+      "day_of_year": 274,
+      "year": 2022,
+      "value": 82.8445833333
+    },
+    {
+      "day_of_year": 275,
+      "year": 2022,
+      "value": 116.675
+    },
+    {
+      "day_of_year": 276,
+      "year": 2022,
+      "value": 218.4820833333
+    },
+    {
+      "day_of_year": 277,
+      "year": 2022,
+      "value": 240.02625
+    },
+    {
+      "day_of_year": 278,
+      "year": 2022,
+      "value": 93.1054166667
+    },
+    {
+      "day_of_year": 279,
+      "year": 2022,
+      "value": 114.2583333333
+    },
+    {
+      "day_of_year": 280,
+      "year": 2022,
+      "value": 160.625
+    },
+    {
+      "day_of_year": 281,
+      "year": 2022,
+      "value": 152.2195833333
+    },
+    {
+      "day_of_year": 282,
+      "year": 2022,
+      "value": 135.4366666667
+    },
+    {
+      "day_of_year": 283,
+      "year": 2022,
+      "value": 169.9675
+    },
+    {
+      "day_of_year": 284,
+      "year": 2022,
+      "value": 265.26875
+    },
+    {
+      "day_of_year": 285,
+      "year": 2022,
+      "value": 281.2808333333
+    },
+    {
+      "day_of_year": 286,
+      "year": 2022,
+      "value": 258.3833333333
+    },
+    {
+      "day_of_year": 287,
+      "year": 2022,
+      "value": 257.0975
+    },
+    {
+      "day_of_year": 288,
+      "year": 2022,
+      "value": 147.4129166667
+    },
+    {
+      "day_of_year": 289,
+      "year": 2022,
+      "value": 99.9558333333
+    },
+    {
+      "day_of_year": 290,
+      "year": 2022,
+      "value": 154.0491666667
+    },
+    {
+      "day_of_year": 291,
+      "year": 2022,
+      "value": 182.3191666667
+    },
+    {
+      "day_of_year": 292,
+      "year": 2022,
+      "value": 167.8545833333
+    },
+    {
+      "day_of_year": 293,
+      "year": 2022,
+      "value": 140.5483333333
+    },
+    {
+      "day_of_year": 294,
+      "year": 2022,
+      "value": 164.5158333333
+    },
+    {
+      "day_of_year": 295,
+      "year": 2022,
+      "value": 137.1120833333
+    },
+    {
+      "day_of_year": 296,
+      "year": 2022,
+      "value": 91.2845833333
+    },
+    {
+      "day_of_year": 297,
+      "year": 2022,
+      "value": 80.8191666667
+    },
+    {
+      "day_of_year": 298,
+      "year": 2022,
+      "value": 108.7916666667
+    },
+    {
+      "day_of_year": 299,
+      "year": 2022,
+      "value": 121.3554166667
+    },
+    {
+      "day_of_year": 300,
+      "year": 2022,
+      "value": 124.1741666667
+    },
+    {
+      "day_of_year": 301,
+      "year": 2022,
+      "value": 105.94875
+    },
+    {
+      "day_of_year": 302,
+      "year": 2022,
+      "value": 101.78875
+    },
+    {
+      "day_of_year": 303,
+      "year": 2022,
+      "value": 118.3125
+    },
+    {
+      "day_of_year": 304,
+      "year": 2022,
+      "value": 143.1920833333
+    },
+    {
+      "day_of_year": 305,
+      "year": 2022,
+      "value": 67.7829166667
+    },
+    {
+      "day_of_year": 306,
+      "year": 2022,
+      "value": 72.83875
+    },
+    {
+      "day_of_year": 307,
+      "year": 2022,
+      "value": 103.5220833333
+    },
+    {
+      "day_of_year": 308,
+      "year": 2022,
+      "value": 181.1404166667
+    },
+    {
+      "day_of_year": 309,
+      "year": 2022,
+      "value": 128.4229166667
+    },
+    {
+      "day_of_year": 310,
+      "year": 2022,
+      "value": 48.6870833333
+    },
+    {
+      "day_of_year": 311,
+      "year": 2022,
+      "value": 79.3241666667
+    },
+    {
+      "day_of_year": 312,
+      "year": 2022,
+      "value": 95.0229166667
+    },
+    {
+      "day_of_year": 313,
+      "year": 2022,
+      "value": 128.3904166667
+    },
+    {
+      "day_of_year": 314,
+      "year": 2022,
+      "value": 135.4054166667
+    },
+    {
+      "day_of_year": 315,
+      "year": 2022,
+      "value": 128.1741666667
+    },
+    {
+      "day_of_year": 316,
+      "year": 2022,
+      "value": 163.5620833333
+    },
+    {
+      "day_of_year": 317,
+      "year": 2022,
+      "value": 142.0170833333
+    },
+    {
+      "day_of_year": 318,
+      "year": 2022,
+      "value": 162.3045833333
+    },
+    {
+      "day_of_year": 319,
+      "year": 2022,
+      "value": 174.9125
+    },
+    {
+      "day_of_year": 320,
+      "year": 2022,
+      "value": 142.4558333333
+    },
+    {
+      "day_of_year": 321,
+      "year": 2022,
+      "value": 102.6083333333
+    },
+    {
+      "day_of_year": 322,
+      "year": 2022,
+      "value": 172.34375
+    },
+    {
+      "day_of_year": 323,
+      "year": 2022,
+      "value": 200.9654166667
+    },
+    {
+      "day_of_year": 324,
+      "year": 2022,
+      "value": 207.725
+    },
+    {
+      "day_of_year": 325,
+      "year": 2022,
+      "value": 252.7491666667
+    },
+    {
+      "day_of_year": 326,
+      "year": 2022,
+      "value": 205.5129166667
+    },
+    {
+      "day_of_year": 327,
+      "year": 2022,
+      "value": 177.51125
+    },
+    {
+      "day_of_year": 328,
+      "year": 2022,
+      "value": 239.365
+    },
+    {
+      "day_of_year": 329,
+      "year": 2022,
+      "value": 258.9883333333
+    },
+    {
+      "day_of_year": 330,
+      "year": 2022,
+      "value": 236.3445833333
+    },
+    {
+      "day_of_year": 331,
+      "year": 2022,
+      "value": 145.9966666667
+    },
+    {
+      "day_of_year": 332,
+      "year": 2022,
+      "value": 297.5808333333
+    },
+    {
+      "day_of_year": 333,
+      "year": 2022,
+      "value": 372.3329166667
+    },
+    {
+      "day_of_year": 334,
+      "year": 2022,
+      "value": 393.8525
+    },
+    {
+      "day_of_year": 335,
+      "year": 2022,
+      "value": 394.9495833333
+    },
+    {
+      "day_of_year": 336,
+      "year": 2022,
+      "value": 336.3608333333
+    },
+    {
+      "day_of_year": 337,
+      "year": 2022,
+      "value": 281.61
+    },
+    {
+      "day_of_year": 338,
+      "year": 2022,
+      "value": 267.4408333333
+    },
+    {
+      "day_of_year": 339,
+      "year": 2022,
+      "value": 345.1316666667
+    },
+    {
+      "day_of_year": 340,
+      "year": 2022,
+      "value": 385.0479166667
+    },
+    {
+      "day_of_year": 341,
+      "year": 2022,
+      "value": 325.7408333333
+    },
+    {
+      "day_of_year": 342,
+      "year": 2022,
+      "value": 389.5045833333
+    },
+    {
+      "day_of_year": 343,
+      "year": 2022,
+      "value": 410.145
+    },
+    {
+      "day_of_year": 344,
+      "year": 2022,
+      "value": 354.1495833333
+    },
+    {
+      "day_of_year": 345,
+      "year": 2022,
+      "value": 325.9125
+    },
+    {
+      "day_of_year": 346,
+      "year": 2022,
+      "value": 435.015
+    },
+    {
+      "day_of_year": 347,
+      "year": 2022,
+      "value": 443.1716666667
+    },
+    {
+      "day_of_year": 348,
+      "year": 2022,
+      "value": 444.925
+    },
+    {
+      "day_of_year": 349,
+      "year": 2022,
+      "value": 396.8083333333
+    },
+    {
+      "day_of_year": 350,
+      "year": 2022,
+      "value": 410.7970833333
+    },
+    {
+      "day_of_year": 351,
+      "year": 2022,
+      "value": 264.4845833333
+    },
+    {
+      "day_of_year": 352,
+      "year": 2022,
+      "value": 187.4191666667
+    },
+    {
+      "day_of_year": 353,
+      "year": 2022,
+      "value": 191.43125
+    },
+    {
+      "day_of_year": 354,
+      "year": 2022,
+      "value": 188.9016666667
+    },
+    {
+      "day_of_year": 355,
+      "year": 2022,
+      "value": 213.6333333333
+    },
+    {
+      "day_of_year": 356,
+      "year": 2022,
+      "value": 192.2129166667
+    },
+    {
+      "day_of_year": 357,
+      "year": 2022,
+      "value": 183.0754166667
+    },
+    {
+      "day_of_year": 358,
+      "year": 2022,
+      "value": 113.495
+    },
+    {
+      "day_of_year": 359,
+      "year": 2022,
+      "value": 103.0954166667
+    },
+    {
+      "day_of_year": 360,
+      "year": 2022,
+      "value": 39.41
+    },
+    {
+      "day_of_year": 361,
+      "year": 2022,
+      "value": 92.4391666667
+    },
+    {
+      "day_of_year": 362,
+      "year": 2022,
+      "value": 44.1766666667
+    },
+    {
+      "day_of_year": 363,
+      "year": 2022,
+      "value": 14.08625
+    },
+    {
+      "day_of_year": 364,
+      "year": 2022,
+      "value": 14.15875
+    },
+    {
+      "day_of_year": 365,
+      "year": 2022,
+      "value": -1.00625
+    },
+    {
+      "day_of_year": 1,
+      "year": 2023,
+      "value": 17.5416666667
+    },
+    {
+      "day_of_year": 2,
+      "year": 2023,
+      "value": 126.8241666667
+    },
+    {
+      "day_of_year": 3,
+      "year": 2023,
+      "value": 143.9079166667
+    },
+    {
+      "day_of_year": 4,
+      "year": 2023,
+      "value": 55.5733333333
+    },
+    {
+      "day_of_year": 5,
+      "year": 2023,
+      "value": 111.9204166667
+    },
+    {
+      "day_of_year": 6,
+      "year": 2023,
+      "value": 117.0541666667
+    },
+    {
+      "day_of_year": 7,
+      "year": 2023,
+      "value": 85.21625
+    },
+    {
+      "day_of_year": 8,
+      "year": 2023,
+      "value": 71.6166666667
+    },
+    {
+      "day_of_year": 9,
+      "year": 2023,
+      "value": 130.57875
+    },
+    {
+      "day_of_year": 10,
+      "year": 2023,
+      "value": 118.92125
+    },
+    {
+      "day_of_year": 11,
+      "year": 2023,
+      "value": 84.7008333333
+    },
+    {
+      "day_of_year": 12,
+      "year": 2023,
+      "value": 71.2745833333
+    },
+    {
+      "day_of_year": 13,
+      "year": 2023,
+      "value": 66.3520833333
+    },
+    {
+      "day_of_year": 14,
+      "year": 2023,
+      "value": 28.4383333333
+    },
+    {
+      "day_of_year": 15,
+      "year": 2023,
+      "value": 11.5954166667
+    },
+    {
+      "day_of_year": 16,
+      "year": 2023,
+      "value": 130.3416666667
+    },
+    {
+      "day_of_year": 17,
+      "year": 2023,
+      "value": 134.5920833333
+    },
+    {
+      "day_of_year": 18,
+      "year": 2023,
+      "value": 143.2845833333
+    },
+    {
+      "day_of_year": 19,
+      "year": 2023,
+      "value": 149.6870833333
+    },
+    {
+      "day_of_year": 20,
+      "year": 2023,
+      "value": 180.5445833333
+    },
+    {
+      "day_of_year": 21,
+      "year": 2023,
+      "value": 143.7029166667
+    },
+    {
+      "day_of_year": 22,
+      "year": 2023,
+      "value": 152.0408333333
+    },
+    {
+      "day_of_year": 23,
+      "year": 2023,
+      "value": 203.39625
+    },
+    {
+      "day_of_year": 24,
+      "year": 2023,
+      "value": 202.0395833333
+    },
+    {
+      "day_of_year": 25,
+      "year": 2023,
+      "value": 181.7766666667
+    },
+    {
+      "day_of_year": 26,
+      "year": 2023,
+      "value": 167.04375
+    },
+    {
+      "day_of_year": 27,
+      "year": 2023,
+      "value": 168.9654166667
+    },
+    {
+      "day_of_year": 28,
+      "year": 2023,
+      "value": 145.3216666667
+    },
+    {
+      "day_of_year": 29,
+      "year": 2023,
+      "value": 119.0108333333
+    },
+    {
+      "day_of_year": 30,
+      "year": 2023,
+      "value": 76.2558333333
+    },
+    {
+      "day_of_year": 31,
+      "year": 2023,
+      "value": 116.7354166667
+    },
+    {
+      "day_of_year": 32,
+      "year": 2023,
+      "value": 92.8429166667
+    },
+    {
+      "day_of_year": 33,
+      "year": 2023,
+      "value": 137.5633333333
+    },
+    {
+      "day_of_year": 34,
+      "year": 2023,
+      "value": 102.2383333333
+    },
+    {
+      "day_of_year": 35,
+      "year": 2023,
+      "value": 147.5175
+    },
+    {
+      "day_of_year": 36,
+      "year": 2023,
+      "value": 131.7620833333
+    },
+    {
+      "day_of_year": 37,
+      "year": 2023,
+      "value": 172.9958333333
+    },
+    {
+      "day_of_year": 38,
+      "year": 2023,
+      "value": 173.5170833333
+    },
+    {
+      "day_of_year": 39,
+      "year": 2023,
+      "value": 150.0008333333
+    },
+    {
+      "day_of_year": 40,
+      "year": 2023,
+      "value": 133.0916666667
+    },
+    {
+      "day_of_year": 41,
+      "year": 2023,
+      "value": 124.55625
+    },
+    {
+      "day_of_year": 42,
+      "year": 2023,
+      "value": 107.9275
+    },
+    {
+      "day_of_year": 43,
+      "year": 2023,
+      "value": 136.6329166667
+    },
+    {
+      "day_of_year": 44,
+      "year": 2023,
+      "value": 163.4179166667
+    },
+    {
+      "day_of_year": 45,
+      "year": 2023,
+      "value": 154.4591666667
+    },
+    {
+      "day_of_year": 46,
+      "year": 2023,
+      "value": 142.6066666667
+    },
+    {
+      "day_of_year": 47,
+      "year": 2023,
+      "value": 136.4475
+    },
+    {
+      "day_of_year": 48,
+      "year": 2023,
+      "value": 77.9029166667
+    },
+    {
+      "day_of_year": 49,
+      "year": 2023,
+      "value": 98.04375
+    },
+    {
+      "day_of_year": 50,
+      "year": 2023,
+      "value": 112.7970833333
+    },
+    {
+      "day_of_year": 51,
+      "year": 2023,
+      "value": 60.235
+    },
+    {
+      "day_of_year": 52,
+      "year": 2023,
+      "value": 126.1708333333
+    },
+    {
+      "day_of_year": 53,
+      "year": 2023,
+      "value": 148.4304166667
+    },
+    {
+      "day_of_year": 54,
+      "year": 2023,
+      "value": 146.07875
+    },
+    {
+      "day_of_year": 55,
+      "year": 2023,
+      "value": 116.5054166667
+    },
+    {
+      "day_of_year": 56,
+      "year": 2023,
+      "value": 89.9504166667
+    },
+    {
+      "day_of_year": 57,
+      "year": 2023,
+      "value": 110.5070833333
+    },
+    {
+      "day_of_year": 58,
+      "year": 2023,
+      "value": 152.74
+    },
+    {
+      "day_of_year": 59,
+      "year": 2023,
+      "value": 148.0066666667
+    },
+    {
+      "day_of_year": 60,
+      "year": 2023,
+      "value": 142.6658333333
+    },
+    {
+      "day_of_year": 61,
+      "year": 2023,
+      "value": 144.91
+    },
+    {
+      "day_of_year": 62,
+      "year": 2023,
+      "value": 135.4291666667
+    },
+    {
+      "day_of_year": 63,
+      "year": 2023,
+      "value": 107.4408333333
+    },
+    {
+      "day_of_year": 64,
+      "year": 2023,
+      "value": 122.9770833333
+    },
+    {
+      "day_of_year": 65,
+      "year": 2023,
+      "value": 149.0879166667
+    },
+    {
+      "day_of_year": 66,
+      "year": 2023,
+      "value": 107.5445833333
+    },
+    {
+      "day_of_year": 67,
+      "year": 2023,
+      "value": 138.86375
+    },
+    {
+      "day_of_year": 68,
+      "year": 2023,
+      "value": 126.7504166667
+    },
+    {
+      "day_of_year": 69,
+      "year": 2023,
+      "value": 114.2525
+    },
+    {
+      "day_of_year": 70,
+      "year": 2023,
+      "value": 100.72125
+    },
+    {
+      "day_of_year": 71,
+      "year": 2023,
+      "value": 92.4066666667
+    },
+    {
+      "day_of_year": 72,
+      "year": 2023,
+      "value": 35.6216666667
+    },
+    {
+      "day_of_year": 73,
+      "year": 2023,
+      "value": 75.4825
+    },
+    {
+      "day_of_year": 74,
+      "year": 2023,
+      "value": 128.2141666667
+    },
+    {
+      "day_of_year": 75,
+      "year": 2023,
+      "value": 102.7020833333
+    },
+    {
+      "day_of_year": 76,
+      "year": 2023,
+      "value": 94.76
+    },
+    {
+      "day_of_year": 77,
+      "year": 2023,
+      "value": 109.4908333333
+    },
+    {
+      "day_of_year": 78,
+      "year": 2023,
+      "value": 112.5741666667
+    },
+    {
+      "day_of_year": 79,
+      "year": 2023,
+      "value": 125.0391666667
+    },
+    {
+      "day_of_year": 80,
+      "year": 2023,
+      "value": 113.2304166667
+    },
+    {
+      "day_of_year": 81,
+      "year": 2023,
+      "value": 79.8025
+    },
+    {
+      "day_of_year": 82,
+      "year": 2023,
+      "value": 74.1708333333
+    },
+    {
+      "day_of_year": 83,
+      "year": 2023,
+      "value": 51.4566666667
+    },
+    {
+      "day_of_year": 84,
+      "year": 2023,
+      "value": 15.68125
+    },
+    {
+      "day_of_year": 85,
+      "year": 2023,
+      "value": 73.91
+    },
+    {
+      "day_of_year": 86,
+      "year": 2023,
+      "value": 91.1445833333
+    },
+    {
+      "day_of_year": 87,
+      "year": 2023,
+      "value": 114.47
+    },
+    {
+      "day_of_year": 88,
+      "year": 2023,
+      "value": 115.6779166667
+    },
+    {
+      "day_of_year": 89,
+      "year": 2023,
+      "value": 79.69375
+    },
+    {
+      "day_of_year": 90,
+      "year": 2023,
+      "value": 98.2629166667
+    },
+    {
+      "day_of_year": 91,
+      "year": 2023,
+      "value": 55.0975
+    },
+    {
+      "day_of_year": 92,
+      "year": 2023,
+      "value": 70.9208333333
+    },
+    {
+      "day_of_year": 93,
+      "year": 2023,
+      "value": 114.99125
+    },
+    {
+      "day_of_year": 94,
+      "year": 2023,
+      "value": 133.1079166667
+    },
+    {
+      "day_of_year": 95,
+      "year": 2023,
+      "value": 141.5504166667
+    },
+    {
+      "day_of_year": 96,
+      "year": 2023,
+      "value": 121.75875
+    },
+    {
+      "day_of_year": 97,
+      "year": 2023,
+      "value": 110.2366666667
+    },
+    {
+      "day_of_year": 98,
+      "year": 2023,
+      "value": 117.2383333333
+    },
+    {
+      "day_of_year": 99,
+      "year": 2023,
+      "value": 102.30625
+    },
+    {
+      "day_of_year": 100,
+      "year": 2023,
+      "value": 32.57375
+    },
+    {
+      "day_of_year": 101,
+      "year": 2023,
+      "value": 67.5433333333
+    },
+    {
+      "day_of_year": 102,
+      "year": 2023,
+      "value": 107.6295833333
+    },
+    {
+      "day_of_year": 103,
+      "year": 2023,
+      "value": 110.4375
+    },
+    {
+      "day_of_year": 104,
+      "year": 2023,
+      "value": 129.0045833333
+    },
+    {
+      "day_of_year": 105,
+      "year": 2023,
+      "value": 105.9279166667
+    },
+    {
+      "day_of_year": 106,
+      "year": 2023,
+      "value": 110.5516666667
+    },
+    {
+      "day_of_year": 107,
+      "year": 2023,
+      "value": 123.4645833333
+    },
+    {
+      "day_of_year": 108,
+      "year": 2023,
+      "value": 107.91125
+    },
+    {
+      "day_of_year": 109,
+      "year": 2023,
+      "value": 87.295
+    },
+    {
+      "day_of_year": 110,
+      "year": 2023,
+      "value": 111.5295833333
+    },
+    {
+      "day_of_year": 111,
+      "year": 2023,
+      "value": 89.63875
+    },
+    {
+      "day_of_year": 112,
+      "year": 2023,
+      "value": 84.8079166667
+    },
+    {
+      "day_of_year": 113,
+      "year": 2023,
+      "value": 84.50375
+    },
+    {
+      "day_of_year": 114,
+      "year": 2023,
+      "value": 105.4533333333
+    },
+    {
+      "day_of_year": 115,
+      "year": 2023,
+      "value": 100.8733333333
+    },
+    {
+      "day_of_year": 116,
+      "year": 2023,
+      "value": 111.51125
+    },
+    {
+      "day_of_year": 117,
+      "year": 2023,
+      "value": 111.5566666667
+    },
+    {
+      "day_of_year": 118,
+      "year": 2023,
+      "value": 107.2179166667
+    },
+    {
+      "day_of_year": 119,
+      "year": 2023,
+      "value": 99.23875
+    },
+    {
+      "day_of_year": 120,
+      "year": 2023,
+      "value": 69.09625
+    },
+    {
+      "day_of_year": 121,
+      "year": 2023,
+      "value": 86.4775
+    },
+    {
+      "day_of_year": 122,
+      "year": 2023,
+      "value": 107.1929166667
+    },
+    {
+      "day_of_year": 123,
+      "year": 2023,
+      "value": 107.1775
+    },
+    {
+      "day_of_year": 124,
+      "year": 2023,
+      "value": 96.58
+    },
+    {
+      "day_of_year": 125,
+      "year": 2023,
+      "value": 97.42625
+    },
+    {
+      "day_of_year": 126,
+      "year": 2023,
+      "value": 88.3783333333
+    },
+    {
+      "day_of_year": 127,
+      "year": 2023,
+      "value": 66.60875
+    },
+    {
+      "day_of_year": 128,
+      "year": 2023,
+      "value": 96.9404166667
+    },
+    {
+      "day_of_year": 129,
+      "year": 2023,
+      "value": 94.6945833333
+    },
+    {
+      "day_of_year": 130,
+      "year": 2023,
+      "value": 108.3979166667
+    },
+    {
+      "day_of_year": 131,
+      "year": 2023,
+      "value": 115.8079166667
+    },
+    {
+      "day_of_year": 132,
+      "year": 2023,
+      "value": 101.165
+    },
+    {
+      "day_of_year": 133,
+      "year": 2023,
+      "value": 78.1725
+    },
+    {
+      "day_of_year": 134,
+      "year": 2023,
+      "value": 73.09
+    },
+    {
+      "day_of_year": 135,
+      "year": 2023,
+      "value": 110.7325
+    },
+    {
+      "day_of_year": 136,
+      "year": 2023,
+      "value": 79.1279166667
+    },
+    {
+      "day_of_year": 137,
+      "year": 2023,
+      "value": 80.62125
+    },
+    {
+      "day_of_year": 138,
+      "year": 2023,
+      "value": 85.8708333333
+    },
+    {
+      "day_of_year": 139,
+      "year": 2023,
+      "value": 86.30625
+    },
+    {
+      "day_of_year": 140,
+      "year": 2023,
+      "value": 44.2883333333
+    },
+    {
+      "day_of_year": 141,
+      "year": 2023,
+      "value": 31.6354166667
+    },
+    {
+      "day_of_year": 142,
+      "year": 2023,
+      "value": 97.4
+    },
+    {
+      "day_of_year": 143,
+      "year": 2023,
+      "value": 72.3308333333
+    },
+    {
+      "day_of_year": 144,
+      "year": 2023,
+      "value": 103.81375
+    },
+    {
+      "day_of_year": 145,
+      "year": 2023,
+      "value": 80.3354166667
+    },
+    {
+      "day_of_year": 146,
+      "year": 2023,
+      "value": 70.3470833333
+    },
+    {
+      "day_of_year": 147,
+      "year": 2023,
+      "value": 62.5829166667
+    },
+    {
+      "day_of_year": 148,
+      "year": 2023,
+      "value": 24.1383333333
+    },
+    {
+      "day_of_year": 149,
+      "year": 2023,
+      "value": 22.825
+    },
+    {
+      "day_of_year": 150,
+      "year": 2023,
+      "value": 88.65625
+    },
+    {
+      "day_of_year": 151,
+      "year": 2023,
+      "value": 71.9158333333
+    },
+    {
+      "day_of_year": 152,
+      "year": 2023,
+      "value": 73.0895833333
+    },
+    {
+      "day_of_year": 153,
+      "year": 2023,
+      "value": 81.1108333333
+    },
+    {
+      "day_of_year": 154,
+      "year": 2023,
+      "value": 55.9825
+    },
+    {
+      "day_of_year": 155,
+      "year": 2023,
+      "value": 49.4141666667
+    },
+    {
+      "day_of_year": 156,
+      "year": 2023,
+      "value": 91.165
+    },
+    {
+      "day_of_year": 157,
+      "year": 2023,
+      "value": 99.1304166667
+    },
+    {
+      "day_of_year": 158,
+      "year": 2023,
+      "value": 100.9225
+    },
+    {
+      "day_of_year": 159,
+      "year": 2023,
+      "value": 84.5808333333
+    },
+    {
+      "day_of_year": 160,
+      "year": 2023,
+      "value": 86.2016666667
+    },
+    {
+      "day_of_year": 161,
+      "year": 2023,
+      "value": 53.0320833333
+    },
+    {
+      "day_of_year": 162,
+      "year": 2023,
+      "value": 43.10375
+    },
+    {
+      "day_of_year": 163,
+      "year": 2023,
+      "value": 96.0854166667
+    },
+    {
+      "day_of_year": 164,
+      "year": 2023,
+      "value": 90.5716666667
+    },
+    {
+      "day_of_year": 165,
+      "year": 2023,
+      "value": 103.9783333333
+    },
+    {
+      "day_of_year": 166,
+      "year": 2023,
+      "value": 121.8870833333
+    },
+    {
+      "day_of_year": 167,
+      "year": 2023,
+      "value": 127.7629166667
+    },
+    {
+      "day_of_year": 168,
+      "year": 2023,
+      "value": 104.2625
+    },
+    {
+      "day_of_year": 169,
+      "year": 2023,
+      "value": 90.8058333333
+    },
+    {
+      "day_of_year": 170,
+      "year": 2023,
+      "value": 118.5633333333
+    },
+    {
+      "day_of_year": 171,
+      "year": 2023,
+      "value": 121.0883333333
+    },
+    {
+      "day_of_year": 172,
+      "year": 2023,
+      "value": 124.5516666667
+    },
+    {
+      "day_of_year": 173,
+      "year": 2023,
+      "value": 123.3166666667
+    },
+    {
+      "day_of_year": 174,
+      "year": 2023,
+      "value": 107.5754166667
+    },
+    {
+      "day_of_year": 175,
+      "year": 2023,
+      "value": 82.10875
+    },
+    {
+      "day_of_year": 176,
+      "year": 2023,
+      "value": 75.2191666667
+    },
+    {
+      "day_of_year": 177,
+      "year": 2023,
+      "value": 96.96
+    },
+    {
+      "day_of_year": 178,
+      "year": 2023,
+      "value": 100.84875
+    },
+    {
+      "day_of_year": 179,
+      "year": 2023,
+      "value": 114.2179166667
+    },
+    {
+      "day_of_year": 180,
+      "year": 2023,
+      "value": 117.6425
+    },
+    {
+      "day_of_year": 181,
+      "year": 2023,
+      "value": 110.0120833333
+    },
+    {
+      "day_of_year": 182,
+      "year": 2023,
+      "value": 58.1216666667
+    },
+    {
+      "day_of_year": 183,
+      "year": 2023,
+      "value": -50.1258333333
+    },
+    {
+      "day_of_year": 184,
+      "year": 2023,
+      "value": 56.0445833333
+    },
+    {
+      "day_of_year": 185,
+      "year": 2023,
+      "value": 87.5175
+    },
+    {
+      "day_of_year": 186,
+      "year": 2023,
+      "value": 67.33625
+    },
+    {
+      "day_of_year": 187,
+      "year": 2023,
+      "value": 108.9654166667
+    },
+    {
+      "day_of_year": 188,
+      "year": 2023,
+      "value": 101.9066666667
+    },
+    {
+      "day_of_year": 189,
+      "year": 2023,
+      "value": 82.97375
+    },
+    {
+      "day_of_year": 190,
+      "year": 2023,
+      "value": 89.47
+    },
+    {
+      "day_of_year": 191,
+      "year": 2023,
+      "value": 115.0554166667
+    },
+    {
+      "day_of_year": 192,
+      "year": 2023,
+      "value": 103.84625
+    },
+    {
+      "day_of_year": 193,
+      "year": 2023,
+      "value": 88.0345833333
+    },
+    {
+      "day_of_year": 194,
+      "year": 2023,
+      "value": 97.5116666667
+    },
+    {
+      "day_of_year": 195,
+      "year": 2023,
+      "value": 93.9829166667
+    },
+    {
+      "day_of_year": 196,
+      "year": 2023,
+      "value": 31.2779166667
+    },
+    {
+      "day_of_year": 197,
+      "year": 2023,
+      "value": 20.1458333333
+    },
+    {
+      "day_of_year": 198,
+      "year": 2023,
+      "value": 81.2904166667
+    },
+    {
+      "day_of_year": 199,
+      "year": 2023,
+      "value": 106.99625
+    },
+    {
+      "day_of_year": 200,
+      "year": 2023,
+      "value": 96.6241666667
+    },
+    {
+      "day_of_year": 201,
+      "year": 2023,
+      "value": 96.8945833333
+    },
+    {
+      "day_of_year": 202,
+      "year": 2023,
+      "value": 104.1479166667
+    },
+    {
+      "day_of_year": 203,
+      "year": 2023,
+      "value": 75.5208333333
+    },
+    {
+      "day_of_year": 204,
+      "year": 2023,
+      "value": 30.1145833333
+    },
+    {
+      "day_of_year": 205,
+      "year": 2023,
+      "value": 92.0045833333
+    },
+    {
+      "day_of_year": 206,
+      "year": 2023,
+      "value": 104.35125
+    },
+    {
+      "day_of_year": 207,
+      "year": 2023,
+      "value": 94.9854166667
+    },
+    {
+      "day_of_year": 208,
+      "year": 2023,
+      "value": 93.3766666667
+    },
+    {
+      "day_of_year": 209,
+      "year": 2023,
+      "value": 97.1420833333
+    },
+    {
+      "day_of_year": 210,
+      "year": 2023,
+      "value": 75.085
+    },
+    {
+      "day_of_year": 211,
+      "year": 2023,
+      "value": 29.7604166667
+    },
+    {
+      "day_of_year": 212,
+      "year": 2023,
+      "value": 71.6079166667
+    },
+    {
+      "day_of_year": 213,
+      "year": 2023,
+      "value": 81.0966666667
+    },
+    {
+      "day_of_year": 214,
+      "year": 2023,
+      "value": 62.56125
+    },
+    {
+      "day_of_year": 215,
+      "year": 2023,
+      "value": 51.4358333333
+    },
+    {
+      "day_of_year": 216,
+      "year": 2023,
+      "value": 99.5304166667
+    },
+    {
+      "day_of_year": 217,
+      "year": 2023,
+      "value": 89.5045833333
+    },
+    {
+      "day_of_year": 218,
+      "year": 2023,
+      "value": 54.7754166667
+    },
+    {
+      "day_of_year": 219,
+      "year": 2023,
+      "value": 14.7570833333
+    },
+    {
+      "day_of_year": 220,
+      "year": 2023,
+      "value": 18.8225
+    },
+    {
+      "day_of_year": 221,
+      "year": 2023,
+      "value": 89.8570833333
+    },
+    {
+      "day_of_year": 222,
+      "year": 2023,
+      "value": 103.3991666667
+    },
+    {
+      "day_of_year": 223,
+      "year": 2023,
+      "value": 99.7791666667
+    },
+    {
+      "day_of_year": 224,
+      "year": 2023,
+      "value": 79.0083333333
+    },
+    {
+      "day_of_year": 225,
+      "year": 2023,
+      "value": 65.7479166667
+    },
+    {
+      "day_of_year": 226,
+      "year": 2023,
+      "value": 103.56375
+    },
+    {
+      "day_of_year": 227,
+      "year": 2023,
+      "value": 94.0566666667
+    },
+    {
+      "day_of_year": 228,
+      "year": 2023,
+      "value": 110.7658333333
+    },
+    {
+      "day_of_year": 229,
+      "year": 2023,
+      "value": 111.5120833333
+    },
+    {
+      "day_of_year": 230,
+      "year": 2023,
+      "value": 108.4995833333
+    },
+    {
+      "day_of_year": 231,
+      "year": 2023,
+      "value": 86.02125
+    },
+    {
+      "day_of_year": 232,
+      "year": 2023,
+      "value": 89.6654166667
+    },
+    {
+      "day_of_year": 233,
+      "year": 2023,
+      "value": 121.3158333333
+    },
+    {
+      "day_of_year": 234,
+      "year": 2023,
+      "value": 123.8991666667
+    },
+    {
+      "day_of_year": 235,
+      "year": 2023,
+      "value": 147.4779166667
+    },
+    {
+      "day_of_year": 236,
+      "year": 2023,
+      "value": 144.5629166667
+    },
+    {
+      "day_of_year": 237,
+      "year": 2023,
+      "value": 116.7783333333
+    },
+    {
+      "day_of_year": 238,
+      "year": 2023,
+      "value": 95.96125
+    },
+    {
+      "day_of_year": 239,
+      "year": 2023,
+      "value": 101.1129166667
+    },
+    {
+      "day_of_year": 240,
+      "year": 2023,
+      "value": 119.4316666667
+    },
+    {
+      "day_of_year": 241,
+      "year": 2023,
+      "value": 122.8479166667
+    },
+    {
+      "day_of_year": 242,
+      "year": 2023,
+      "value": 114.48375
+    },
+    {
+      "day_of_year": 243,
+      "year": 2023,
+      "value": 104.58
+    },
+    {
+      "day_of_year": 244,
+      "year": 2023,
+      "value": 109.20875
+    },
+    {
+      "day_of_year": 245,
+      "year": 2023,
+      "value": 94.9729166667
+    },
+    {
+      "day_of_year": 246,
+      "year": 2023,
+      "value": 82.1904166667
+    },
+    {
+      "day_of_year": 247,
+      "year": 2023,
+      "value": 108.0816666667
+    },
+    {
+      "day_of_year": 248,
+      "year": 2023,
+      "value": 103.03375
+    },
+    {
+      "day_of_year": 249,
+      "year": 2023,
+      "value": 106.13375
+    },
+    {
+      "day_of_year": 250,
+      "year": 2023,
+      "value": 100.1254166667
+    },
+    {
+      "day_of_year": 251,
+      "year": 2023,
+      "value": 109.9575
+    },
+    {
+      "day_of_year": 252,
+      "year": 2023,
+      "value": 91.6175
+    },
+    {
+      "day_of_year": 253,
+      "year": 2023,
+      "value": 84.9729166667
+    },
+    {
+      "day_of_year": 254,
+      "year": 2023,
+      "value": 153.245
+    },
+    {
+      "day_of_year": 255,
+      "year": 2023,
+      "value": 131.2395833333
+    },
+    {
+      "day_of_year": 256,
+      "year": 2023,
+      "value": 109.3045833333
+    },
+    {
+      "day_of_year": 257,
+      "year": 2023,
+      "value": 120.7454166667
+    },
+    {
+      "day_of_year": 258,
+      "year": 2023,
+      "value": 107.8675
+    },
+    {
+      "day_of_year": 259,
+      "year": 2023,
+      "value": 96.20375
+    },
+    {
+      "day_of_year": 260,
+      "year": 2023,
+      "value": 86.28625
+    },
+    {
+      "day_of_year": 261,
+      "year": 2023,
+      "value": 87.7425
+    },
+    {
+      "day_of_year": 262,
+      "year": 2023,
+      "value": 37.47625
+    },
+    {
+      "day_of_year": 263,
+      "year": 2023,
+      "value": 55.6708333333
+    },
+    {
+      "day_of_year": 264,
+      "year": 2023,
+      "value": 104.1604166667
+    },
+    {
+      "day_of_year": 265,
+      "year": 2023,
+      "value": 105.4366666667
+    },
+    {
+      "day_of_year": 266,
+      "year": 2023,
+      "value": 98.4979166667
+    },
+    {
+      "day_of_year": 267,
+      "year": 2023,
+      "value": 62.9266666667
+    },
+    {
+      "day_of_year": 268,
+      "year": 2023,
+      "value": 113.2004166667
+    },
+    {
+      "day_of_year": 269,
+      "year": 2023,
+      "value": 128.155
+    },
+    {
+      "day_of_year": 270,
+      "year": 2023,
+      "value": 123.01875
+    },
+    {
+      "day_of_year": 271,
+      "year": 2023,
+      "value": 113.9370833333
+    },
+    {
+      "day_of_year": 272,
+      "year": 2023,
+      "value": 104.16625
+    },
+    {
+      "day_of_year": 273,
+      "year": 2023,
+      "value": 92.2125
+    },
+    {
+      "day_of_year": 274,
+      "year": 2023,
+      "value": 73.6775
+    },
+    {
+      "day_of_year": 275,
+      "year": 2023,
+      "value": 118.3220833333
+    },
+    {
+      "day_of_year": 276,
+      "year": 2023,
+      "value": 16.2933333333
+    },
+    {
+      "day_of_year": 277,
+      "year": 2023,
+      "value": 74.7908333333
+    },
+    {
+      "day_of_year": 278,
+      "year": 2023,
+      "value": 102.14125
+    },
+    {
+      "day_of_year": 279,
+      "year": 2023,
+      "value": 64.4279166667
+    },
+    {
+      "day_of_year": 280,
+      "year": 2023,
+      "value": 50.8395833333
+    },
+    {
+      "day_of_year": 281,
+      "year": 2023,
+      "value": 92.1933333333
+    },
+    {
+      "day_of_year": 282,
+      "year": 2023,
+      "value": 117.0958333333
+    },
+    {
+      "day_of_year": 283,
+      "year": 2023,
+      "value": 107.5816666667
+    },
+    {
+      "day_of_year": 284,
+      "year": 2023,
+      "value": 62.7929166667
+    },
+    {
+      "day_of_year": 285,
+      "year": 2023,
+      "value": 125.9479166667
+    },
+    {
+      "day_of_year": 286,
+      "year": 2023,
+      "value": 58.3666666667
+    },
+    {
+      "day_of_year": 287,
+      "year": 2023,
+      "value": 27.51125
+    },
+    {
+      "day_of_year": 288,
+      "year": 2023,
+      "value": 47.07625
+    },
+    {
+      "day_of_year": 289,
+      "year": 2023,
+      "value": 135.4058333333
+    },
+    {
+      "day_of_year": 290,
+      "year": 2023,
+      "value": 127.5
+    },
+    {
+      "day_of_year": 291,
+      "year": 2023,
+      "value": 92.72375
+    },
+    {
+      "day_of_year": 292,
+      "year": 2023,
+      "value": 97.5729166667
+    },
+    {
+      "day_of_year": 293,
+      "year": 2023,
+      "value": 85.1154166667
+    },
+    {
+      "day_of_year": 294,
+      "year": 2023,
+      "value": 53.4595833333
+    },
+    {
+      "day_of_year": 295,
+      "year": 2023,
+      "value": 69.3558333333
+    },
+    {
+      "day_of_year": 296,
+      "year": 2023,
+      "value": 124.9833333333
+    },
+    {
+      "day_of_year": 297,
+      "year": 2023,
+      "value": 117.78125
+    },
+    {
+      "day_of_year": 298,
+      "year": 2023,
+      "value": 123.7125
+    },
+    {
+      "day_of_year": 299,
+      "year": 2023,
+      "value": 122.2829166667
+    },
+    {
+      "day_of_year": 300,
+      "year": 2023,
+      "value": 116.3216666667
+    },
+    {
+      "day_of_year": 301,
+      "year": 2023,
+      "value": 77.6075
+    },
+    {
+      "day_of_year": 302,
+      "year": 2023,
+      "value": 23.6979166667
+    },
+    {
+      "day_of_year": 303,
+      "year": 2023,
+      "value": 96.1383333333
+    },
+    {
+      "day_of_year": 304,
+      "year": 2023,
+      "value": 104.0883333333
+    },
+    {
+      "day_of_year": 305,
+      "year": 2023,
+      "value": 61.05625
+    },
+    {
+      "day_of_year": 306,
+      "year": 2023,
+      "value": 59.5145833333
+    },
+    {
+      "day_of_year": 307,
+      "year": 2023,
+      "value": 57.8458333333
+    },
+    {
+      "day_of_year": 308,
+      "year": 2023,
+      "value": 23.27375
+    },
+    {
+      "day_of_year": 309,
+      "year": 2023,
+      "value": 29.6633333333
+    },
+    {
+      "day_of_year": 310,
+      "year": 2023,
+      "value": 75.2141666667
+    },
+    {
+      "day_of_year": 311,
+      "year": 2023,
+      "value": 99.4
+    },
+    {
+      "day_of_year": 312,
+      "year": 2023,
+      "value": 89.7791666667
+    },
+    {
+      "day_of_year": 313,
+      "year": 2023,
+      "value": 96.8916666667
+    },
+    {
+      "day_of_year": 314,
+      "year": 2023,
+      "value": 95.0154166667
+    },
+    {
+      "day_of_year": 315,
+      "year": 2023,
+      "value": 96.8866666667
+    },
+    {
+      "day_of_year": 316,
+      "year": 2023,
+      "value": 98.06375
+    },
+    {
+      "day_of_year": 317,
+      "year": 2023,
+      "value": 91.51125
+    },
+    {
+      "day_of_year": 318,
+      "year": 2023,
+      "value": 68.4675
+    },
+    {
+      "day_of_year": 319,
+      "year": 2023,
+      "value": 102.5895833333
+    },
+    {
+      "day_of_year": 320,
+      "year": 2023,
+      "value": 118.49
+    },
+    {
+      "day_of_year": 321,
+      "year": 2023,
+      "value": 121.5308333333
+    },
+    {
+      "day_of_year": 322,
+      "year": 2023,
+      "value": 87.5870833333
+    },
+    {
+      "day_of_year": 323,
+      "year": 2023,
+      "value": 40.2445833333
+    },
+    {
+      "day_of_year": 324,
+      "year": 2023,
+      "value": 107.52
+    },
+    {
+      "day_of_year": 325,
+      "year": 2023,
+      "value": 123.1004166667
+    },
+    {
+      "day_of_year": 326,
+      "year": 2023,
+      "value": 108.3116666667
+    },
+    {
+      "day_of_year": 327,
+      "year": 2023,
+      "value": 58.9975
+    },
+    {
+      "day_of_year": 328,
+      "year": 2023,
+      "value": 67.0625
+    },
+    {
+      "day_of_year": 329,
+      "year": 2023,
+      "value": 95.9729166667
+    },
+    {
+      "day_of_year": 330,
+      "year": 2023,
+      "value": 115.8575
+    },
+    {
+      "day_of_year": 331,
+      "year": 2023,
+      "value": 113.61375
+    },
+    {
+      "day_of_year": 332,
+      "year": 2023,
+      "value": 122.8033333333
+    },
+    {
+      "day_of_year": 333,
+      "year": 2023,
+      "value": 140.2879166667
+    },
+    {
+      "day_of_year": 334,
+      "year": 2023,
+      "value": 168.84625
+    },
+    {
+      "day_of_year": 335,
+      "year": 2023,
+      "value": 156.3258333333
+    },
+    {
+      "day_of_year": 336,
+      "year": 2023,
+      "value": 116.5333333333
+    },
+    {
+      "day_of_year": 337,
+      "year": 2023,
+      "value": 104.1166666667
+    },
+    {
+      "day_of_year": 338,
+      "year": 2023,
+      "value": 111.6325
+    },
+    {
+      "day_of_year": 339,
+      "year": 2023,
+      "value": 114.5641666667
+    },
+    {
+      "day_of_year": 340,
+      "year": 2023,
+      "value": 129.7166666667
+    },
+    {
+      "day_of_year": 341,
+      "year": 2023,
+      "value": 116.0975
+    },
+    {
+      "day_of_year": 342,
+      "year": 2023,
+      "value": 104.0091666667
+    },
+    {
+      "day_of_year": 343,
+      "year": 2023,
+      "value": 75.86
+    },
+    {
+      "day_of_year": 344,
+      "year": 2023,
+      "value": 55.90375
+    },
+    {
+      "day_of_year": 345,
+      "year": 2023,
+      "value": 81.2866666667
+    },
+    {
+      "day_of_year": 346,
+      "year": 2023,
+      "value": 105.5333333333
+    },
+    {
+      "day_of_year": 347,
+      "year": 2023,
+      "value": 93.1233333333
+    },
+    {
+      "day_of_year": 348,
+      "year": 2023,
+      "value": 107.49
+    },
+    {
+      "day_of_year": 349,
+      "year": 2023,
+      "value": 92.4466666667
+    },
+    {
+      "day_of_year": 350,
+      "year": 2023,
+      "value": 69.7841666667
+    },
+    {
+      "day_of_year": 351,
+      "year": 2023,
+      "value": 51.0320833333
+    },
+    {
+      "day_of_year": 352,
+      "year": 2023,
+      "value": 77.7404166667
+    },
+    {
+      "day_of_year": 353,
+      "year": 2023,
+      "value": 76.7295833333
+    },
+    {
+      "day_of_year": 354,
+      "year": 2023,
+      "value": 60.85125
+    },
+    {
+      "day_of_year": 355,
+      "year": 2023,
+      "value": 24.0241666667
+    },
+    {
+      "day_of_year": 356,
+      "year": 2023,
+      "value": 22.6570833333
+    },
+    {
+      "day_of_year": 357,
+      "year": 2023,
+      "value": 30.7416666667
+    },
+    {
+      "day_of_year": 358,
+      "year": 2023,
+      "value": -3.5366666667
+    },
+    {
+      "day_of_year": 359,
+      "year": 2023,
+      "value": 0.5729166667
+    },
+    {
+      "day_of_year": 360,
+      "year": 2023,
+      "value": 18.345
+    },
+    {
+      "day_of_year": 361,
+      "year": 2023,
+      "value": 59.0745833333
+    },
+    {
+      "day_of_year": 362,
+      "year": 2023,
+      "value": 16.6708333333
+    },
+    {
+      "day_of_year": 363,
+      "year": 2023,
+      "value": 6.605
+    },
+    {
+      "day_of_year": 364,
+      "year": 2023,
+      "value": 35.3325
+    },
+    {
+      "day_of_year": 365,
+      "year": 2023,
+      "value": 8.3845833333
+    },
+    {
+      "day_of_year": 1,
+      "year": 2024,
+      "value": 17.4520833333
+    },
+    {
+      "day_of_year": 2,
+      "year": 2024,
+      "value": 51.7954166667
+    },
+    {
+      "day_of_year": 3,
+      "year": 2024,
+      "value": 47.6058333333
+    },
+    {
+      "day_of_year": 4,
+      "year": 2024,
+      "value": 86.6091666667
+    },
+    {
+      "day_of_year": 5,
+      "year": 2024,
+      "value": 91.2108333333
+    },
+    {
+      "day_of_year": 6,
+      "year": 2024,
+      "value": 88.8008333333
+    },
+    {
+      "day_of_year": 7,
+      "year": 2024,
+      "value": 86.4491666667
+    },
+    {
+      "day_of_year": 8,
+      "year": 2024,
+      "value": 102.2770833333
+    },
+    {
+      "day_of_year": 9,
+      "year": 2024,
+      "value": 109.4416666667
+    },
+    {
+      "day_of_year": 10,
+      "year": 2024,
+      "value": 111.9416666667
+    },
+    {
+      "day_of_year": 11,
+      "year": 2024,
+      "value": 109.6183333333
+    },
+    {
+      "day_of_year": 12,
+      "year": 2024,
+      "value": 106.00125
+    },
+    {
+      "day_of_year": 13,
+      "year": 2024,
+      "value": 73.4854166667
+    },
+    {
+      "day_of_year": 14,
+      "year": 2024,
+      "value": 76.3158333333
+    },
+    {
+      "day_of_year": 15,
+      "year": 2024,
+      "value": 87.06125
+    },
+    {
+      "day_of_year": 16,
+      "year": 2024,
+      "value": 100.7279166667
+    },
+    {
+      "day_of_year": 17,
+      "year": 2024,
+      "value": 100.0116666667
+    },
+    {
+      "day_of_year": 18,
+      "year": 2024,
+      "value": 92.2883333333
+    },
+    {
+      "day_of_year": 19,
+      "year": 2024,
+      "value": 78.31875
+    },
+    {
+      "day_of_year": 20,
+      "year": 2024,
+      "value": 73.6966666667
+    },
+    {
+      "day_of_year": 21,
+      "year": 2024,
+      "value": 49.0016666667
+    },
+    {
+      "day_of_year": 22,
+      "year": 2024,
+      "value": 48.9858333333
+    },
+    {
+      "day_of_year": 23,
+      "year": 2024,
+      "value": 51.7354166667
+    },
+    {
+      "day_of_year": 24,
+      "year": 2024,
+      "value": 34.8433333333
+    },
+    {
+      "day_of_year": 25,
+      "year": 2024,
+      "value": 78.7854166667
+    },
+    {
+      "day_of_year": 26,
+      "year": 2024,
+      "value": 58.92125
+    },
+    {
+      "day_of_year": 27,
+      "year": 2024,
+      "value": 68.8183333333
+    },
+    {
+      "day_of_year": 28,
+      "year": 2024,
+      "value": 58.5783333333
+    },
+    {
+      "day_of_year": 29,
+      "year": 2024,
+      "value": 81.9483333333
+    },
+    {
+      "day_of_year": 30,
+      "year": 2024,
+      "value": 77.9583333333
+    },
+    {
+      "day_of_year": 31,
+      "year": 2024,
+      "value": 74.9766666667
+    },
+    {
+      "day_of_year": 32,
+      "year": 2024,
+      "value": 72.7529166667
+    },
+    {
+      "day_of_year": 33,
+      "year": 2024,
+      "value": 60.0141666667
+    },
+    {
+      "day_of_year": 34,
+      "year": 2024,
+      "value": 36.4104166667
+    },
+    {
+      "day_of_year": 35,
+      "year": 2024,
+      "value": 13.3066666667
+    },
+    {
+      "day_of_year": 36,
+      "year": 2024,
+      "value": 37.3008333333
+    },
+    {
+      "day_of_year": 37,
+      "year": 2024,
+      "value": 45.5483333333
+    },
+    {
+      "day_of_year": 38,
+      "year": 2024,
+      "value": 80.515
+    },
+    {
+      "day_of_year": 39,
+      "year": 2024,
+      "value": 88.1429166667
+    },
+    {
+      "day_of_year": 40,
+      "year": 2024,
+      "value": 70.6291666667
+    },
+    {
+      "day_of_year": 41,
+      "year": 2024,
+      "value": 71.81
+    },
+    {
+      "day_of_year": 42,
+      "year": 2024,
+      "value": 62.33125
+    },
+    {
+      "day_of_year": 43,
+      "year": 2024,
+      "value": 74.9283333333
+    },
+    {
+      "day_of_year": 44,
+      "year": 2024,
+      "value": 71.89625
+    },
+    {
+      "day_of_year": 45,
+      "year": 2024,
+      "value": 68.2091666667
+    },
+    {
+      "day_of_year": 46,
+      "year": 2024,
+      "value": 70.0866666667
+    },
+    {
+      "day_of_year": 47,
+      "year": 2024,
+      "value": 61.2916666667
+    },
+    {
+      "day_of_year": 48,
+      "year": 2024,
+      "value": 66.865
+    },
+    {
+      "day_of_year": 49,
+      "year": 2024,
+      "value": 52.41875
+    },
+    {
+      "day_of_year": 50,
+      "year": 2024,
+      "value": 65.8745833333
+    },
+    {
+      "day_of_year": 51,
+      "year": 2024,
+      "value": 62.9145833333
+    },
+    {
+      "day_of_year": 52,
+      "year": 2024,
+      "value": 56.7245833333
+    },
+    {
+      "day_of_year": 53,
+      "year": 2024,
+      "value": 50.0333333333
+    },
+    {
+      "day_of_year": 54,
+      "year": 2024,
+      "value": 46.1220833333
+    },
+    {
+      "day_of_year": 55,
+      "year": 2024,
+      "value": 56.7858333333
+    },
+    {
+      "day_of_year": 56,
+      "year": 2024,
+      "value": 61.14625
+    },
+    {
+      "day_of_year": 57,
+      "year": 2024,
+      "value": 66.2595833333
+    },
+    {
+      "day_of_year": 58,
+      "year": 2024,
+      "value": 73.9504166667
+    },
+    {
+      "day_of_year": 59,
+      "year": 2024,
+      "value": 71.6025
+    },
+    {
+      "day_of_year": 60,
+      "year": 2024,
+      "value": 63.4925
+    },
+    {
+      "day_of_year": 61,
+      "year": 2024,
+      "value": 70.92625
+    },
+    {
+      "day_of_year": 62,
+      "year": 2024,
+      "value": 63.9916666667
+    },
+    {
+      "day_of_year": 63,
+      "year": 2024,
+      "value": 61.0816666667
+    },
+    {
+      "day_of_year": 64,
+      "year": 2024,
+      "value": 75.5891666667
+    },
+    {
+      "day_of_year": 65,
+      "year": 2024,
+      "value": 74.9779166667
+    },
+    {
+      "day_of_year": 66,
+      "year": 2024,
+      "value": 82.9320833333
+    },
+    {
+      "day_of_year": 67,
+      "year": 2024,
+      "value": 76.1208333333
+    },
+    {
+      "day_of_year": 68,
+      "year": 2024,
+      "value": 61.83375
+    },
+    {
+      "day_of_year": 69,
+      "year": 2024,
+      "value": 45.28125
+    },
+    {
+      "day_of_year": 70,
+      "year": 2024,
+      "value": 34.0083333333
+    },
+    {
+      "day_of_year": 71,
+      "year": 2024,
+      "value": 72.5179166667
+    },
+    {
+      "day_of_year": 72,
+      "year": 2024,
+      "value": 86.2516666667
+    },
+    {
+      "day_of_year": 73,
+      "year": 2024,
+      "value": 72.4295833333
+    },
+    {
+      "day_of_year": 74,
+      "year": 2024,
+      "value": 66.4408333333
+    },
+    {
+      "day_of_year": 75,
+      "year": 2024,
+      "value": 55.7220833333
+    },
+    {
+      "day_of_year": 76,
+      "year": 2024,
+      "value": 51.2308333333
+    },
+    {
+      "day_of_year": 77,
+      "year": 2024,
+      "value": 61.7783333333
+    },
+    {
+      "day_of_year": 78,
+      "year": 2024,
+      "value": 81.57875
+    },
+    {
+      "day_of_year": 79,
+      "year": 2024,
+      "value": 81.735
+    },
+    {
+      "day_of_year": 80,
+      "year": 2024,
+      "value": 91.35
+    },
+    {
+      "day_of_year": 81,
+      "year": 2024,
+      "value": 80.5633333333
+    },
+    {
+      "day_of_year": 82,
+      "year": 2024,
+      "value": 69.43375
+    },
+    {
+      "day_of_year": 83,
+      "year": 2024,
+      "value": 35.675
+    },
+    {
+      "day_of_year": 84,
+      "year": 2024,
+      "value": 27.14125
+    },
+    {
+      "day_of_year": 85,
+      "year": 2024,
+      "value": 85.2816666667
+    },
+    {
+      "day_of_year": 86,
+      "year": 2024,
+      "value": 65.2466666667
+    },
+    {
+      "day_of_year": 87,
+      "year": 2024,
+      "value": 77.1608333333
+    },
+    {
+      "day_of_year": 88,
+      "year": 2024,
+      "value": 48.9120833333
+    },
+    {
+      "day_of_year": 89,
+      "year": 2024,
+      "value": 39.7916666667
+    },
+    {
+      "day_of_year": 90,
+      "year": 2024,
+      "value": 53.5158333333
+    },
+    {
+      "day_of_year": 91,
+      "year": 2024,
+      "value": 54.1029166667
+    },
+    {
+      "day_of_year": 92,
+      "year": 2024,
+      "value": 32.1470833333
+    },
+    {
+      "day_of_year": 93,
+      "year": 2024,
+      "value": 39.0475
+    },
+    {
+      "day_of_year": 94,
+      "year": 2024,
+      "value": 85.7333333333
+    },
+    {
+      "day_of_year": 95,
+      "year": 2024,
+      "value": 65.1625
+    },
+    {
+      "day_of_year": 96,
+      "year": 2024,
+      "value": 45.1845833333
+    },
+    {
+      "day_of_year": 97,
+      "year": 2024,
+      "value": 26.53125
+    },
+    {
+      "day_of_year": 98,
+      "year": 2024,
+      "value": 26.19625
+    },
+    {
+      "day_of_year": 99,
+      "year": 2024,
+      "value": 85.1295833333
+    },
+    {
+      "day_of_year": 100,
+      "year": 2024,
+      "value": 53.0441666667
+    },
+    {
+      "day_of_year": 101,
+      "year": 2024,
+      "value": 74.5395833333
+    },
+    {
+      "day_of_year": 102,
+      "year": 2024,
+      "value": 59.1216666667
+    },
+    {
+      "day_of_year": 103,
+      "year": 2024,
+      "value": 59.3608333333
+    },
+    {
+      "day_of_year": 104,
+      "year": 2024,
+      "value": 9.3183333333
+    },
+    {
+      "day_of_year": 105,
+      "year": 2024,
+      "value": 23.4966666667
+    },
+    {
+      "day_of_year": 106,
+      "year": 2024,
+      "value": 63.4775
+    },
+    {
+      "day_of_year": 107,
+      "year": 2024,
+      "value": 63.15875
+    },
+    {
+      "day_of_year": 108,
+      "year": 2024,
+      "value": 102.4908333333
+    },
+    {
+      "day_of_year": 109,
+      "year": 2024,
+      "value": 94.105
+    },
+    {
+      "day_of_year": 110,
+      "year": 2024,
+      "value": 57.9916666667
+    },
+    {
+      "day_of_year": 111,
+      "year": 2024,
+      "value": 59.665
+    },
+    {
+      "day_of_year": 112,
+      "year": 2024,
+      "value": 55.3416666667
+    },
+    {
+      "day_of_year": 113,
+      "year": 2024,
+      "value": 99.2795833333
+    },
+    {
+      "day_of_year": 114,
+      "year": 2024,
+      "value": 97.1233333333
+    },
+    {
+      "day_of_year": 115,
+      "year": 2024,
+      "value": 94.4595833333
+    },
+    {
+      "day_of_year": 116,
+      "year": 2024,
+      "value": 90.2258333333
+    },
+    {
+      "day_of_year": 117,
+      "year": 2024,
+      "value": 87.4991666667
+    },
+    {
+      "day_of_year": 118,
+      "year": 2024,
+      "value": 58.9745833333
+    },
+    {
+      "day_of_year": 119,
+      "year": 2024,
+      "value": 13.8491666667
+    },
+    {
+      "day_of_year": 120,
+      "year": 2024,
+      "value": 81.52125
+    },
+    {
+      "day_of_year": 121,
+      "year": 2024,
+      "value": 68.6054166667
+    },
+    {
+      "day_of_year": 122,
+      "year": 2024,
+      "value": 0.36875
+    },
+    {
+      "day_of_year": 123,
+      "year": 2024,
+      "value": 40.4
+    },
+    {
+      "day_of_year": 124,
+      "year": 2024,
+      "value": 80.2075
+    },
+    {
+      "day_of_year": 125,
+      "year": 2024,
+      "value": 75.0141666667
+    },
+    {
+      "day_of_year": 126,
+      "year": 2024,
+      "value": 53.6166666667
+    },
+    {
+      "day_of_year": 127,
+      "year": 2024,
+      "value": 93.1129166667
+    },
+    {
+      "day_of_year": 128,
+      "year": 2024,
+      "value": 93.2004166667
+    },
+    {
+      "day_of_year": 129,
+      "year": 2024,
+      "value": 92.2754166667
+    },
+    {
+      "day_of_year": 130,
+      "year": 2024,
+      "value": 61.9204166667
+    },
+    {
+      "day_of_year": 131,
+      "year": 2024,
+      "value": 76.5683333333
+    },
+    {
+      "day_of_year": 132,
+      "year": 2024,
+      "value": 50.6945833333
+    },
+    {
+      "day_of_year": 133,
+      "year": 2024,
+      "value": -1.0216666667
+    },
+    {
+      "day_of_year": 134,
+      "year": 2024,
+      "value": 48.0516666667
+    },
+    {
+      "day_of_year": 135,
+      "year": 2024,
+      "value": 26.47
+    },
+    {
+      "day_of_year": 136,
+      "year": 2024,
+      "value": 44.4320833333
+    },
+    {
+      "day_of_year": 137,
+      "year": 2024,
+      "value": 50.9679166667
+    },
+    {
+      "day_of_year": 138,
+      "year": 2024,
+      "value": 68.9479166667
+    },
+    {
+      "day_of_year": 139,
+      "year": 2024,
+      "value": 57.8283333333
+    },
+    {
+      "day_of_year": 140,
+      "year": 2024,
+      "value": 52.2520833333
+    },
+    {
+      "day_of_year": 141,
+      "year": 2024,
+      "value": 64.3179166667
+    },
+    {
+      "day_of_year": 142,
+      "year": 2024,
+      "value": 78.9204166667
+    },
+    {
+      "day_of_year": 143,
+      "year": 2024,
+      "value": 86.7316666667
+    },
+    {
+      "day_of_year": 144,
+      "year": 2024,
+      "value": 95.5166666667
+    },
+    {
+      "day_of_year": 145,
+      "year": 2024,
+      "value": 101.7533333333
+    },
+    {
+      "day_of_year": 146,
+      "year": 2024,
+      "value": 73.0458333333
+    },
+    {
+      "day_of_year": 147,
+      "year": 2024,
+      "value": 55.7529166667
+    },
+    {
+      "day_of_year": 148,
+      "year": 2024,
+      "value": 108.3345833333
+    },
+    {
+      "day_of_year": 149,
+      "year": 2024,
+      "value": 88.3133333333
+    },
+    {
+      "day_of_year": 150,
+      "year": 2024,
+      "value": 81.9629166667
+    },
+    {
+      "day_of_year": 151,
+      "year": 2024,
+      "value": 96.62875
+    },
+    {
+      "day_of_year": 152,
+      "year": 2024,
+      "value": 89.2370833333
+    },
+    {
+      "day_of_year": 153,
+      "year": 2024,
+      "value": 54.33875
+    },
+    {
+      "day_of_year": 154,
+      "year": 2024,
+      "value": 28.0716666667
+    },
+    {
+      "day_of_year": 155,
+      "year": 2024,
+      "value": 118.1420833333
+    },
+    {
+      "day_of_year": 156,
+      "year": 2024,
+      "value": 102.8120833333
+    },
+    {
+      "day_of_year": 157,
+      "year": 2024,
+      "value": 85.1566666667
+    },
+    {
+      "day_of_year": 158,
+      "year": 2024,
+      "value": 86.9495833333
+    },
+    {
+      "day_of_year": 159,
+      "year": 2024,
+      "value": 82.7816666667
+    },
+    {
+      "day_of_year": 160,
+      "year": 2024,
+      "value": 43.8633333333
+    },
+    {
+      "day_of_year": 161,
+      "year": 2024,
+      "value": 27.5754166667
+    },
+    {
+      "day_of_year": 162,
+      "year": 2024,
+      "value": 91.4579166667
+    },
+    {
+      "day_of_year": 163,
+      "year": 2024,
+      "value": 64.0141666667
+    },
+    {
+      "day_of_year": 164,
+      "year": 2024,
+      "value": 91.94375
+    },
+    {
+      "day_of_year": 165,
+      "year": 2024,
+      "value": 93.2095833333
+    },
+    {
+      "day_of_year": 166,
+      "year": 2024,
+      "value": 76.1925
+    },
+    {
+      "day_of_year": 167,
+      "year": 2024,
+      "value": 4.875
+    },
+    {
+      "day_of_year": 168,
+      "year": 2024,
+      "value": 25.9079166667
+    },
+    {
+      "day_of_year": 169,
+      "year": 2024,
+      "value": 96.165
+    },
+    {
+      "day_of_year": 170,
+      "year": 2024,
+      "value": 96.3720833333
+    },
+    {
+      "day_of_year": 171,
+      "year": 2024,
+      "value": 83.1941666667
+    },
+    {
+      "day_of_year": 172,
+      "year": 2024,
+      "value": 94.9266666667
+    },
+    {
+      "day_of_year": 173,
+      "year": 2024,
+      "value": 95.4191666667
+    },
+    {
+      "day_of_year": 174,
+      "year": 2024,
+      "value": 53.03125
+    },
+    {
+      "day_of_year": 175,
+      "year": 2024,
+      "value": 51.2404166667
+    },
+    {
+      "day_of_year": 176,
+      "year": 2024,
+      "value": 91.0533333333
+    },
+    {
+      "day_of_year": 177,
+      "year": 2024,
+      "value": 76.99125
+    },
+    {
+      "day_of_year": 178,
+      "year": 2024,
+      "value": 102.00875
+    },
+    {
+      "day_of_year": 179,
+      "year": 2024,
+      "value": 92.1808333333
+    },
+    {
+      "day_of_year": 180,
+      "year": 2024,
+      "value": 64.21875
+    },
+    {
+      "day_of_year": 181,
+      "year": 2024,
+      "value": 66.8633333333
+    },
+    {
+      "day_of_year": 182,
+      "year": 2024,
+      "value": 45.7495833333
+    },
+    {
+      "day_of_year": 183,
+      "year": 2024,
+      "value": 91.1541666667
+    },
+    {
+      "day_of_year": 184,
+      "year": 2024,
+      "value": 84.50875
+    },
+    {
+      "day_of_year": 185,
+      "year": 2024,
+      "value": 86.90125
+    },
+    {
+      "day_of_year": 186,
+      "year": 2024,
+      "value": 25.4054166667
+    },
+    {
+      "day_of_year": 187,
+      "year": 2024,
+      "value": 41.5025
+    },
+    {
+      "day_of_year": 188,
+      "year": 2024,
+      "value": 0.6929166667
+    },
+    {
+      "day_of_year": 189,
+      "year": 2024,
+      "value": 28.24625
+    },
+    {
+      "day_of_year": 190,
+      "year": 2024,
+      "value": 90.22375
+    },
+    {
+      "day_of_year": 191,
+      "year": 2024,
+      "value": 73.8766666667
+    },
+    {
+      "day_of_year": 192,
+      "year": 2024,
+      "value": 81.7645833333
+    },
+    {
+      "day_of_year": 193,
+      "year": 2024,
+      "value": 91.8454166667
+    },
+    {
+      "day_of_year": 194,
+      "year": 2024,
+      "value": 86.9058333333
+    },
+    {
+      "day_of_year": 195,
+      "year": 2024,
+      "value": 30.81375
+    },
+    {
+      "day_of_year": 196,
+      "year": 2024,
+      "value": 24.1104166667
+    },
+    {
+      "day_of_year": 197,
+      "year": 2024,
+      "value": 77.4533333333
+    },
+    {
+      "day_of_year": 198,
+      "year": 2024,
+      "value": 51.1354166667
+    },
+    {
+      "day_of_year": 199,
+      "year": 2024,
+      "value": 76.7883333333
+    },
+    {
+      "day_of_year": 200,
+      "year": 2024,
+      "value": 90.7541666667
+    },
+    {
+      "day_of_year": 201,
+      "year": 2024,
+      "value": 86.4670833333
+    },
+    {
+      "day_of_year": 202,
+      "year": 2024,
+      "value": 59.3183333333
+    },
+    {
+      "day_of_year": 203,
+      "year": 2024,
+      "value": 58.4475
+    },
+    {
+      "day_of_year": 204,
+      "year": 2024,
+      "value": 88.7454166667
+    },
+    {
+      "day_of_year": 205,
+      "year": 2024,
+      "value": 79.6191666667
+    },
+    {
+      "day_of_year": 206,
+      "year": 2024,
+      "value": 66.6070833333
+    },
+    {
+      "day_of_year": 207,
+      "year": 2024,
+      "value": 78.33875
+    },
+    {
+      "day_of_year": 208,
+      "year": 2024,
+      "value": 93.035
+    },
+    {
+      "day_of_year": 209,
+      "year": 2024,
+      "value": 80.7379166667
+    },
+    {
+      "day_of_year": 210,
+      "year": 2024,
+      "value": 43.9595833333
+    },
+    {
+      "day_of_year": 211,
+      "year": 2024,
+      "value": 71.5433333333
+    },
+    {
+      "day_of_year": 212,
+      "year": 2024,
+      "value": 78.5904166667
+    },
+    {
+      "day_of_year": 213,
+      "year": 2024,
+      "value": 79.5175
+    },
+    {
+      "day_of_year": 214,
+      "year": 2024,
+      "value": 94.6266666667
+    },
+    {
+      "day_of_year": 215,
+      "year": 2024,
+      "value": 94.5908333333
+    },
+    {
+      "day_of_year": 216,
+      "year": 2024,
+      "value": 75.6958333333
+    },
+    {
+      "day_of_year": 217,
+      "year": 2024,
+      "value": 61.1270833333
+    },
+    {
+      "day_of_year": 218,
+      "year": 2024,
+      "value": 100.28375
+    },
+    {
+      "day_of_year": 219,
+      "year": 2024,
+      "value": 85.97875
+    },
+    {
+      "day_of_year": 220,
+      "year": 2024,
+      "value": 93.3204166667
+    },
+    {
+      "day_of_year": 221,
+      "year": 2024,
+      "value": 93.2854166667
+    },
+    {
+      "day_of_year": 222,
+      "year": 2024,
+      "value": 52.8833333333
+    },
+    {
+      "day_of_year": 223,
+      "year": 2024,
+      "value": 51.2495833333
+    },
+    {
+      "day_of_year": 224,
+      "year": 2024,
+      "value": 54.2475
+    },
+    {
+      "day_of_year": 225,
+      "year": 2024,
+      "value": 91.55625
+    },
+    {
+      "day_of_year": 226,
+      "year": 2024,
+      "value": 99.3620833333
+    },
+    {
+      "day_of_year": 227,
+      "year": 2024,
+      "value": 109.7404166667
+    },
+    {
+      "day_of_year": 228,
+      "year": 2024,
+      "value": 84.51875
+    },
+    {
+      "day_of_year": 229,
+      "year": 2024,
+      "value": 108.8979166667
+    },
+    {
+      "day_of_year": 230,
+      "year": 2024,
+      "value": 93.5795833333
+    },
+    {
+      "day_of_year": 231,
+      "year": 2024,
+      "value": 86.6895833333
+    },
+    {
+      "day_of_year": 232,
+      "year": 2024,
+      "value": 108.0154166667
+    },
+    {
+      "day_of_year": 233,
+      "year": 2024,
+      "value": 91.5375
+    },
+    {
+      "day_of_year": 234,
+      "year": 2024,
+      "value": 51.8991666667
+    },
+    {
+      "day_of_year": 235,
+      "year": 2024,
+      "value": 60.7833333333
+    },
+    {
+      "day_of_year": 236,
+      "year": 2024,
+      "value": 43.9775
+    },
+    {
+      "day_of_year": 237,
+      "year": 2024,
+      "value": 40.8975
+    },
+    {
+      "day_of_year": 238,
+      "year": 2024,
+      "value": 29.2825
+    },
+    {
+      "day_of_year": 239,
+      "year": 2024,
+      "value": 99.99875
+    },
+    {
+      "day_of_year": 240,
+      "year": 2024,
+      "value": 90.6254166667
+    },
+    {
+      "day_of_year": 241,
+      "year": 2024,
+      "value": 96.16125
+    },
+    {
+      "day_of_year": 242,
+      "year": 2024,
+      "value": 113.8554166667
+    },
+    {
+      "day_of_year": 243,
+      "year": 2024,
+      "value": 106.7595833333
+    },
+    {
+      "day_of_year": 244,
+      "year": 2024,
+      "value": 77.6558333333
+    },
+    {
+      "day_of_year": 245,
+      "year": 2024,
+      "value": 61.9091666667
+    },
+    {
+      "day_of_year": 246,
+      "year": 2024,
+      "value": 115.3525
+    },
+    {
+      "day_of_year": 247,
+      "year": 2024,
+      "value": 159.0791666667
+    },
+    {
+      "day_of_year": 248,
+      "year": 2024,
+      "value": 125.2816666667
+    },
+    {
+      "day_of_year": 249,
+      "year": 2024,
+      "value": 61.5029166667
+    },
+    {
+      "day_of_year": 250,
+      "year": 2024,
+      "value": 79.1929166667
+    },
+    {
+      "day_of_year": 251,
+      "year": 2024,
+      "value": 78.625
+    },
+    {
+      "day_of_year": 252,
+      "year": 2024,
+      "value": 68.65625
+    },
+    {
+      "day_of_year": 253,
+      "year": 2024,
+      "value": 97.8541666667
+    },
+    {
+      "day_of_year": 254,
+      "year": 2024,
+      "value": 57.07125
+    },
+    {
+      "day_of_year": 255,
+      "year": 2024,
+      "value": 84.8666666667
+    },
+    {
+      "day_of_year": 256,
+      "year": 2024,
+      "value": 113.0604166667
+    },
+    {
+      "day_of_year": 257,
+      "year": 2024,
+      "value": 87.235
+    },
+    {
+      "day_of_year": 258,
+      "year": 2024,
+      "value": 55.6070833333
+    },
+    {
+      "day_of_year": 259,
+      "year": 2024,
+      "value": 63.4991666667
+    },
+    {
+      "day_of_year": 260,
+      "year": 2024,
+      "value": 96.9195833333
+    },
+    {
+      "day_of_year": 261,
+      "year": 2024,
+      "value": 88.8216666667
+    },
+    {
+      "day_of_year": 262,
+      "year": 2024,
+      "value": 77.47
+    },
+    {
+      "day_of_year": 263,
+      "year": 2024,
+      "value": 77.5654166667
+    },
+    {
+      "day_of_year": 264,
+      "year": 2024,
+      "value": 74.4891666667
+    },
+    {
+      "day_of_year": 265,
+      "year": 2024,
+      "value": 70.6154166667
+    },
+    {
+      "day_of_year": 266,
+      "year": 2024,
+      "value": 75.6441666667
+    },
+    {
+      "day_of_year": 267,
+      "year": 2024,
+      "value": 121.18875
+    },
+    {
+      "day_of_year": 268,
+      "year": 2024,
+      "value": 88.5620833333
+    },
+    {
+      "day_of_year": 269,
+      "year": 2024,
+      "value": 76.44
+    },
+    {
+      "day_of_year": 270,
+      "year": 2024,
+      "value": 49.8020833333
+    },
+    {
+      "day_of_year": 271,
+      "year": 2024,
+      "value": 14.9583333333
+    },
+    {
+      "day_of_year": 272,
+      "year": 2024,
+      "value": 33.2941666667
+    },
+    {
+      "day_of_year": 273,
+      "year": 2024,
+      "value": 55.1916666667
+    },
+    {
+      "day_of_year": 274,
+      "year": 2024,
+      "value": 32.1908333333
+    },
+    {
+      "day_of_year": 275,
+      "year": 2024,
+      "value": 74.6283333333
+    },
+    {
+      "day_of_year": 276,
+      "year": 2024,
+      "value": 94.4816666667
+    },
+    {
+      "day_of_year": 277,
+      "year": 2024,
+      "value": 73.2070833333
+    },
+    {
+      "day_of_year": 278,
+      "year": 2024,
+      "value": 97.4345833333
+    },
+    {
+      "day_of_year": 279,
+      "year": 2024,
+      "value": 83.9866666667
+    },
+    {
+      "day_of_year": 280,
+      "year": 2024,
+      "value": 52.3525
+    },
+    {
+      "day_of_year": 281,
+      "year": 2024,
+      "value": 86.615
+    },
+    {
+      "day_of_year": 282,
+      "year": 2024,
+      "value": 90.58875
+    },
+    {
+      "day_of_year": 283,
+      "year": 2024,
+      "value": 82.4904166667
+    },
+    {
+      "day_of_year": 284,
+      "year": 2024,
+      "value": 61.61125
+    },
+    {
+      "day_of_year": 285,
+      "year": 2024,
+      "value": 95.8829166667
+    },
+    {
+      "day_of_year": 286,
+      "year": 2024,
+      "value": 49.3091666667
+    },
+    {
+      "day_of_year": 287,
+      "year": 2024,
+      "value": 11.12125
+    },
+    {
+      "day_of_year": 288,
+      "year": 2024,
+      "value": 109.9766666667
+    },
+    {
+      "day_of_year": 289,
+      "year": 2024,
+      "value": 89.0983333333
+    },
+    {
+      "day_of_year": 290,
+      "year": 2024,
+      "value": 34.78625
+    },
+    {
+      "day_of_year": 291,
+      "year": 2024,
+      "value": 77.0558333333
+    },
+    {
+      "day_of_year": 292,
+      "year": 2024,
+      "value": 102.60625
+    },
+    {
+      "day_of_year": 293,
+      "year": 2024,
+      "value": 83.0320833333
+    },
+    {
+      "day_of_year": 294,
+      "year": 2024,
+      "value": 30.9029166667
+    },
+    {
+      "day_of_year": 295,
+      "year": 2024,
+      "value": 90.59375
+    },
+    {
+      "day_of_year": 296,
+      "year": 2024,
+      "value": 102.3045833333
+    },
+    {
+      "day_of_year": 297,
+      "year": 2024,
+      "value": 112.4179166667
+    },
+    {
+      "day_of_year": 298,
+      "year": 2024,
+      "value": 101.2791666667
+    },
+    {
+      "day_of_year": 299,
+      "year": 2024,
+      "value": 115.2308333333
+    },
+    {
+      "day_of_year": 300,
+      "year": 2024,
+      "value": 99.6891666667
+    },
+    {
+      "day_of_year": 301,
+      "year": 2024,
+      "value": 90.73875
+    },
+    {
+      "day_of_year": 302,
+      "year": 2024,
+      "value": 111.58625
+    },
+    {
+      "day_of_year": 303,
+      "year": 2024,
+      "value": 141.1516666667
+    },
+    {
+      "day_of_year": 304,
+      "year": 2024,
+      "value": 124.8758333333
+    },
+    {
+      "day_of_year": 305,
+      "year": 2024,
+      "value": 104.0470833333
+    },
+    {
+      "day_of_year": 306,
+      "year": 2024,
+      "value": 76.4104166667
+    },
+    {
+      "day_of_year": 307,
+      "year": 2024,
+      "value": 106.9854166667
+    },
+    {
+      "day_of_year": 308,
+      "year": 2024,
+      "value": 93.0529166667
+    },
+    {
+      "day_of_year": 309,
+      "year": 2024,
+      "value": 126.27375
+    },
+    {
+      "day_of_year": 310,
+      "year": 2024,
+      "value": 164.9775
+    },
+    {
+      "day_of_year": 311,
+      "year": 2024,
+      "value": 231.2225
+    },
+    {
+      "day_of_year": 312,
+      "year": 2024,
+      "value": 159.2066666667
+    },
+    {
+      "day_of_year": 313,
+      "year": 2024,
+      "value": 113.6195833333
+    },
+    {
+      "day_of_year": 314,
+      "year": 2024,
+      "value": 114.4695833333
+    },
+    {
+      "day_of_year": 315,
+      "year": 2024,
+      "value": 114.3633333333
+    },
+    {
+      "day_of_year": 316,
+      "year": 2024,
+      "value": 121.7929166667
+    },
+    {
+      "day_of_year": 317,
+      "year": 2024,
+      "value": 166.4079166667
+    },
+    {
+      "day_of_year": 318,
+      "year": 2024,
+      "value": 149.44875
+    },
+    {
+      "day_of_year": 319,
+      "year": 2024,
+      "value": 122.3808333333
+    },
+    {
+      "day_of_year": 320,
+      "year": 2024,
+      "value": 123.815
+    },
+    {
+      "day_of_year": 321,
+      "year": 2024,
+      "value": 93.4470833333
+    },
+    {
+      "day_of_year": 322,
+      "year": 2024,
+      "value": 62.87
+    },
+    {
+      "day_of_year": 323,
+      "year": 2024,
+      "value": 106.3254166667
+    },
+    {
+      "day_of_year": 324,
+      "year": 2024,
+      "value": 123.7041666667
+    },
+    {
+      "day_of_year": 325,
+      "year": 2024,
+      "value": 114.7733333333
+    },
+    {
+      "day_of_year": 326,
+      "year": 2024,
+      "value": 124.24125
+    },
+    {
+      "day_of_year": 327,
+      "year": 2024,
+      "value": 109.7991666667
+    },
+    {
+      "day_of_year": 328,
+      "year": 2024,
+      "value": 72.73
+    },
+    {
+      "day_of_year": 329,
+      "year": 2024,
+      "value": 3.8733333333
+    },
+    {
+      "day_of_year": 330,
+      "year": 2024,
+      "value": 58.7970833333
+    },
+    {
+      "day_of_year": 331,
+      "year": 2024,
+      "value": 113.3833333333
+    },
+    {
+      "day_of_year": 332,
+      "year": 2024,
+      "value": 117.6716666667
+    },
+    {
+      "day_of_year": 333,
+      "year": 2024,
+      "value": 98.61875
+    },
+    {
+      "day_of_year": 334,
+      "year": 2024,
+      "value": 129.77
+    },
+    {
+      "day_of_year": 335,
+      "year": 2024,
+      "value": 104.275
+    },
+    {
+      "day_of_year": 336,
+      "year": 2024,
+      "value": 93.5558333333
+    },
+    {
+      "day_of_year": 337,
+      "year": 2024,
+      "value": 110.64625
+    },
+    {
+      "day_of_year": 338,
+      "year": 2024,
+      "value": 144.4995833333
+    },
+    {
+      "day_of_year": 339,
+      "year": 2024,
+      "value": 182.21
+    },
+    {
+      "day_of_year": 340,
+      "year": 2024,
+      "value": 101.8620833333
+    },
+    {
+      "day_of_year": 341,
+      "year": 2024,
+      "value": 89.5416666667
+    },
+    {
+      "day_of_year": 342,
+      "year": 2024,
+      "value": 71.8108333333
+    },
+    {
+      "day_of_year": 343,
+      "year": 2024,
+      "value": 98.12875
+    },
+    {
+      "day_of_year": 344,
+      "year": 2024,
+      "value": 100.4866666667
+    },
+    {
+      "day_of_year": 345,
+      "year": 2024,
+      "value": 150.8908333333
+    },
+    {
+      "day_of_year": 346,
+      "year": 2024,
+      "value": 266.8066666667
+    },
+    {
+      "day_of_year": 347,
+      "year": 2024,
+      "value": 395.665
+    },
+    {
+      "day_of_year": 348,
+      "year": 2024,
+      "value": 177.9191666667
+    },
+    {
+      "day_of_year": 349,
+      "year": 2024,
+      "value": 99.42
+    },
+    {
+      "day_of_year": 350,
+      "year": 2024,
+      "value": 43.78625
+    },
+    {
+      "day_of_year": 351,
+      "year": 2024,
+      "value": 50.2275
+    },
+    {
+      "day_of_year": 352,
+      "year": 2024,
+      "value": 87.6229166667
+    },
+    {
+      "day_of_year": 353,
+      "year": 2024,
+      "value": 52.5595833333
+    },
+    {
+      "day_of_year": 354,
+      "year": 2024,
+      "value": 53.5504166667
+    },
+    {
+      "day_of_year": 355,
+      "year": 2024,
+      "value": 75.54125
+    },
+    {
+      "day_of_year": 356,
+      "year": 2024,
+      "value": 20.9795833333
+    },
+    {
+      "day_of_year": 357,
+      "year": 2024,
+      "value": 24.1508333333
+    },
+    {
+      "day_of_year": 358,
+      "year": 2024,
+      "value": 61.4670833333
+    },
+    {
+      "day_of_year": 359,
+      "year": 2024,
+      "value": 102.70875
+    },
+    {
+      "day_of_year": 360,
+      "year": 2024,
+      "value": 99.075
+    },
+    {
+      "day_of_year": 361,
+      "year": 2024,
+      "value": 113.0845833333
+    },
+    {
+      "day_of_year": 362,
+      "year": 2024,
+      "value": 122.5233333333
+    },
+    {
+      "day_of_year": 363,
+      "year": 2024,
+      "value": 122.6795833333
+    },
+    {
+      "day_of_year": 364,
+      "year": 2024,
+      "value": 102.96125
+    },
+    {
+      "day_of_year": 365,
+      "year": 2024,
+      "value": 77.2708333333
+    },
+    {
+      "day_of_year": 366,
+      "year": 2024,
+      "value": 60.08875
+    },
+    {
+      "day_of_year": 1,
+      "year": 2025,
+      "value": 0.9708333333
+    },
+    {
+      "day_of_year": 2,
+      "year": 2025,
+      "value": 96.9516666667
+    },
+    {
+      "day_of_year": 3,
+      "year": 2025,
+      "value": 89.5604166667
+    },
+    {
+      "day_of_year": 4,
+      "year": 2025,
+      "value": 121.76875
+    },
+    {
+      "day_of_year": 5,
+      "year": 2025,
+      "value": 68.6408333333
+    },
+    {
+      "day_of_year": 6,
+      "year": 2025,
+      "value": 24.8116666667
+    },
+    {
+      "day_of_year": 7,
+      "year": 2025,
+      "value": 60.45625
+    },
+    {
+      "day_of_year": 8,
+      "year": 2025,
+      "value": 105.79375
+    },
+    {
+      "day_of_year": 9,
+      "year": 2025,
+      "value": 120.8375
+    },
+    {
+      "day_of_year": 10,
+      "year": 2025,
+      "value": 113.3379166667
+    },
+    {
+      "day_of_year": 11,
+      "year": 2025,
+      "value": 100.9295833333
+    },
+    {
+      "day_of_year": 12,
+      "year": 2025,
+      "value": 111.2658333333
+    },
+    {
+      "day_of_year": 13,
+      "year": 2025,
+      "value": 128.95125
+    },
+    {
+      "day_of_year": 14,
+      "year": 2025,
+      "value": 126.8966666667
+    },
+    {
+      "day_of_year": 15,
+      "year": 2025,
+      "value": 222.9333333333
+    },
+    {
+      "day_of_year": 16,
+      "year": 2025,
+      "value": 147.79375
+    },
+    {
+      "day_of_year": 17,
+      "year": 2025,
+      "value": 146.5858333333
+    },
+    {
+      "day_of_year": 18,
+      "year": 2025,
+      "value": 134.3341666667
+    },
+    {
+      "day_of_year": 19,
+      "year": 2025,
+      "value": 128.4133333333
+    },
+    {
+      "day_of_year": 20,
+      "year": 2025,
+      "value": 231.5766666667
+    },
+    {
+      "day_of_year": 21,
+      "year": 2025,
+      "value": 168.47625
+    },
+    {
+      "day_of_year": 22,
+      "year": 2025,
+      "value": 160.8529166667
+    },
+    {
+      "day_of_year": 23,
+      "year": 2025,
+      "value": 102.0745833333
+    },
+    {
+      "day_of_year": 24,
+      "year": 2025,
+      "value": 78.4833333333
+    },
+    {
+      "day_of_year": 25,
+      "year": 2025,
+      "value": 102.1241666667
+    },
+    {
+      "day_of_year": 26,
+      "year": 2025,
+      "value": 97.8745833333
+    },
+    {
+      "day_of_year": 27,
+      "year": 2025,
+      "value": 61.7058333333
+    },
+    {
+      "day_of_year": 28,
+      "year": 2025,
+      "value": 106.8241666667
+    },
+    {
+      "day_of_year": 29,
+      "year": 2025,
+      "value": 108.3304166667
+    },
+    {
+      "day_of_year": 30,
+      "year": 2025,
+      "value": 132.68125
+    },
+    {
+      "day_of_year": 31,
+      "year": 2025,
+      "value": 141.7229166667
+    },
+    {
+      "day_of_year": 32,
+      "year": 2025,
+      "value": 135.2933333333
+    },
+    {
+      "day_of_year": 33,
+      "year": 2025,
+      "value": 136.9729166667
+    },
+    {
+      "day_of_year": 34,
+      "year": 2025,
+      "value": 154.6270833333
+    },
+    {
+      "day_of_year": 35,
+      "year": 2025,
+      "value": 141.6220833333
+    },
+    {
+      "day_of_year": 36,
+      "year": 2025,
+      "value": 142.61625
+    },
+    {
+      "day_of_year": 37,
+      "year": 2025,
+      "value": 149.77125
+    },
+    {
+      "day_of_year": 38,
+      "year": 2025,
+      "value": 119.31375
+    },
+    {
+      "day_of_year": 39,
+      "year": 2025,
+      "value": 111.045
+    },
+    {
+      "day_of_year": 40,
+      "year": 2025,
+      "value": 127.7354166667
+    },
+    {
+      "day_of_year": 41,
+      "year": 2025,
+      "value": 120.1216666667
+    },
+    {
+      "day_of_year": 42,
+      "year": 2025,
+      "value": 122.16625
+    },
+    {
+      "day_of_year": 43,
+      "year": 2025,
+      "value": 154.79125
+    },
+    {
+      "day_of_year": 44,
+      "year": 2025,
+      "value": 172.0766666667
+    },
+    {
+      "day_of_year": 45,
+      "year": 2025,
+      "value": 178.9808333333
+    },
+    {
+      "day_of_year": 46,
+      "year": 2025,
+      "value": 133.6083333333
+    },
+    {
+      "day_of_year": 47,
+      "year": 2025,
+      "value": 132.3979166667
+    },
+    {
+      "day_of_year": 48,
+      "year": 2025,
+      "value": 153.6191666667
+    },
+    {
+      "day_of_year": 49,
+      "year": 2025,
+      "value": 131.2708333333
+    },
+    {
+      "day_of_year": 50,
+      "year": 2025,
+      "value": 110.0641666667
+    },
+    {
+      "day_of_year": 51,
+      "year": 2025,
+      "value": 94.505
+    },
+    {
+      "day_of_year": 52,
+      "year": 2025,
+      "value": 89.7766666667
+    },
+    {
+      "day_of_year": 53,
+      "year": 2025,
+      "value": 71.99375
+    },
+    {
+      "day_of_year": 54,
+      "year": 2025,
+      "value": 90.1975
+    },
+    {
+      "day_of_year": 55,
+      "year": 2025,
+      "value": 91.8725
+    },
+    {
+      "day_of_year": 56,
+      "year": 2025,
+      "value": 141.1058333333
+    },
+    {
+      "day_of_year": 57,
+      "year": 2025,
+      "value": 134.79875
+    },
+    {
+      "day_of_year": 58,
+      "year": 2025,
+      "value": 126.615
+    },
+    {
+      "day_of_year": 59,
+      "year": 2025,
+      "value": 129.3029166667
+    },
+    {
+      "day_of_year": 60,
+      "year": 2025,
+      "value": 123.47
+    },
+    {
+      "day_of_year": 61,
+      "year": 2025,
+      "value": 90.4545833333
+    },
+    {
+      "day_of_year": 62,
+      "year": 2025,
+      "value": 106.9904166667
+    },
+    {
+      "day_of_year": 63,
+      "year": 2025,
+      "value": 106.4766666667
+    },
+    {
+      "day_of_year": 64,
+      "year": 2025,
+      "value": 78.2975
+    },
+    {
+      "day_of_year": 65,
+      "year": 2025,
+      "value": 90.0845833333
+    },
+    {
+      "day_of_year": 66,
+      "year": 2025,
+      "value": 105.43875
+    },
+    {
+      "day_of_year": 67,
+      "year": 2025,
+      "value": 89.445
+    },
+    {
+      "day_of_year": 68,
+      "year": 2025,
+      "value": 77.2775
+    },
+    {
+      "day_of_year": 69,
+      "year": 2025,
+      "value": 113.1725
+    },
+    {
+      "day_of_year": 70,
+      "year": 2025,
+      "value": 125.1866666667
+    },
+    {
+      "day_of_year": 71,
+      "year": 2025,
+      "value": 125.15375
+    },
+    {
+      "day_of_year": 72,
+      "year": 2025,
+      "value": 125.1645833333
+    },
+    {
+      "day_of_year": 73,
+      "year": 2025,
+      "value": 121.3620833333
+    },
+    {
+      "day_of_year": 74,
+      "year": 2025,
+      "value": 91.9966666667
+    },
+    {
+      "day_of_year": 75,
+      "year": 2025,
+      "value": 71.5358333333
+    },
+    {
+      "day_of_year": 76,
+      "year": 2025,
+      "value": 99.6983333333
+    },
+    {
+      "day_of_year": 77,
+      "year": 2025,
+      "value": 90.7733333333
+    },
+    {
+      "day_of_year": 78,
+      "year": 2025,
+      "value": 104.7991666667
+    },
+    {
+      "day_of_year": 79,
+      "year": 2025,
+      "value": 108.6283333333
+    },
+    {
+      "day_of_year": 80,
+      "year": 2025,
+      "value": 69.4345833333
+    },
+    {
+      "day_of_year": 81,
+      "year": 2025,
+      "value": 14.4095833333
+    },
+    {
+      "day_of_year": 82,
+      "year": 2025,
+      "value": 58.9958333333
+    },
+    {
+      "day_of_year": 83,
+      "year": 2025,
+      "value": 129.5341666667
+    },
+    {
+      "day_of_year": 84,
+      "year": 2025,
+      "value": 111.73625
+    },
+    {
+      "day_of_year": 85,
+      "year": 2025,
+      "value": 114.6966666667
+    },
+    {
+      "day_of_year": 86,
+      "year": 2025,
+      "value": 98.3466666667
+    },
+    {
+      "day_of_year": 87,
+      "year": 2025,
+      "value": 89.3266666667
+    },
+    {
+      "day_of_year": 88,
+      "year": 2025,
+      "value": 81.7083333333
+    },
+    {
+      "day_of_year": 89,
+      "year": 2025,
+      "value": 14.6341666667
+    },
+    {
+      "day_of_year": 90,
+      "year": 2025,
+      "value": 107.2258333333
+    },
+    {
+      "day_of_year": 91,
+      "year": 2025,
+      "value": 91.6529166667
+    },
+    {
+      "day_of_year": 92,
+      "year": 2025,
+      "value": 61.5741666667
+    },
+    {
+      "day_of_year": 93,
+      "year": 2025,
+      "value": 80.7233333333
+    },
+    {
+      "day_of_year": 94,
+      "year": 2025,
+      "value": 89.9341666667
+    },
+    {
+      "day_of_year": 95,
+      "year": 2025,
+      "value": 51.4695833333
+    },
+    {
+      "day_of_year": 96,
+      "year": 2025,
+      "value": 39.9629166667
+    },
+    {
+      "day_of_year": 97,
+      "year": 2025,
+      "value": 96.5929166667
+    },
+    {
+      "day_of_year": 98,
+      "year": 2025,
+      "value": 99.5054166667
+    },
+    {
+      "day_of_year": 99,
+      "year": 2025,
+      "value": 90.78875
+    },
+    {
+      "day_of_year": 100,
+      "year": 2025,
+      "value": 83.17375
+    },
+    {
+      "day_of_year": 101,
+      "year": 2025,
+      "value": 68.2220833333
+    },
+    {
+      "day_of_year": 102,
+      "year": 2025,
+      "value": 61.56125
+    },
+    {
+      "day_of_year": 103,
+      "year": 2025,
+      "value": 41.2979166667
+    },
+    {
+      "day_of_year": 104,
+      "year": 2025,
+      "value": 97.1520833333
+    },
+    {
+      "day_of_year": 105,
+      "year": 2025,
+      "value": 71.0383333333
+    },
+    {
+      "day_of_year": 106,
+      "year": 2025,
+      "value": 89.6991666667
+    },
+    {
+      "day_of_year": 107,
+      "year": 2025,
+      "value": 98.4583333333
+    },
+    {
+      "day_of_year": 108,
+      "year": 2025,
+      "value": 87.7741666667
+    },
+    {
+      "day_of_year": 109,
+      "year": 2025,
+      "value": 70.0020833333
+    },
+    {
+      "day_of_year": 110,
+      "year": 2025,
+      "value": 65.7166666667
+    },
+    {
+      "day_of_year": 111,
+      "year": 2025,
+      "value": 81.11
+    },
+    {
+      "day_of_year": 112,
+      "year": 2025,
+      "value": 113.5216666667
+    },
+    {
+      "day_of_year": 113,
+      "year": 2025,
+      "value": 108.4904166667
+    },
+    {
+      "day_of_year": 114,
+      "year": 2025,
+      "value": 96.44125
+    },
+    {
+      "day_of_year": 115,
+      "year": 2025,
+      "value": 89.2858333333
+    },
+    {
+      "day_of_year": 116,
+      "year": 2025,
+      "value": 54.8270833333
+    },
+    {
+      "day_of_year": 117,
+      "year": 2025,
+      "value": 33.4391666667
+    },
+    {
+      "day_of_year": 118,
+      "year": 2025,
+      "value": 75.6979166667
+    },
+    {
+      "day_of_year": 119,
+      "year": 2025,
+      "value": 73.5154166667
+    },
+    {
+      "day_of_year": 120,
+      "year": 2025,
+      "value": 75.1370833333
+    },
+    {
+      "day_of_year": 121,
+      "year": 2025,
+      "value": 44.0391666667
+    },
+    {
+      "day_of_year": 122,
+      "year": 2025,
+      "value": 63.7958333333
+    },
+    {
+      "day_of_year": 123,
+      "year": 2025,
+      "value": 51.4966666667
+    },
+    {
+      "day_of_year": 124,
+      "year": 2025,
+      "value": 35.2291666667
+    },
+    {
+      "day_of_year": 125,
+      "year": 2025,
+      "value": 88.3708333333
+    },
+    {
+      "day_of_year": 126,
+      "year": 2025,
+      "value": 91.41375
+    },
+    {
+      "day_of_year": 127,
+      "year": 2025,
+      "value": 99.255
+    },
+    {
+      "day_of_year": 128,
+      "year": 2025,
+      "value": 103.6479166667
+    },
+    {
+      "day_of_year": 129,
+      "year": 2025,
+      "value": 81.5016666667
+    },
+    {
+      "day_of_year": 130,
+      "year": 2025,
+      "value": 51.6658333333
+    },
+    {
+      "day_of_year": 131,
+      "year": 2025,
+      "value": 18.3391666667
+    },
+    {
+      "day_of_year": 132,
+      "year": 2025,
+      "value": 70.0775
+    },
+    {
+      "day_of_year": 133,
+      "year": 2025,
+      "value": 80.4066666667
+    },
+    {
+      "day_of_year": 134,
+      "year": 2025,
+      "value": 68.5591666667
+    },
+    {
+      "day_of_year": 135,
+      "year": 2025,
+      "value": 66.0295833333
+    },
+    {
+      "day_of_year": 136,
+      "year": 2025,
+      "value": 73.5495833333
+    },
+    {
+      "day_of_year": 137,
+      "year": 2025,
+      "value": 60.4120833333
+    },
+    {
+      "day_of_year": 138,
+      "year": 2025,
+      "value": 63.1358333333
+    },
+    {
+      "day_of_year": 139,
+      "year": 2025,
+      "value": 95.86375
+    },
+    {
+      "day_of_year": 140,
+      "year": 2025,
+      "value": 90.6966666667
+    },
+    {
+      "day_of_year": 141,
+      "year": 2025,
+      "value": 70.3708333333
+    },
+    {
+      "day_of_year": 142,
+      "year": 2025,
+      "value": 61.5258333333
+    },
+    {
+      "day_of_year": 143,
+      "year": 2025,
+      "value": 82.5495833333
+    },
+    {
+      "day_of_year": 144,
+      "year": 2025,
+      "value": 51.97375
+    },
+    {
+      "day_of_year": 145,
+      "year": 2025,
+      "value": 28.7354166667
+    },
+    {
+      "day_of_year": 146,
+      "year": 2025,
+      "value": 72.7129166667
+    },
+    {
+      "day_of_year": 147,
+      "year": 2025,
+      "value": 61.1391666667
+    },
+    {
+      "day_of_year": 148,
+      "year": 2025,
+      "value": 86.2095833333
+    },
+    {
+      "day_of_year": 149,
+      "year": 2025,
+      "value": 51.1729166667
+    },
+    {
+      "day_of_year": 150,
+      "year": 2025,
+      "value": 53.8475
+    },
+    {
+      "day_of_year": 151,
+      "year": 2025,
+      "value": 69.2933333333
+    },
+    {
+      "day_of_year": 152,
+      "year": 2025,
+      "value": 38.7158333333
+    },
+    {
+      "day_of_year": 153,
+      "year": 2025,
+      "value": 89.7183333333
+    },
+    {
+      "day_of_year": 154,
+      "year": 2025,
+      "value": 68.3866666667
+    },
+    {
+      "day_of_year": 155,
+      "year": 2025,
+      "value": 85.12
+    },
+    {
+      "day_of_year": 156,
+      "year": 2025,
+      "value": 78.1595833333
+    },
+    {
+      "day_of_year": 157,
+      "year": 2025,
+      "value": 49.8291666667
+    },
+    {
+      "day_of_year": 158,
+      "year": 2025,
+      "value": 59.9541666667
+    },
+    {
+      "day_of_year": 159,
+      "year": 2025,
+      "value": 15.6416666667
+    },
+    {
+      "day_of_year": 160,
+      "year": 2025,
+      "value": 39.8016666667
+    },
+    {
+      "day_of_year": 161,
+      "year": 2025,
+      "value": 53.2754166667
+    },
+    {
+      "day_of_year": 162,
+      "year": 2025,
+      "value": 73.11375
+    },
+    {
+      "day_of_year": 163,
+      "year": 2025,
+      "value": 56.9858333333
+    },
+    {
+      "day_of_year": 164,
+      "year": 2025,
+      "value": 52.9120833333
+    },
+    {
+      "day_of_year": 165,
+      "year": 2025,
+      "value": 45.8591666667
+    },
+    {
+      "day_of_year": 166,
+      "year": 2025,
+      "value": 62.5345833333
+    },
+    {
+      "day_of_year": 167,
+      "year": 2025,
+      "value": 81.3
+    },
+    {
+      "day_of_year": 168,
+      "year": 2025,
+      "value": 85.3766666667
+    },
+    {
+      "day_of_year": 169,
+      "year": 2025,
+      "value": 79.7745833333
+    },
+    {
+      "day_of_year": 170,
+      "year": 2025,
+      "value": 55.8333333333
+    },
+    {
+      "day_of_year": 171,
+      "year": 2025,
+      "value": 87.6758333333
+    },
+    {
+      "day_of_year": 172,
+      "year": 2025,
+      "value": 71.7883333333
+    },
+    {
+      "day_of_year": 173,
+      "year": 2025,
+      "value": 38.335
+    },
+    {
+      "day_of_year": 174,
+      "year": 2025,
+      "value": 39.1445833333
+    },
+    {
+      "day_of_year": 175,
+      "year": 2025,
+      "value": 47.3279166667
+    },
+    {
+      "day_of_year": 176,
+      "year": 2025,
+      "value": 83.5279166667
+    },
+    {
+      "day_of_year": 177,
+      "year": 2025,
+      "value": 88.6875
+    },
+    {
+      "day_of_year": 178,
+      "year": 2025,
+      "value": 82.06125
+    },
+    {
+      "day_of_year": 179,
+      "year": 2025,
+      "value": 52.5220833333
+    },
+    {
+      "day_of_year": 180,
+      "year": 2025,
+      "value": 54.2554166667
+    },
+    {
+      "day_of_year": 181,
+      "year": 2025,
+      "value": 103.2075
+    },
+    {
+      "day_of_year": 182,
+      "year": 2025,
+      "value": 139.0070833333
+    },
+    {
+      "day_of_year": 183,
+      "year": 2025,
+      "value": 101.4954166667
+    },
+    {
+      "day_of_year": 184,
+      "year": 2025,
+      "value": 88.625
+    },
+    {
+      "day_of_year": 185,
+      "year": 2025,
+      "value": 78.895
+    },
+    {
+      "day_of_year": 186,
+      "year": 2025,
+      "value": 53.25125
+    },
+    {
+      "day_of_year": 187,
+      "year": 2025,
+      "value": 75.2241666667
+    },
+    {
+      "day_of_year": 188,
+      "year": 2025,
+      "value": 98.7429166667
+    },
+    {
+      "day_of_year": 189,
+      "year": 2025,
+      "value": 89.4820833333
+    },
+    {
+      "day_of_year": 190,
+      "year": 2025,
+      "value": 92.325
+    },
+    {
+      "day_of_year": 191,
+      "year": 2025,
+      "value": 90.7333333333
+    },
+    {
+      "day_of_year": 192,
+      "year": 2025,
+      "value": 88.4029166667
+    },
+    {
+      "day_of_year": 193,
+      "year": 2025,
+      "value": 72.5766666667
+    },
+    {
+      "day_of_year": 194,
+      "year": 2025,
+      "value": 73.2216666667
+    },
+    {
+      "day_of_year": 195,
+      "year": 2025,
+      "value": 98.1020833333
+    },
+    {
+      "day_of_year": 196,
+      "year": 2025,
+      "value": 90.09375
+    },
+    {
+      "day_of_year": 197,
+      "year": 2025,
+      "value": 96.1866666667
+    },
+    {
+      "day_of_year": 198,
+      "year": 2025,
+      "value": 92.7729166667
+    },
+    {
+      "day_of_year": 199,
+      "year": 2025,
+      "value": 101.2254166667
+    },
+    {
+      "day_of_year": 200,
+      "year": 2025,
+      "value": 68.77875
+    },
+    {
+      "day_of_year": 201,
+      "year": 2025,
+      "value": 70.9216666667
+    },
+    {
+      "day_of_year": 202,
+      "year": 2025,
+      "value": 100.7791666667
+    },
+    {
+      "day_of_year": 203,
+      "year": 2025,
+      "value": 77.8445833333
+    },
+    {
+      "day_of_year": 204,
+      "year": 2025,
+      "value": 79.2833333333
+    },
+    {
+      "day_of_year": 205,
+      "year": 2025,
+      "value": 103.5083333333
+    },
+    {
+      "day_of_year": 206,
+      "year": 2025,
+      "value": 97.1166666667
+    },
+    {
+      "day_of_year": 207,
+      "year": 2025,
+      "value": 91.0191666667
+    },
+    {
+      "day_of_year": 208,
+      "year": 2025,
+      "value": 78.7925
+    },
+    {
+      "day_of_year": 209,
+      "year": 2025,
+      "value": 93.3608333333
+    },
+    {
+      "day_of_year": 210,
+      "year": 2025,
+      "value": 77.54375
+    },
+    {
+      "day_of_year": 211,
+      "year": 2025,
+      "value": 75.3375
+    },
+    {
+      "day_of_year": 212,
+      "year": 2025,
+      "value": 86.8891666667
+    },
+    {
+      "day_of_year": 213,
+      "year": 2025,
+      "value": 93.2295833333
+    },
+    {
+      "day_of_year": 214,
+      "year": 2025,
+      "value": 65.3895833333
+    },
+    {
+      "day_of_year": 215,
+      "year": 2025,
+      "value": 41.7695833333
+    },
+    {
+      "day_of_year": 216,
+      "year": 2025,
+      "value": 58.69625
+    },
+    {
+      "day_of_year": 217,
+      "year": 2025,
+      "value": 40.1395833333
+    },
+    {
+      "day_of_year": 218,
+      "year": 2025,
+      "value": 64.4279166667
+    },
+    {
+      "day_of_year": 219,
+      "year": 2025,
+      "value": 71.3241666667
+    },
+    {
+      "day_of_year": 220,
+      "year": 2025,
+      "value": 76.9520833333
+    },
+    {
+      "day_of_year": 221,
+      "year": 2025,
+      "value": 59.99
+    },
+    {
+      "day_of_year": 222,
+      "year": 2025,
+      "value": 47.7933333333
+    },
+    {
+      "day_of_year": 223,
+      "year": 2025,
+      "value": 84.0983333333
+    },
+    {
+      "day_of_year": 224,
+      "year": 2025,
+      "value": 85.08
+    },
+    {
+      "day_of_year": 225,
+      "year": 2025,
+      "value": 100.0145833333
+    },
+    {
+      "day_of_year": 226,
+      "year": 2025,
+      "value": 105.4141666667
+    },
+    {
+      "day_of_year": 227,
+      "year": 2025,
+      "value": 73.13375
+    },
+    {
+      "day_of_year": 228,
+      "year": 2025,
+      "value": 60.4991666667
+    },
+    {
+      "day_of_year": 229,
+      "year": 2025,
+      "value": 64.15375
+    },
+    {
+      "day_of_year": 230,
+      "year": 2025,
+      "value": 92.2275
+    },
+    {
+      "day_of_year": 231,
+      "year": 2025,
+      "value": 82.1808333333
+    },
+    {
+      "day_of_year": 232,
+      "year": 2025,
+      "value": 90.8391666667
+    },
+    {
+      "day_of_year": 233,
+      "year": 2025,
+      "value": 92.0354166667
+    },
+    {
+      "day_of_year": 234,
+      "year": 2025,
+      "value": 74.24375
+    },
+    {
+      "day_of_year": 235,
+      "year": 2025,
+      "value": 68.3329166667
+    },
+    {
+      "day_of_year": 236,
+      "year": 2025,
+      "value": 62.4991666667
+    },
+    {
+      "day_of_year": 237,
+      "year": 2025,
+      "value": 90.0875
+    },
+    {
+      "day_of_year": 238,
+      "year": 2025,
+      "value": 98.9695833333
+    },
+    {
+      "day_of_year": 239,
+      "year": 2025,
+      "value": 104.7229166667
+    },
+    {
+      "day_of_year": 240,
+      "year": 2025,
+      "value": 115.0266666667
+    },
+    {
+      "day_of_year": 241,
+      "year": 2025,
+      "value": 94.5720833333
+    },
+    {
+      "day_of_year": 242,
+      "year": 2025,
+      "value": 69.72375
+    },
+    {
+      "day_of_year": 243,
+      "year": 2025,
+      "value": 57.5333333333
+    },
+    {
+      "day_of_year": 244,
+      "year": 2025,
+      "value": 102.2783333333
+    },
+    {
+      "day_of_year": 245,
+      "year": 2025,
+      "value": 122.2075
+    },
+    {
+      "day_of_year": 246,
+      "year": 2025,
+      "value": 59.4791666667
+    },
+    {
+      "day_of_year": 247,
+      "year": 2025,
+      "value": 93.5283333333
+    },
+    {
+      "day_of_year": 248,
+      "year": 2025,
+      "value": 100.77
+    },
+    {
+      "day_of_year": 249,
+      "year": 2025,
+      "value": 74.3183333333
+    },
+    {
+      "day_of_year": 250,
+      "year": 2025,
+      "value": 41.7408333333
+    },
+    {
+      "day_of_year": 251,
+      "year": 2025,
+      "value": 126.1279166667
+    },
+    {
+      "day_of_year": 252,
+      "year": 2025,
+      "value": 141.92125
+    },
+    {
+      "day_of_year": 253,
+      "year": 2025,
+      "value": 124.2429166667
+    },
+    {
+      "day_of_year": 254,
+      "year": 2025,
+      "value": 67.7158333333
+    },
+    {
+      "day_of_year": 255,
+      "year": 2025,
+      "value": 57.9879166667
+    },
+    {
+      "day_of_year": 256,
+      "year": 2025,
+      "value": 61.14875
+    },
+    {
+      "day_of_year": 257,
+      "year": 2025,
+      "value": 65.9154166667
+    },
+    {
+      "day_of_year": 258,
+      "year": 2025,
+      "value": 7.8320833333
+    },
+    {
+      "day_of_year": 259,
+      "year": 2025,
+      "value": 25.12125
+    },
+    {
+      "day_of_year": 260,
+      "year": 2025,
+      "value": 73.9716666667
+    },
+    {
+      "day_of_year": 261,
+      "year": 2025,
+      "value": 67.61125
+    },
+    {
+      "day_of_year": 262,
+      "year": 2025,
+      "value": 97.2558333333
+    },
+    {
+      "day_of_year": 263,
+      "year": 2025,
+      "value": 52.3158333333
+    },
+    {
+      "day_of_year": 264,
+      "year": 2025,
+      "value": 38.8075
+    },
+    {
+      "day_of_year": 265,
+      "year": 2025,
+      "value": 97.8166666667
+    },
+    {
+      "day_of_year": 266,
+      "year": 2025,
+      "value": 102.5204166667
+    },
+    {
+      "day_of_year": 267,
+      "year": 2025,
+      "value": 78.2725
+    },
+    {
+      "day_of_year": 268,
+      "year": 2025,
+      "value": 82.2491666667
+    },
+    {
+      "day_of_year": 269,
+      "year": 2025,
+      "value": 95.57625
+    },
+    {
+      "day_of_year": 270,
+      "year": 2025,
+      "value": 93.825
+    },
+    {
+      "day_of_year": 271,
+      "year": 2025,
+      "value": 86.6345833333
+    },
+    {
+      "day_of_year": 272,
+      "year": 2025,
+      "value": 131.39125
+    }
+  ]
+}
