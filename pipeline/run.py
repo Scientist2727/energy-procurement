@@ -42,17 +42,49 @@ SMARD_PARQUET = RAW_DIR / "smard_raw.parquet"
 # ---------------------------------------------------------------------------
 
 def _load_smard() -> pd.DataFrame:
-    """Return SMARD DataFrame from parquet cache, or fetch and cache if absent."""
-    if SMARD_PARQUET.exists():
-        logger.info("Loading SMARD data from cache: %s", SMARD_PARQUET)
-        return pd.read_parquet(SMARD_PARQUET)
+    """Load SMARD data, fetching only what's new since the last cached run.
 
-    logger.info("No cache found — fetching SMARD data from API ...")
-    df = fetch_all_smard(start_utc=DEFAULT_START_UTC)
+    First run: full fetch from DEFAULT_START_UTC to now (~20 min).
+    Subsequent runs: fetch only from (cache_end - 7 days) to now, then
+    merge and deduplicate — typically completes in under a minute.
+    """
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(SMARD_PARQUET, index=False)
-    logger.info("Cached %d rows to %s", len(df), SMARD_PARQUET)
-    return df
+
+    if not SMARD_PARQUET.exists():
+        logger.info("No cache found — performing full fetch from %s ...", DEFAULT_START_UTC.date())
+        df = fetch_all_smard(start_utc=DEFAULT_START_UTC)
+        df.to_parquet(SMARD_PARQUET, index=False)
+        logger.info("Cached %d rows to %s", len(df), SMARD_PARQUET)
+        return df
+
+    cached = pd.read_parquet(SMARD_PARQUET)
+    cache_end = cached["timestamp_utc"].max()
+    now = pd.Timestamp("now", tz="UTC")
+
+    if cache_end >= now - pd.Timedelta(hours=12):
+        logger.info("Cache is fresh (ends %s) — skipping fetch", cache_end.date())
+        return cached
+
+    # Overlap by 7 days to catch any SMARD revisions to recent data
+    incremental_start = (cache_end - pd.Timedelta(days=7)).to_pydatetime()
+    logger.info(
+        "Cache ends %s — fetching incremental update from %s ...",
+        cache_end.date(), incremental_start.date(),
+    )
+    new_df = fetch_all_smard(start_utc=incremental_start)
+
+    combined = (
+        pd.concat([cached, new_df], ignore_index=True)
+        .drop_duplicates("timestamp_utc")
+        .sort_values("timestamp_utc")
+        .reset_index(drop=True)
+    )
+    combined.to_parquet(SMARD_PARQUET, index=False)
+    logger.info(
+        "Updated cache: %d → %d rows (ends %s)",
+        len(cached), len(combined), combined["timestamp_utc"].max().date(),
+    )
+    return combined
 
 
 # ---------------------------------------------------------------------------
