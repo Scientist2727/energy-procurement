@@ -45,7 +45,6 @@ _RENEWABLE_COLS = [
 ]
 
 DEFAULT_START_UTC = datetime(2018, 1, 1, tzinfo=timezone.utc)
-DEFAULT_END_UTC   = datetime(2025, 9, 30, tzinfo=timezone.utc)
 
 
 @dataclass
@@ -83,7 +82,7 @@ class SmardClient:
         region: str,
         colname: str,
         start_utc: datetime = DEFAULT_START_UTC,
-        end_utc: datetime = DEFAULT_END_UTC,
+        end_utc: Optional[datetime] = None,
     ) -> pd.DataFrame:
         """Fetch a single SMARD time series for the given filter, region, and window.
 
@@ -91,6 +90,8 @@ class SmardClient:
         Applies chunked downloading, a 3-retry policy per slice, and clamps to
         [start_utc, end_utc).
         """
+        if end_utc is None:
+            end_utc = datetime.now(timezone.utc)
         all_ts = self._get_available_timestamps(filter_id, region)
         start_ms = int(pd.Timestamp(start_utc).timestamp() * 1000)
         end_ms   = int(pd.Timestamp(end_utc).timestamp() * 1000)
@@ -144,7 +145,7 @@ class SmardClient:
 
 def fetch_all_smard(
     start_utc: datetime = DEFAULT_START_UTC,
-    end_utc: datetime = DEFAULT_END_UTC,
+    end_utc: Optional[datetime] = None,
     filters: Optional[dict[str, tuple[str, str]]] = None,
 ) -> pd.DataFrame:
     """Fetch all configured SMARD series and merge into a single DataFrame.

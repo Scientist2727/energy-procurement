@@ -18,7 +18,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 from pipeline.fetchers.entsoe import fetch_day_ahead_prices
-from pipeline.fetchers.smard import DEFAULT_END_UTC, DEFAULT_START_UTC, fetch_all_smard
+from pipeline.fetchers.smard import DEFAULT_START_UTC, fetch_all_smard
 from pipeline.metrics.capture_prices import compute_capture_prices
 from pipeline.metrics.quantiles import compute_price_quantiles
 from pipeline.metrics.yoy import compute_yoy_overlay
@@ -48,7 +48,7 @@ def _load_smard() -> pd.DataFrame:
         return pd.read_parquet(SMARD_PARQUET)
 
     logger.info("No cache found — fetching SMARD data from API ...")
-    df = fetch_all_smard(start_utc=DEFAULT_START_UTC, end_utc=DEFAULT_END_UTC)
+    df = fetch_all_smard(start_utc=DEFAULT_START_UTC)
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     df.to_parquet(SMARD_PARQUET, index=False)
     logger.info("Cached %d rows to %s", len(df), SMARD_PARQUET)
@@ -161,7 +161,7 @@ def main() -> None:
     logger.info("SMARD dataframe: %d rows × %d columns", len(df), len(df.columns))
 
     # Optional: ENTSO-E (cached if fetched)
-    entsoe_prices = fetch_day_ahead_prices(DEFAULT_START_UTC, DEFAULT_END_UTC)
+    entsoe_prices = fetch_day_ahead_prices(DEFAULT_START_UTC)
     if entsoe_prices is not None:
         out_path = RAW_DIR / "entsoe_prices.parquet"
         RAW_DIR.mkdir(parents=True, exist_ok=True)
