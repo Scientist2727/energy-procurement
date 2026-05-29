@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import logging
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional
 
 import pandas as pd
@@ -38,7 +38,7 @@ def _to_ts(dt: datetime) -> pd.Timestamp:
 
 def fetch_day_ahead_prices(
     start: datetime,
-    end: datetime,
+    end: Optional[datetime] = None,
     country: str = "DE_LU",
 ) -> Optional[pd.DataFrame]:
     """Fetch ENTSO-E day-ahead prices for a bidding zone.
@@ -50,6 +50,8 @@ def fetch_day_ahead_prices(
     if client is None:
         return None
 
+    if end is None:
+        end = datetime.now(timezone.utc)
     logger.info("Fetching ENTSO-E day-ahead prices for %s ...", country)
     series = client.query_day_ahead_prices(country, start=_to_ts(start), end=_to_ts(end))
     df = series.rename("price_eur_mwh").reset_index()
@@ -61,7 +63,7 @@ def fetch_day_ahead_prices(
 
 def fetch_load(
     start: datetime,
-    end: datetime,
+    end: Optional[datetime] = None,
     country: str = "DE",
 ) -> Optional[pd.DataFrame]:
     """Fetch ENTSO-E actual total load for a country.
@@ -73,6 +75,8 @@ def fetch_load(
     if client is None:
         return None
 
+    if end is None:
+        end = datetime.now(timezone.utc)
     logger.info("Fetching ENTSO-E load for %s ...", country)
     series = client.query_load(country, start=_to_ts(start), end=_to_ts(end))
     df = series.rename("load_mw").reset_index()
@@ -84,7 +88,7 @@ def fetch_load(
 
 def fetch_generation_by_type(
     start: datetime,
-    end: datetime,
+    end: Optional[datetime] = None,
     country: str = "DE",
 ) -> Optional[pd.DataFrame]:
     """Fetch ENTSO-E actual generation by production type for a country.
@@ -96,6 +100,8 @@ def fetch_generation_by_type(
     if client is None:
         return None
 
+    if end is None:
+        end = datetime.now(timezone.utc)
     logger.info("Fetching ENTSO-E generation by type for %s ...", country)
     df = client.query_generation(country, start=_to_ts(start), end=_to_ts(end), psr_type=None)
     df = df.reset_index()

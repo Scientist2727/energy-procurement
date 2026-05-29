@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/spot_quantiles.json data/capture_prices.json data/yoy_overlay.json
+          git add data/spot_quantiles.json data/capture_prices.json data/yoy_overlay.json data/generation_mix.json
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
 

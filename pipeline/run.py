@@ -160,6 +160,50 @@ def write_capture_prices(df: pd.DataFrame) -> None:
     logger.info("  → %d capture-price records", len(capture_df))
 
 
+_GEN_COLS = [
+    "solar_generation_mw",
+    "wind_offshore_generation_mw",
+    "wind_onshore_generation_mw",
+    "biomass_generation_mw",
+    "hydro_generation_mw",
+    "other_renewable_generation_mw",
+    "nuclear_generation_mw",
+    "lignite_generation_mw",
+    "hard_coal_generation_mw",
+    "natural_gas_generation_mw",
+    "other_conventional_generation_mw",
+]
+
+
+def write_generation_mix(df: pd.DataFrame) -> None:
+    """Write data/generation_mix.json — daily avg generation by technology, full history."""
+    present = [c for c in _GEN_COLS if c in df.columns]
+
+    daily = (
+        df.set_index("timestamp_utc")[present]
+        .sort_index()
+        .clip(lower=0)
+        .resample("D").mean()
+        .round(1)
+    )
+    daily.index = daily.index.strftime("%Y-%m-%d")
+    daily.index.name = "date"
+    daily = daily.reset_index()
+
+    _write(
+        DATA_DIR / "generation_mix.json",
+        {
+            "meta": _meta(
+                source="SMARD.de",
+                units="MW (daily average)",
+                description="Daily average electricity generation by technology for DE-LU.",
+            ),
+            "data": json.loads(daily.to_json(orient="records")),
+        },
+    )
+    logger.info("  → %d generation mix records", len(daily))
+
+
 def write_yoy_overlay(df: pd.DataFrame) -> None:
     """Write data/yoy_overlay.json — spot price by day-of-year for last 5 years."""
     yoy_df = compute_yoy_overlay(df, value_col="DA_wholesale_price_eur_mwh", years_back=4)
@@ -202,6 +246,7 @@ def main() -> None:
 
     write_spot_quantiles(df)
     write_capture_prices(df)
+    write_generation_mix(df)
     write_yoy_overlay(df)
 
     logger.info("Pipeline complete. JSON files written to %s/", DATA_DIR)
