@@ -204,6 +204,37 @@ def write_generation_mix(df: pd.DataFrame) -> None:
     logger.info("  → %d generation mix records", len(daily))
 
 
+def write_generation_mix_hourly(df: pd.DataFrame) -> None:
+    """Write data/generation_mix_hourly.json — hourly generation by technology, last 90 days."""
+    present = [c for c in _GEN_COLS if c in df.columns]
+    cutoff = df["timestamp_utc"].max() - pd.Timedelta(days=90)
+    recent = df[df["timestamp_utc"] >= cutoff]
+
+    hourly = (
+        recent.set_index("timestamp_utc")[present]
+        .sort_index()
+        .clip(lower=0)
+        .resample("h").mean()
+        .round(1)
+    )
+    hourly.index = hourly.index.strftime("%Y-%m-%dT%H:%M")
+    hourly.index.name = "date"
+    hourly = hourly.reset_index()
+
+    _write(
+        DATA_DIR / "generation_mix_hourly.json",
+        {
+            "meta": _meta(
+                source="SMARD.de",
+                units="MW (hourly average)",
+                description="Hourly average electricity generation by technology for DE-LU, last 90 days.",
+            ),
+            "data": json.loads(hourly.to_json(orient="records")),
+        },
+    )
+    logger.info("  → %d hourly generation mix records", len(hourly))
+
+
 def write_yoy_overlay(df: pd.DataFrame) -> None:
     """Write data/yoy_overlay.json — spot price by day-of-year for last 5 years."""
     yoy_df = compute_yoy_overlay(df, value_col="DA_wholesale_price_eur_mwh", years_back=4)
@@ -247,6 +278,7 @@ def main() -> None:
     write_spot_quantiles(df)
     write_capture_prices(df)
     write_generation_mix(df)
+    write_generation_mix_hourly(df)
     write_yoy_overlay(df)
 
     logger.info("Pipeline complete. JSON files written to %s/", DATA_DIR)

@@ -22,23 +22,35 @@ function subtractDays(isoDate: string, days: number): string {
 }
 
 export default function GenerationMixSection({
-  data,
+  daily,
+  hourly,
   lastUpdated,
 }: {
-  data: DailyGenMix[]
+  daily: DailyGenMix[]
+  hourly: DailyGenMix[]
   lastUpdated: string
 }) {
-  const minDate = data.at(0)?.date ?? ''
-  const maxDate = data.at(-1)?.date ?? ''
+  const minDate = daily.at(0)?.date ?? ''
+  const maxDate = daily.at(-1)?.date ?? ''
 
   const [activePreset, setActivePreset] = useState<PresetLabel | null>('1Y')
   const [startDate, setStartDate] = useState(() => subtractDays(maxDate, 365))
   const [endDate, setEndDate] = useState(maxDate)
 
-  const filtered = useMemo(
-    () => data.filter((d) => d.date >= startDate && d.date <= endDate),
-    [data, startDate, endDate],
-  )
+  const periodDays = useMemo(() => {
+    if (!startDate || !endDate) return 365
+    return (new Date(endDate).getTime() - new Date(startDate).getTime()) / (1000 * 60 * 60 * 24)
+  }, [startDate, endDate])
+
+  const isHourly = periodDays <= 90
+
+  const filtered = useMemo(() => {
+    const src = isHourly ? hourly : daily
+    return src.filter((d) => {
+      const day = d.date.slice(0, 10)
+      return day >= startDate && day <= endDate
+    })
+  }, [daily, hourly, isHourly, startDate, endDate])
 
   function applyPreset(label: PresetLabel, days: number) {
     setStartDate(days >= 99999 ? minDate : subtractDays(maxDate, days))
@@ -48,6 +60,10 @@ export default function GenerationMixSection({
 
   const isCustom = activePreset === null
 
+  const pointCount = isHourly
+    ? `${filtered.length}h`
+    : `${filtered.length}d`
+
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
       {/* Header */}
@@ -55,7 +71,7 @@ export default function GenerationMixSection({
         <div>
           <h2 className="text-base font-semibold text-gray-800">Generation Mix</h2>
           <p className="text-sm text-gray-500 mt-0.5">
-            Share of each technology · daily average · DE-LU
+            Share of each technology · {isHourly ? 'hourly' : 'daily avg'} · DE-LU
           </p>
         </div>
         <span className="text-xs text-gray-400 mt-1 shrink-0">Updated {lastUpdated}</span>
@@ -104,11 +120,11 @@ export default function GenerationMixSection({
             }`}
           />
           <span className="text-gray-300">·</span>
-          <span className="text-gray-400">{filtered.length}d</span>
+          <span className="text-gray-400">{pointCount}</span>
         </div>
       </div>
 
-      <GenerationMixChart key={`${startDate}|${endDate}`} data={filtered} />
+      <GenerationMixChart key={`${startDate}|${endDate}`} data={filtered} isHourly={isHourly} />
     </div>
   )
 }

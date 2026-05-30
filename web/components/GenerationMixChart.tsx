@@ -12,9 +12,15 @@ import {
 } from 'recharts'
 import { TECH_CONFIG, type DailyGenMix } from '@/lib/generationUtils'
 
-function xTickFormatter(value: string) {
+function xTickFormatterDaily(value: string) {
   return new Date(value + 'T12:00:00Z').toLocaleDateString('en-GB', {
     month: 'short', year: '2-digit',
+  })
+}
+
+function xTickFormatterHourly(value: string) {
+  return new Date(value).toLocaleDateString('en-GB', {
+    day: 'numeric', month: 'short',
   })
 }
 
@@ -22,25 +28,32 @@ function CustomTooltip({
   active,
   payload,
   label,
+  isHourly,
 }: {
   active?: boolean
   payload?: { payload: DailyGenMix }[]
   label?: string
+  isHourly?: boolean
 }) {
   if (!active || !payload?.length) return null
   const d = payload[0].payload
-  const date = new Date(label! + 'T12:00:00Z').toLocaleDateString('en-GB', {
-    day: 'numeric', month: 'long', year: 'numeric',
-  })
 
-  // Sort by share descending for readability
+  const dateStr = isHourly
+    ? new Date(label!).toLocaleString('en-GB', {
+        day: 'numeric', month: 'long', year: 'numeric',
+        hour: '2-digit', minute: '2-digit',
+      })
+    : new Date(label! + 'T12:00:00Z').toLocaleDateString('en-GB', {
+        day: 'numeric', month: 'long', year: 'numeric',
+      })
+
   const sorted = [...TECH_CONFIG].sort(
     (a, b) => (d[b.key as keyof DailyGenMix] as number) - (d[a.key as keyof DailyGenMix] as number),
   )
 
   return (
     <div className="bg-white border border-gray-200 rounded-lg px-4 py-3 shadow text-sm max-w-xs">
-      <p className="font-semibold text-gray-800 mb-1">{date}</p>
+      <p className="font-semibold text-gray-800 mb-1">{dateStr}</p>
       <p className="text-xs text-gray-400 mb-2">
         Total: {d._total_mw.toLocaleString()} MW avg
       </p>
@@ -63,7 +76,13 @@ function CustomTooltip({
   )
 }
 
-export default function GenerationMixChart({ data }: { data: DailyGenMix[] }) {
+export default function GenerationMixChart({
+  data,
+  isHourly = false,
+}: {
+  data: DailyGenMix[]
+  isHourly?: boolean
+}) {
   return (
     <ResponsiveContainer width="100%" height={420}>
       <AreaChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: 16 }}>
@@ -71,8 +90,8 @@ export default function GenerationMixChart({ data }: { data: DailyGenMix[] }) {
         <XAxis
           dataKey="date"
           tick={{ fontSize: 12, fill: '#64748b' }}
-          tickFormatter={xTickFormatter}
-          minTickGap={70}
+          tickFormatter={isHourly ? xTickFormatterHourly : xTickFormatterDaily}
+          minTickGap={isHourly ? 50 : 70}
         />
         <YAxis
           tick={{ fontSize: 12, fill: '#64748b' }}
@@ -80,7 +99,7 @@ export default function GenerationMixChart({ data }: { data: DailyGenMix[] }) {
           domain={[0, 100]}
           width={44}
         />
-        <Tooltip content={<CustomTooltip />} />
+        <Tooltip content={<CustomTooltip isHourly={isHourly} />} />
         <Legend
           iconType="rect"
           iconSize={10}

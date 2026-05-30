@@ -28,6 +28,13 @@ export default function Home() {
     day: 'numeric', month: 'short', year: 'numeric',
   })
 
+  const genHourlyRaw = fs.readFileSync(
+    path.join(process.cwd(), '..', 'data', 'generation_mix_hourly.json'),
+    'utf-8',
+  )
+  const genHourlyJson: { data: GenerationRecord[] } = JSON.parse(genHourlyRaw)
+  const hourlyMixData = toShareData(genHourlyJson.data)
+
   return (
     <main className="min-h-screen bg-slate-50">
       <div className="max-w-5xl mx-auto px-6 py-10">
@@ -43,7 +50,7 @@ export default function Home() {
         <SpotPriceSection data={chartData} lastUpdated={lastUpdated} />
 
         <div className="mt-6">
-          <GenerationMixSection data={genMixData} lastUpdated={genLastUpdated} />
+          <GenerationMixSection daily={genMixData} hourly={hourlyMixData} lastUpdated={genLastUpdated} />
         </div>
       </div>
     </main>
