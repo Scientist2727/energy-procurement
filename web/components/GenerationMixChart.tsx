@@ -95,8 +95,9 @@ export default function GenerationMixChart({
         />
         <YAxis
           tick={{ fontSize: 12, fill: '#64748b' }}
-          tickFormatter={(v) => `${v}%`}
+          tickFormatter={(v) => `${Math.round(v)}%`}
           domain={[0, 100]}
+          ticks={[0, 20, 40, 60, 80, 100]}
           width={44}
         />
         <Tooltip content={<CustomTooltip isHourly={isHourly} />} />
