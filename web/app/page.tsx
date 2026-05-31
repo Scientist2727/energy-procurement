@@ -4,8 +4,10 @@ import fs from 'fs'
 import path from 'path'
 import SpotPriceSection from '@/components/SpotPriceSection'
 import GenerationMixSection from '@/components/GenerationMixSection'
+import RenewablePriceSection from '@/components/RenewablePriceSection'
 import { pivotQuantiles, type QuantileRecord } from '@/lib/dataUtils'
 import { toShareData, type GenerationRecord } from '@/lib/generationUtils'
+import type { SolarWindPriceRecord } from '@/lib/solarWindPriceUtils'
 
 export default function Home() {
   const spotRaw = fs.readFileSync(
@@ -35,6 +37,21 @@ export default function Home() {
   const genHourlyJson: { data: GenerationRecord[] } = JSON.parse(genHourlyRaw)
   const hourlyMixData = toShareData(genHourlyJson.data)
 
+  const swpHourlyRaw = fs.readFileSync(
+    path.join(process.cwd(), '..', 'data', 'solar_wind_price_hourly.json'),
+    'utf-8',
+  )
+  const swpHourlyJson: { meta: { last_updated: string }; data: SolarWindPriceRecord[] } = JSON.parse(swpHourlyRaw)
+  const swpLastUpdated = new Date(swpHourlyJson.meta.last_updated).toLocaleDateString('en-GB', {
+    day: 'numeric', month: 'short', year: 'numeric',
+  })
+
+  const swpDailyRaw = fs.readFileSync(
+    path.join(process.cwd(), '..', 'data', 'solar_wind_price_daily.json'),
+    'utf-8',
+  )
+  const swpDailyJson: { data: SolarWindPriceRecord[] } = JSON.parse(swpDailyRaw)
+
   return (
     <main className="min-h-screen bg-slate-50">
       <div className="max-w-5xl mx-auto px-6 py-10">
@@ -51,6 +68,14 @@ export default function Home() {
 
         <div className="mt-6">
           <GenerationMixSection daily={genMixData} hourly={hourlyMixData} lastUpdated={genLastUpdated} />
+        </div>
+
+        <div className="mt-6">
+          <RenewablePriceSection
+            hourly={swpHourlyJson.data}
+            daily={swpDailyJson.data}
+            lastUpdated={swpLastUpdated}
+          />
         </div>
       </div>
     </main>

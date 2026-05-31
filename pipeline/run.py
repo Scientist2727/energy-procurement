@@ -174,6 +174,16 @@ _GEN_COLS = [
     "other_conventional_generation_mw",
 ]
 
+_ALL_GEN_COLS = _GEN_COLS + ["pumped_storage_generation_mw"]
+
+_SWP_RENAME = {
+    "solar_generation_mw":        "solar_mw",
+    "wind_onshore_generation_mw":  "wind_onshore_mw",
+    "wind_offshore_generation_mw": "wind_offshore_mw",
+    "DA_wholesale_price_eur_mwh":  "price_eur_mwh",
+}
+_SWP_KEEP = ["solar_mw", "wind_onshore_mw", "wind_offshore_mw", "price_eur_mwh", "net_exports_mw"]
+
 
 def write_generation_mix(df: pd.DataFrame) -> None:
     """Write data/generation_mix.json — daily avg generation by technology, full history."""
@@ -256,6 +266,67 @@ def write_yoy_overlay(df: pd.DataFrame) -> None:
     logger.info("  → %d yoy records", len(yoy_df))
 
 
+def write_solar_wind_price(df: pd.DataFrame) -> None:
+    """Write solar/wind generation, DA price, and net exports — hourly (90d) + daily (full)."""
+    all_gen = [c for c in _ALL_GEN_COLS if c in df.columns]
+    core = [c for c in all_gen + ["DA_wholesale_price_eur_mwh", "load_mw"] if c in df.columns]
+    sub = df.set_index("timestamp_utc")[core].sort_index()
+
+    def _process(src: pd.DataFrame, freq: str) -> pd.DataFrame:
+        gen_present = [c for c in all_gen if c in src.columns]
+        aux_cols = [c for c in ["DA_wholesale_price_eur_mwh", "load_mw"] if c in src.columns]
+        gen_r = src[gen_present].clip(lower=0).resample(freq).mean().round(1)
+        aux_r = src[aux_cols].resample(freq).mean().round(2)
+        h = pd.concat([gen_r, aux_r], axis=1)
+        if "load_mw" in h.columns:
+            h["net_exports_mw"] = (h[gen_present].sum(axis=1) - h["load_mw"]).round(1)
+        h = h.rename(columns=_SWP_RENAME)
+        return h[[c for c in _SWP_KEEP if c in h.columns]]
+
+    # Hourly: last 90 days
+    cutoff = sub.index.max() - pd.Timedelta(days=90)
+    hourly = _process(sub[sub.index >= cutoff], "h")
+    hourly.index = hourly.index.strftime("%Y-%m-%dT%H:%M")
+    hourly.index.name = "date"
+    hourly = hourly.reset_index()
+    _write(
+        DATA_DIR / "solar_wind_price_hourly.json",
+        {
+            "meta": _meta(
+                source="SMARD.de",
+                units="MW, EUR/MWh",
+                description=(
+                    "Hourly solar & wind generation, DA spot price, and net exports "
+                    "(generation − load) for DE-LU, last 90 days."
+                ),
+            ),
+            "data": json.loads(hourly.to_json(orient="records")),
+        },
+    )
+    logger.info("  → %d solar/wind/price hourly records", len(hourly))
+
+    # Daily: full history
+    daily = _process(sub, "D")
+    daily.index = daily.index.strftime("%Y-%m-%d")
+    daily.index.name = "date"
+    daily = daily.reset_index()
+    _write(
+        DATA_DIR / "solar_wind_price_daily.json",
+        {
+            "meta": _meta(
+                source="SMARD.de",
+                units="MW, EUR/MWh",
+                description=(
+                    "Daily avg solar & wind generation, DA spot price, and net exports "
+                    "(generation − load) for DE-LU, full history."
+                ),
+            ),
+            "data": json.loads(daily.to_json(orient="records")),
+        },
+    )
+    logger.info("  → %d solar/wind/price daily records", len(daily))
+
+
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
@@ -279,6 +350,7 @@ def main() -> None:
     write_capture_prices(df)
     write_generation_mix(df)
     write_generation_mix_hourly(df)
+    write_solar_wind_price(df)
     write_yoy_overlay(df)
 
     logger.info("Pipeline complete. JSON files written to %s/", DATA_DIR)
