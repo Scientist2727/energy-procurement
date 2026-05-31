@@ -58,6 +58,7 @@ export default function RenewablePriceSection({
     setActivePreset(label)
   }
 
+  const negativeCount = filtered.filter((d) => d.price_eur_mwh < 0).length
   const isCustom = activePreset === null
 
   return (
@@ -117,6 +118,11 @@ export default function RenewablePriceSection({
           />
           <span className="text-gray-300">·</span>
           <span className="text-gray-400">{filtered.length}{isHourly ? 'h' : 'd'}</span>
+          {negativeCount > 0 && (
+            <span className="inline-flex items-center gap-1 text-xs font-medium text-red-600 bg-red-50 border border-red-100 px-2 py-0.5 rounded-full">
+              ⚡ {negativeCount}{isHourly ? 'h' : 'd'} negative
+            </span>
+          )}
         </div>
       </div>
 
