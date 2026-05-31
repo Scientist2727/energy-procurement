@@ -120,7 +120,7 @@ export default function RenewablePriceSection({
           <span className="text-gray-400">{filtered.length}{isHourly ? 'h' : 'd'}</span>
           {negativeCount > 0 && (
             <span className="inline-flex items-center gap-1 text-xs font-medium text-red-600 bg-red-50 border border-red-100 px-2 py-0.5 rounded-full">
-              ⚡ {negativeCount}{isHourly ? 'h' : 'd'} negative
+                {negativeCount}{isHourly ? 'h' : 'd'} negative
             </span>
           )}
         </div>

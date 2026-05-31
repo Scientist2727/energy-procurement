@@ -106,7 +106,6 @@ function CustomTooltip({
           <span className="text-gray-600 flex-1">DA Price</span>
           <span className={`font-medium tabular-nums ${d.price_eur_mwh < 0 ? 'text-red-600' : 'text-gray-800'}`}>
             {d.price_eur_mwh != null ? `${d.price_eur_mwh.toFixed(1)} €/MWh` : '—'}
-            {d.price_eur_mwh < 0 ? ' ⚡' : ''}
           </span>
         </div>
       </div>
