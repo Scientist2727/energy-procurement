@@ -8,21 +8,19 @@ on:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     permissions:
       contents: write        # needed to push the updated JSON files
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.3
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6.2.0
         with:
           python-version: '3.12'
           cache: pip
 
       - name: Restore SMARD parquet cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5.0.5
         with:
           path: data/raw/smard_raw.parquet
           # Key rotates weekly so historical data refreshes once a week
