@@ -5,6 +5,7 @@ import path from 'path'
 import SpotPriceSection from '@/components/SpotPriceSection'
 import GenerationMixSection from '@/components/GenerationMixSection'
 import RenewablePriceSection from '@/components/RenewablePriceSection'
+import SummarySection, { type SummaryStats } from '@/components/SummarySection'
 import { pivotQuantiles, type QuantileRecord } from '@/lib/dataUtils'
 import { toShareData, type GenerationRecord } from '@/lib/generationUtils'
 import type { SolarWindPriceRecord } from '@/lib/solarWindPriceUtils'
@@ -46,6 +47,33 @@ export default function Home() {
     day: 'numeric', month: 'short', year: 'numeric',
   })
 
+  // Compute summary stats from hourly data
+  const swpHourly = swpHourlyJson.data
+  const avg = (arr: number[]) => arr.length ? arr.reduce((s, v) => s + v, 0) / arr.length : null
+  const last7d  = swpHourly.slice(-168)
+  const last30d = swpHourly.slice(-720)
+  const latest  = swpHourly.at(-1)
+  const latestPriceTime = latest?.date
+    ? new Date(latest.date).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }) + ', ' +
+      new Date(latest.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
+    : '—'
+
+  // Renewables share from daily gen mix (last 30 daily rows)
+  const recentDaily = genMixData.slice(-30)
+  const renewablesShare30d = avg(
+    recentDaily.map((d) => d.solar + d.wind_onshore + d.wind_offshore + d.biomass + d.hydro + d.other_renewable),
+  )
+
+  const summaryStats: SummaryStats = {
+    latestPrice:        latest?.price_eur_mwh ?? null,
+    latestPriceTime,
+    avg7dPrice:         avg(last7d.map((d) => d.price_eur_mwh)),
+    avg30dPrice:        avg(last30d.map((d) => d.price_eur_mwh)),
+    renewablesShare30d: renewablesShare30d != null ? Math.round(renewablesShare30d * 10) / 10 : null,
+    negativeHours30d:   last30d.filter((d) => d.price_eur_mwh < 0).length,
+    totalHours30d:      last30d.length,
+  }
+
   const swpDailyRaw = fs.readFileSync(
     path.join(process.cwd(), '..', 'data', 'solar_wind_price_daily.json'),
     'utf-8',
@@ -63,6 +91,8 @@ export default function Home() {
             German power market · Public data · Updated daily
           </p>
         </div>
+
+        <SummarySection stats={summaryStats} />
 
         <SpotPriceSection data={chartData} lastUpdated={lastUpdated} />
 
