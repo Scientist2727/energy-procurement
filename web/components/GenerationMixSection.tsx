@@ -69,8 +69,8 @@ export default function GenerationMixSection({
       {/* Header */}
       <div className="flex items-start justify-between mb-5">
         <div>
-          <h2 className="text-base font-semibold text-gray-800">Generation Mix</h2>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <h2 className="text-lg font-semibold text-gray-900">Generation Mix</h2>
+          <p className="text-sm text-gray-400 mt-0.5">
             Share of each technology · {isHourly ? 'hourly' : 'daily avg'} · DE-LU
           </p>
         </div>

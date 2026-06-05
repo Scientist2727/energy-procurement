@@ -67,8 +67,8 @@ export default function RenewablePriceSection({
       {/* Header */}
       <div className="flex items-start justify-between mb-5">
         <div>
-          <h2 className="text-base font-semibold text-gray-800">Solar & Wind vs. Price</h2>
-          <p className="text-sm text-gray-500 mt-0.5">
+          <h2 className="text-lg font-semibold text-gray-900">Solar & Wind vs. Price</h2>
+          <p className="text-sm text-gray-400 mt-0.5">
             Generation, DA spot price & net exports · {isHourly ? 'hourly' : 'daily avg'} · DE-LU
           </p>
         </div>

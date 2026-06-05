@@ -47,7 +47,6 @@ export default function Home() {
     day: 'numeric', month: 'short', year: 'numeric',
   })
 
-  // Compute summary stats from hourly data
   const swpHourly = swpHourlyJson.data
   const avg = (arr: number[]) => arr.length ? arr.reduce((s, v) => s + v, 0) / arr.length : null
   const last7d  = swpHourly.slice(-168)
@@ -58,7 +57,6 @@ export default function Home() {
       new Date(latest.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })
     : '—'
 
-  // Renewables share from daily gen mix (last 30 daily rows)
   const recentDaily = genMixData.slice(-30)
   const renewablesShare30d = avg(
     recentDaily.map((d) => d.solar + d.wind_onshore + d.wind_offshore + d.biomass + d.hydro + d.other_renewable),
@@ -81,33 +79,75 @@ export default function Home() {
   const swpDailyJson: { data: SolarWindPriceRecord[] } = JSON.parse(swpDailyRaw)
 
   return (
-    <main className="min-h-screen bg-slate-50">
-      <div className="max-w-5xl mx-auto px-6 py-10">
-        <div className="mb-8">
-          <h1 className="text-2xl font-semibold text-gray-900 tracking-tight">
-            Energy Procurement Dashboard
-          </h1>
-          <p className="text-sm text-gray-500 mt-1">
-            German power market · Public data · Updated daily
+    <div className="min-h-screen bg-slate-50 flex flex-col">
+      {/* Top accent bar */}
+      <div className="h-1 bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-500 shrink-0" />
+
+      <main className="flex-1">
+        <div className="max-w-6xl mx-auto px-6 py-10">
+
+          {/* Header */}
+          <div className="flex items-start justify-between mb-8 pb-6 border-b border-gray-200">
+            <div>
+              <p className="text-[11px] font-bold text-blue-600 uppercase tracking-widest mb-2">
+                DE-LU Power Market
+              </p>
+              <h1 className="text-3xl font-bold text-gray-900 tracking-tight">
+                Energy Procurement Dashboard
+              </h1>
+              <p className="text-sm text-gray-400 mt-1.5">
+                Public market data · Source: SMARD.de · Updated daily
+              </p>
+            </div>
+            <div className="flex items-center gap-1.5 mt-1 bg-green-50 border border-green-100 px-3 py-1.5 rounded-full shrink-0">
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-green-500" />
+              <span className="text-xs font-semibold text-green-700">Live</span>
+            </div>
+          </div>
+
+          {/* Summary stat cards */}
+          <SummarySection stats={summaryStats} />
+
+          {/* Chart sections */}
+          <div className="space-y-8">
+            <section>
+              <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
+                Market Prices
+              </p>
+              <SpotPriceSection data={chartData} lastUpdated={lastUpdated} />
+            </section>
+
+            <section>
+              <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
+                Generation Mix
+              </p>
+              <GenerationMixSection daily={genMixData} hourly={hourlyMixData} lastUpdated={genLastUpdated} />
+            </section>
+
+            <section>
+              <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
+                Renewables &amp; Price Correlation
+              </p>
+              <RenewablePriceSection
+                hourly={swpHourlyJson.data}
+                daily={swpDailyJson.data}
+                lastUpdated={swpLastUpdated}
+              />
+            </section>
+          </div>
+
+        </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="border-t border-gray-200 bg-white mt-12">
+        <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+          <p className="text-xs text-gray-400">
+            Data: SMARD.de (Bundesnetzagentur) · Not financial advice
           </p>
+          <p className="text-xs text-gray-400">DE-LU bidding zone</p>
         </div>
-
-        <SummarySection stats={summaryStats} />
-
-        <SpotPriceSection data={chartData} lastUpdated={lastUpdated} />
-
-        <div className="mt-6">
-          <GenerationMixSection daily={genMixData} hourly={hourlyMixData} lastUpdated={genLastUpdated} />
-        </div>
-
-        <div className="mt-6">
-          <RenewablePriceSection
-            hourly={swpHourlyJson.data}
-            daily={swpDailyJson.data}
-            lastUpdated={swpLastUpdated}
-          />
-        </div>
-      </div>
-    </main>
+      </footer>
+    </div>
   )
 }
