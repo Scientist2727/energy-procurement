@@ -5,9 +5,11 @@ import path from 'path'
 import SpotPriceSection from '@/components/SpotPriceSection'
 import GenerationMixSection from '@/components/GenerationMixSection'
 import RenewablePriceSection from '@/components/RenewablePriceSection'
+import CapturePriceSection from '@/components/CapturePriceSection'
 import SummarySection, { type SummaryStats } from '@/components/SummarySection'
 import { pivotQuantiles, type QuantileRecord } from '@/lib/dataUtils'
 import { toShareData, type GenerationRecord } from '@/lib/generationUtils'
+import { pivotCaptureData, type CaptureRecord } from '@/lib/capturePriceUtils'
 import type { SolarWindPriceRecord } from '@/lib/solarWindPriceUtils'
 
 export default function Home() {
@@ -78,6 +80,16 @@ export default function Home() {
   )
   const swpDailyJson: { data: SolarWindPriceRecord[] } = JSON.parse(swpDailyRaw)
 
+  const captureRaw = fs.readFileSync(
+    path.join(process.cwd(), '..', 'data', 'capture_prices.json'),
+    'utf-8',
+  )
+  const captureJson: { meta: { last_updated: string }; data: CaptureRecord[] } = JSON.parse(captureRaw)
+  const captureData = pivotCaptureData(captureJson.data)
+  const captureLastUpdated = new Date(captureJson.meta.last_updated).toLocaleDateString('en-GB', {
+    day: 'numeric', month: 'short', year: 'numeric',
+  })
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Top accent bar */}
@@ -133,6 +145,13 @@ export default function Home() {
                 daily={swpDailyJson.data}
                 lastUpdated={swpLastUpdated}
               />
+            </section>
+
+            <section>
+              <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
+                Capture Prices
+              </p>
+              <CapturePriceSection data={captureData} lastUpdated={captureLastUpdated} />
             </section>
           </div>
 
