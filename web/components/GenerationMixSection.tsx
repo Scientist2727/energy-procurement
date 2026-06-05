@@ -5,6 +5,7 @@ import GenerationMixChart from './GenerationMixChart'
 import type { DailyGenMix } from '@/lib/generationUtils'
 
 const PRESETS = [
+  { label: '1D', days: 1 },
   { label: '1M', days: 30 },
   { label: '3M', days: 90 },
   { label: '6M', days: 180 },
@@ -33,8 +34,8 @@ export default function GenerationMixSection({
   const minDate = daily.at(0)?.date ?? ''
   const maxDate = daily.at(-1)?.date ?? ''
 
-  const [activePreset, setActivePreset] = useState<PresetLabel | null>('1Y')
-  const [startDate, setStartDate] = useState(() => subtractDays(maxDate, 365))
+  const [activePreset, setActivePreset] = useState<PresetLabel | null>('1D')
+  const [startDate, setStartDate] = useState(() => subtractDays(maxDate, 1))
   const [endDate, setEndDate] = useState(maxDate)
 
   const periodDays = useMemo(() => {
