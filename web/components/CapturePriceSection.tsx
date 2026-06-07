@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react'
 import CapturePriceChart, { type ViewMode } from './CapturePriceChart'
-import type { CapturePivot } from '@/lib/capturePriceUtils'
+import { CAPTURE_ASSETS, type CapturePivot } from '@/lib/capturePriceUtils'
 
 const PRESETS = [
   { label: '1Y',  months: 12 },
@@ -12,11 +12,57 @@ const PRESETS = [
 ] as const
 
 type PresetLabel = typeof PRESETS[number]['label']
+type BannerGran = 'month' | 'year'
+
+interface PeriodRow {
+  baseload_eur_mwh: number
+  solar_eur_mwh: number
+  wind_onshore_eur_mwh: number
+  wind_offshore_eur_mwh: number
+  combined_renewables_eur_mwh: number
+  solar_rate: number
+  wind_onshore_rate: number
+  wind_offshore_rate: number
+  combined_renewables_rate: number
+}
+
+const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+
+function formatMonthLabel(isoMonth: string): string {
+  const [y, m] = isoMonth.split('-').map(Number)
+  return `${MONTH_ABBR[m - 1]} ${y}`
+}
 
 function subtractMonths(isoMonth: string, n: number): string {
   const [y, m] = isoMonth.split('-').map(Number)
   const d = new Date(Date.UTC(y, m - 1 - n, 1))
   return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`
+}
+
+function avg(vals: number[]) {
+  const valid = vals.filter((v) => v != null && !isNaN(v))
+  return valid.length ? valid.reduce((s, v) => s + v, 0) / valid.length : NaN
+}
+
+function rateColor(rate: number): string {
+  if (rate >= 95) return 'text-green-600'
+  if (rate >= 90) return 'text-gray-700'
+  if (rate >= 80) return 'text-orange-500'
+  return 'text-red-500'
+}
+
+function buildPeriodRow(rows: CapturePivot[]): PeriodRow {
+  return {
+    baseload_eur_mwh:              avg(rows.map((r) => r.baseload_eur_mwh)),
+    solar_eur_mwh:                 avg(rows.map((r) => r.solar_eur_mwh)),
+    wind_onshore_eur_mwh:          avg(rows.map((r) => r.wind_onshore_eur_mwh)),
+    wind_offshore_eur_mwh:         avg(rows.map((r) => r.wind_offshore_eur_mwh)),
+    combined_renewables_eur_mwh:   avg(rows.map((r) => r.combined_renewables_eur_mwh)),
+    solar_rate:                    avg(rows.map((r) => r.solar_rate)),
+    wind_onshore_rate:             avg(rows.map((r) => r.wind_onshore_rate)),
+    wind_offshore_rate:            avg(rows.map((r) => r.wind_offshore_rate)),
+    combined_renewables_rate:      avg(rows.map((r) => r.combined_renewables_rate)),
+  }
 }
 
 export default function CapturePriceSection({
@@ -31,6 +77,8 @@ export default function CapturePriceSection({
 
   const [activePreset, setActivePreset] = useState<PresetLabel>('3Y')
   const [view, setView] = useState<ViewMode>('price')
+  const [bannerGran, setBannerGran] = useState<BannerGran>('month')
+  const [bannerPeriod, setBannerPeriod] = useState(() => maxMonth)
 
   const startMonth = useMemo(() => {
     const preset = PRESETS.find((p) => p.label === activePreset)!
@@ -41,6 +89,49 @@ export default function CapturePriceSection({
     () => data.filter((d) => d.month >= startMonth),
     [data, startMonth],
   )
+
+  // All available periods for navigation
+  const availableMonths = useMemo(() => data.map((d) => d.month).sort(), [data])
+  const availableYears  = useMemo(
+    () => [...new Set(data.map((d) => d.month.slice(0, 4)))].sort(),
+    [data],
+  )
+
+  function navigate(dir: -1 | 1) {
+    if (bannerGran === 'month') {
+      const idx = availableMonths.indexOf(bannerPeriod)
+      const next = availableMonths[idx + dir]
+      if (next) setBannerPeriod(next)
+    } else {
+      const idx = availableYears.indexOf(bannerPeriod.slice(0, 4))
+      const next = availableYears[idx + dir]
+      if (next) setBannerPeriod(next)
+    }
+  }
+
+  function switchGran(gran: BannerGran) {
+    setBannerGran(gran)
+    setBannerPeriod(gran === 'month' ? maxMonth : maxMonth.slice(0, 4))
+  }
+
+  const bannerRow = useMemo((): PeriodRow | null => {
+    if (bannerGran === 'month') {
+      const found = data.find((d) => d.month === bannerPeriod)
+      return found ? buildPeriodRow([found]) : null
+    }
+    const rows = data.filter((d) => d.month.startsWith(bannerPeriod.slice(0, 4)))
+    return rows.length ? buildPeriodRow(rows) : null
+  }, [data, bannerGran, bannerPeriod])
+
+  const canGoPrev = bannerGran === 'month'
+    ? availableMonths.indexOf(bannerPeriod) > 0
+    : availableYears.indexOf(bannerPeriod.slice(0, 4)) > 0
+
+  const canGoNext = bannerGran === 'month'
+    ? availableMonths.indexOf(bannerPeriod) < availableMonths.length - 1
+    : availableYears.indexOf(bannerPeriod.slice(0, 4)) < availableYears.length - 1
+
+  const periodLabel = bannerGran === 'month' ? formatMonthLabel(bannerPeriod) : bannerPeriod.slice(0, 4)
 
   return (
     <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
@@ -57,9 +148,8 @@ export default function CapturePriceSection({
 
       {/* Controls */}
       <div className="flex flex-wrap items-center gap-3 mb-5">
-        {/* Period presets */}
         <div className="flex gap-1">
-          {PRESETS.map(({ label, months }) => (
+          {PRESETS.map(({ label }) => (
             <button
               key={label}
               onClick={() => setActivePreset(label)}
@@ -76,7 +166,6 @@ export default function CapturePriceSection({
 
         <div className="h-5 w-px bg-gray-200" />
 
-        {/* View toggle */}
         <div className="flex rounded-lg border border-gray-200 overflow-hidden text-sm font-medium">
           <button
             onClick={() => setView('price')}
@@ -108,6 +197,151 @@ export default function CapturePriceSection({
         A declining capture rate reflects the merit-order effect — as more renewables generate simultaneously,
         they push prices lower during their own peak output hours.
       </p>
+
+      {/* Period performance box */}
+      {filtered.length > 0 && (() => {
+        const pr = buildPeriodRow(filtered)
+        const fromLabel = formatMonthLabel(filtered.at(0)!.month)
+        const toLabel   = formatMonthLabel(filtered.at(-1)!.month)
+        return (
+          <div className="mt-4 rounded-lg bg-slate-50 border border-slate-100 px-4 py-3">
+            <div className="flex items-baseline justify-between mb-2.5">
+              <span className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">
+                Period performance
+              </span>
+              <span className="text-xs text-slate-400">
+                {fromLabel} – {toLabel} · {filtered.length}mo avg · Baseload{' '}
+                <span className="font-semibold text-slate-600 tabular-nums">{pr.baseload_eur_mwh.toFixed(1)} €</span>
+              </span>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
+              {CAPTURE_ASSETS.map(({ key, label, color }) => {
+                const price = (pr as unknown as Record<string, number>)[`${key}_eur_mwh`]
+                const rate  = (pr as unknown as Record<string, number>)[`${key}_rate`]
+                const diff  = price - pr.baseload_eur_mwh
+                return (
+                  <div key={key} className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: color }} />
+                    <span className="text-xs text-slate-500 shrink-0">{label}</span>
+                    <span className="ml-auto text-xs tabular-nums text-slate-700 font-medium">
+                      {view === 'price' ? (
+                        <>
+                          {price.toFixed(1)} €
+                          <span className={`ml-1 text-[10px] ${diff < 0 ? 'text-red-400' : 'text-green-500'}`}>
+                            {diff >= 0 ? '+' : ''}{diff.toFixed(1)}
+                          </span>
+                          <span className={`ml-1.5 text-[10px] font-semibold ${rateColor(rate)}`}>
+                            {rate.toFixed(1)}%
+                          </span>
+                        </>
+                      ) : (
+                        <span className={`font-semibold ${rateColor(rate)}`}>{rate.toFixed(1)}%</span>
+                      )}
+                    </span>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )
+      })()}
+
+      {/* Period banner */}
+      <div className="mt-5 pt-5 border-t border-gray-100">
+        {/* Banner controls */}
+        <div className="flex items-center gap-3 mb-4">
+          <div className="flex rounded-lg border border-gray-200 overflow-hidden text-xs font-medium">
+            <button
+              onClick={() => switchGran('month')}
+              className={`px-3 py-1.5 transition-colors ${
+                bannerGran === 'month' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-50'
+              }`}
+            >
+              Month
+            </button>
+            <button
+              onClick={() => switchGran('year')}
+              className={`px-3 py-1.5 transition-colors border-l border-gray-200 ${
+                bannerGran === 'year' ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-50'
+              }`}
+            >
+              Year
+            </button>
+          </div>
+
+          <div className="flex items-center gap-1">
+            <button
+              onClick={() => navigate(-1)}
+              disabled={!canGoPrev}
+              className="w-6 h-6 flex items-center justify-center rounded text-gray-400 hover:text-gray-700 hover:bg-gray-100 disabled:opacity-25 disabled:cursor-not-allowed transition-colors"
+            >
+              ‹
+            </button>
+            <span className="text-sm font-semibold text-gray-700 w-20 text-center tabular-nums">
+              {periodLabel}
+            </span>
+            <button
+              onClick={() => navigate(1)}
+              disabled={!canGoNext}
+              className="w-6 h-6 flex items-center justify-center rounded text-gray-400 hover:text-gray-700 hover:bg-gray-100 disabled:opacity-25 disabled:cursor-not-allowed transition-colors"
+            >
+              ›
+            </button>
+          </div>
+
+          {bannerRow && (
+            <span className="text-xs text-gray-400 ml-auto">
+              Baseload ref.: <span className="text-gray-600 font-medium tabular-nums">{bannerRow.baseload_eur_mwh.toFixed(1)} €/MWh</span>
+              {bannerGran === 'year' && <span className="ml-1">(avg)</span>}
+            </span>
+          )}
+        </div>
+
+        {/* Stat cards */}
+        {bannerRow ? (
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+            {CAPTURE_ASSETS.map(({ key, label, color }) => {
+              const price = (bannerRow as unknown as Record<string, number>)[`${key}_eur_mwh`]
+              const rate  = (bannerRow as unknown as Record<string, number>)[`${key}_rate`]
+              const diff  = price - bannerRow.baseload_eur_mwh
+              return (
+                <div key={key} className="rounded-lg border border-gray-100 bg-gray-50/40 p-3">
+                  <div className="flex items-center gap-1.5 mb-2">
+                    <span className="w-2 h-2 rounded-full shrink-0" style={{ background: color }} />
+                    <span className="text-xs font-medium text-gray-500">{label}</span>
+                  </div>
+
+                  {view === 'price' ? (
+                    <>
+                      <p className="text-xl font-bold text-gray-900 tabular-nums leading-none mb-1">
+                        {isNaN(price) ? '—' : `${price.toFixed(1)}`}
+                        <span className="text-sm font-normal text-gray-400 ml-1">€/MWh</span>
+                      </p>
+                      <div className="flex items-baseline gap-2">
+                        <span className={`text-sm font-semibold tabular-nums ${rateColor(rate)}`}>
+                          {isNaN(rate) ? '—' : `${rate.toFixed(1)}%`}
+                        </span>
+                        {!isNaN(diff) && (
+                          <span className={`text-xs tabular-nums ${diff < 0 ? 'text-red-400' : 'text-green-500'}`}>
+                            {diff >= 0 ? '+' : ''}{diff.toFixed(1)} vs BL
+                          </span>
+                        )}
+                      </div>
+                    </>
+                  ) : (
+                    <p className={`text-2xl font-bold tabular-nums leading-none ${rateColor(rate)}`}>
+                      {isNaN(rate) ? '—' : `${rate.toFixed(1)}`}
+                      <span className="text-sm font-normal text-gray-400 ml-0.5">%</span>
+                    </p>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        ) : (
+          <p className="text-sm text-gray-400 text-center py-4">No data for this period</p>
+        )}
+      </div>
     </div>
   )
 }

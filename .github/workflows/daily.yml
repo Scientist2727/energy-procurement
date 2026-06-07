@@ -2,7 +2,8 @@ name: Daily data pipeline
 
 on:
   schedule:
-    - cron: '0 12 * * *'   # 12:00 UTC every day
+    - cron: '0 0 * * *'    # 00:00 UTC — overnight refresh
+    - cron: '0 12 * * *'   # 12:00 UTC — midday refresh
   workflow_dispatch:         # allow manual trigger from GitHub UI
 
 jobs:
@@ -39,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/spot_quantiles.json data/capture_prices.json data/yoy_overlay.json data/generation_mix.json data/generation_mix_hourly.json data/solar_wind_price_hourly.json data/solar_wind_price_daily.json
+          git add data/spot_quantiles.json data/capture_prices.json data/yoy_overlay.json data/generation_mix.json data/generation_mix_hourly.json data/solar_wind_price_hourly.json data/solar_wind_price_daily.json data/price_duration.json
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
 

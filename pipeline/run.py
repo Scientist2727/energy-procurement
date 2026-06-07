@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from pipeline.fetchers.entsoe import fetch_day_ahead_prices
 from pipeline.fetchers.smard import DEFAULT_START_UTC, fetch_all_smard
 from pipeline.metrics.capture_prices import compute_capture_prices
+from pipeline.metrics.price_duration import compute_price_duration
 from pipeline.metrics.quantiles import compute_price_quantiles
 from pipeline.metrics.yoy import compute_yoy_overlay
 
@@ -266,6 +267,27 @@ def write_yoy_overlay(df: pd.DataFrame) -> None:
     logger.info("  → %d yoy records", len(yoy_df))
 
 
+def write_price_duration(df: pd.DataFrame) -> None:
+    """Write data/price_duration.json — sampled price duration curve per year."""
+    pdc_df = compute_price_duration(df, years_back=4)
+
+    _write(
+        DATA_DIR / "price_duration.json",
+        {
+            "meta": _meta(
+                source="SMARD.de",
+                units="EUR/MWh",
+                description=(
+                    "Hourly DA prices ranked descending per calendar year, "
+                    "sampled at 200 percentile points."
+                ),
+            ),
+            "data": _to_records(pdc_df),
+        },
+    )
+    logger.info("  → %d price-duration records", len(pdc_df))
+
+
 def write_solar_wind_price(df: pd.DataFrame) -> None:
     """Write solar/wind generation, DA price, and net exports — hourly (90d) + daily (full)."""
     all_gen = [c for c in _ALL_GEN_COLS if c in df.columns]
@@ -352,6 +374,7 @@ def main() -> None:
     write_generation_mix_hourly(df)
     write_solar_wind_price(df)
     write_yoy_overlay(df)
+    write_price_duration(df)
 
     logger.info("Pipeline complete. JSON files written to %s/", DATA_DIR)
 

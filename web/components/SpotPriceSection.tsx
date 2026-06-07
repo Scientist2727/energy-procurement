@@ -94,7 +94,7 @@ export default function SpotPriceSection({
         <div className="h-5 w-px bg-gray-200" />
 
         {/* Custom date range */}
-        <div className="flex items-center gap-2 text-sm text-gray-500">
+        <div className="flex flex-wrap items-center gap-2 text-sm text-gray-500">
           <span>From</span>
           <input
             type="date"
