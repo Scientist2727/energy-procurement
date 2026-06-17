@@ -198,54 +198,6 @@ export default function CapturePriceSection({
         they push prices lower during their own peak output hours.
       </p>
 
-      {/* Period performance box */}
-      {filtered.length > 0 && (() => {
-        const pr = buildPeriodRow(filtered)
-        const fromLabel = formatMonthLabel(filtered.at(0)!.month)
-        const toLabel   = formatMonthLabel(filtered.at(-1)!.month)
-        return (
-          <div className="mt-4 rounded-lg bg-slate-50 border border-slate-100 px-4 py-3">
-            <div className="flex items-baseline justify-between mb-2.5">
-              <span className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">
-                Period performance
-              </span>
-              <span className="text-xs text-slate-400">
-                {fromLabel} – {toLabel} · {filtered.length}mo avg · Baseload{' '}
-                <span className="font-semibold text-slate-600 tabular-nums">{pr.baseload_eur_mwh.toFixed(1)} €</span>
-              </span>
-            </div>
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
-              {CAPTURE_ASSETS.map(({ key, label, color }) => {
-                const price = (pr as unknown as Record<string, number>)[`${key}_eur_mwh`]
-                const rate  = (pr as unknown as Record<string, number>)[`${key}_rate`]
-                const diff  = price - pr.baseload_eur_mwh
-                return (
-                  <div key={key} className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: color }} />
-                    <span className="text-xs text-slate-500 shrink-0">{label}</span>
-                    <span className="ml-auto text-xs tabular-nums text-slate-700 font-medium">
-                      {view === 'price' ? (
-                        <>
-                          {price.toFixed(1)} €
-                          <span className={`ml-1 text-[10px] ${diff < 0 ? 'text-red-400' : 'text-green-500'}`}>
-                            {diff >= 0 ? '+' : ''}{diff.toFixed(1)}
-                          </span>
-                          <span className={`ml-1.5 text-[10px] font-semibold ${rateColor(rate)}`}>
-                            {rate.toFixed(1)}%
-                          </span>
-                        </>
-                      ) : (
-                        <span className={`font-semibold ${rateColor(rate)}`}>{rate.toFixed(1)}%</span>
-                      )}
-                    </span>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        )
-      })()}
-
       {/* Period banner */}
       <div className="mt-5 pt-5 border-t border-gray-100">
         {/* Banner controls */}
