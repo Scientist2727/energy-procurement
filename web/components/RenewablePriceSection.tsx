@@ -242,7 +242,36 @@ export default function RenewablePriceSection({
             Generation, DA spot price & net exports · {isHourly ? 'hourly' : 'daily avg'} · DE-LU
           </p>
         </div>
-        <span className="text-xs text-gray-400 mt-1 shrink-0">Updated {lastUpdated}</span>
+        <div className="flex items-center gap-3 shrink-0">
+          {/* Export trigger */}
+          <div ref={exportRef} className="relative">
+            <button
+              onClick={() => setExportOpen((o) => !o)}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold shadow-sm transition-colors ${
+                exportOpen
+                  ? 'bg-blue-700 text-white'
+                  : 'bg-blue-600 text-white hover:bg-blue-700'
+              }`}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Export data
+            </button>
+
+            {exportOpen && (
+              <ExportPanel
+                minDate={minDate}
+                maxDate={maxDate}
+                hourly={hourly}
+                daily={daily}
+                onClose={() => setExportOpen(false)}
+              />
+            )}
+          </div>
+          <span className="text-xs text-gray-400 mt-0.5">Updated {lastUpdated}</span>
+        </div>
       </div>
 
       {/* Controls */}
@@ -291,33 +320,6 @@ export default function RenewablePriceSection({
           )}
         </div>
 
-        {/* Export trigger */}
-        <div ref={exportRef} className="relative ml-auto">
-          <button
-            onClick={() => setExportOpen((o) => !o)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold transition-colors ${
-              exportOpen
-                ? 'border-blue-300 bg-blue-50 text-blue-700'
-                : 'border-gray-200 text-gray-500 hover:bg-gray-50 hover:text-gray-700'
-            }`}
-          >
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-            </svg>
-            Export
-          </button>
-
-          {exportOpen && (
-            <ExportPanel
-              minDate={minDate}
-              maxDate={maxDate}
-              hourly={hourly}
-              daily={daily}
-              onClose={() => setExportOpen(false)}
-            />
-          )}
-        </div>
       </div>
 
       <RenewablePriceChart key={`${startDate}|${endDate}`} data={filtered} isHourly={isHourly} />
