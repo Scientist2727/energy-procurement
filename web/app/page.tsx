@@ -8,6 +8,7 @@ import RenewablePriceSection from '@/components/RenewablePriceSection'
 import CapturePriceSection from '@/components/CapturePriceSection'
 import YoYSection from '@/components/YoYSection'
 import PriceDurationSection from '@/components/PriceDurationSection'
+import DownloadSection from '@/components/DownloadSection'
 import SummarySection, { type SummaryStats } from '@/components/SummarySection'
 import { pivotQuantiles, type QuantileRecord } from '@/lib/dataUtils'
 import { toShareData, type GenerationRecord } from '@/lib/generationUtils'
@@ -161,6 +162,19 @@ export default function Home() {
                 Capture Prices
               </p>
               <CapturePriceSection data={captureData} lastUpdated={captureLastUpdated} />
+            </section>
+
+            <section>
+              <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
+                Download
+              </p>
+              <DownloadSection
+                dailyMix={genMixData}
+                hourlyMix={hourlyMixData}
+                swpDaily={swpDailyJson.data}
+                swpHourly={swpHourlyJson.data}
+                lastUpdated={lastUpdated}
+              />
             </section>
           </div>
 
