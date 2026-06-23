@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-22T16:57:38.275619+00:00",
+    "last_updated": "2026-06-23T02:39:14.227581+00:00",
     "source": "SMARD.de",
     "units": "EUR/MWh, %",
     "description": "Monthly volume-weighted capture prices for solar, wind onshore, wind offshore, and combined renewables; includes baseload reference and capture rate."
