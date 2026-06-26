@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T02:44:52.990288+00:00",
+    "last_updated": "2026-06-26T14:24:30.926779+00:00",
     "source": "SMARD.de",
     "units": "MW (daily average)",
     "description": "Daily average electricity generation by technology for DE-LU."
@@ -39572,17 +39572,17 @@
     },
     {
       "date": "2026-06-26",
-      "solar_generation_mw": 0.0,
-      "wind_offshore_generation_mw": 1348.6,
-      "wind_onshore_generation_mw": 7501.5,
-      "biomass_generation_mw": 3594.3,
-      "hydro_generation_mw": 1595.9,
-      "other_renewable_generation_mw": 105.3,
+      "solar_generation_mw": 21893.2,
+      "wind_offshore_generation_mw": 2318.2,
+      "wind_onshore_generation_mw": 4152.2,
+      "biomass_generation_mw": 3769.1,
+      "hydro_generation_mw": 1679.7,
+      "other_renewable_generation_mw": 92.4,
       "nuclear_generation_mw": null,
-      "lignite_generation_mw": 9331.1,
-      "hard_coal_generation_mw": 4051.4,
-      "natural_gas_generation_mw": 4738.1,
-      "other_conventional_generation_mw": 1572.6
+      "lignite_generation_mw": 8267.9,
+      "hard_coal_generation_mw": 3482.9,
+      "natural_gas_generation_mw": 3935.8,
+      "other_conventional_generation_mw": 1556.8
     }
   ]
 }
