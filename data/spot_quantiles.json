@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T02:50:45.457045+00:00",
+    "last_updated": "2026-07-01T14:34:35.769377+00:00",
     "source": "SMARD.de",
     "units": "EUR/MWh",
     "description": "Rolling p10/p25/p50/p75/p90 bands for the DA spot price over the last 365 days at hourly resolution."
