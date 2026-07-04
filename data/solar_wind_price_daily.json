@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T14:03:18.916519+00:00",
+    "last_updated": "2026-07-04T02:14:09.239907+00:00",
     "source": "SMARD.de",
     "units": "MW, EUR/MWh",
     "description": "Daily avg solar & wind generation, DA spot price, and net exports (generation \u2212 load) for DE-LU, full history."
@@ -22640,27 +22640,27 @@
     },
     {
       "date": "2026-06-29",
-      "solar_mw": 15288.6,
-      "wind_onshore_mw": 5032.9,
-      "wind_offshore_mw": 550.7,
-      "price_eur_mwh": 142.27,
-      "net_exports_mw": -12035.8
+      "solar_mw": 14014.6,
+      "wind_onshore_mw": 4957.8,
+      "wind_offshore_mw": 517.6,
+      "price_eur_mwh": 143.21,
+      "net_exports_mw": -12528.3
     },
     {
       "date": "2026-06-30",
-      "solar_mw": null,
-      "wind_onshore_mw": null,
-      "wind_offshore_mw": null,
-      "price_eur_mwh": null,
-      "net_exports_mw": null
+      "solar_mw": 15160.8,
+      "wind_onshore_mw": 3471.0,
+      "wind_offshore_mw": 376.6,
+      "price_eur_mwh": 187.67,
+      "net_exports_mw": -9941.7
     },
     {
       "date": "2026-07-01",
-      "solar_mw": 0.0,
-      "wind_onshore_mw": 2528.0,
-      "wind_offshore_mw": 1065.1,
-      "price_eur_mwh": 151.79,
-      "net_exports_mw": -15682.5
+      "solar_mw": 12586.9,
+      "wind_onshore_mw": 4447.0,
+      "wind_offshore_mw": 537.4,
+      "price_eur_mwh": 150.95,
+      "net_exports_mw": -11498.1
     },
     {
       "date": "2026-07-02",
@@ -22672,11 +22672,19 @@
     },
     {
       "date": "2026-07-03",
-      "solar_mw": 24063.3,
-      "wind_onshore_mw": 21248.6,
-      "wind_offshore_mw": 3011.0,
-      "price_eur_mwh": 39.88,
-      "net_exports_mw": 11183.6
+      "solar_mw": 17597.5,
+      "wind_onshore_mw": 20171.7,
+      "wind_offshore_mw": 3051.7,
+      "price_eur_mwh": 62.33,
+      "net_exports_mw": 6934.8
+    },
+    {
+      "date": "2026-07-04",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 11672.8,
+      "wind_offshore_mw": 3961.1,
+      "price_eur_mwh": 112.2,
+      "net_exports_mw": -6609.7
     }
   ]
 }
