@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-18T01:52:36.915344+00:00",
+    "last_updated": "2026-07-18T13:14:11.655221+00:00",
     "source": "SMARD.de",
     "units": "EUR/MWh",
     "description": "Hourly DA prices ranked descending per calendar year, sampled at 200 percentile points."
@@ -4054,7 +4054,7 @@
     {
       "year": 2026,
       "pct": 2.5,
-      "price_eur_mwh": 194.89
+      "price_eur_mwh": 194.3
     },
     {
       "year": 2026,
@@ -4079,12 +4079,12 @@
     {
       "year": 2026,
       "pct": 5.0,
-      "price_eur_mwh": 171.76
+      "price_eur_mwh": 171.73
     },
     {
       "year": 2026,
       "pct": 5.5,
-      "price_eur_mwh": 169.68
+      "price_eur_mwh": 169.57
     },
     {
       "year": 2026,
@@ -4099,52 +4099,52 @@
     {
       "year": 2026,
       "pct": 7.0,
-      "price_eur_mwh": 163.02
+      "price_eur_mwh": 162.75
     },
     {
       "year": 2026,
       "pct": 7.5,
-      "price_eur_mwh": 160.77
+      "price_eur_mwh": 160.68
     },
     {
       "year": 2026,
       "pct": 8.0,
-      "price_eur_mwh": 159.55
+      "price_eur_mwh": 159.48
     },
     {
       "year": 2026,
       "pct": 8.5,
-      "price_eur_mwh": 157.33
+      "price_eur_mwh": 157.3
     },
     {
       "year": 2026,
       "pct": 9.0,
-      "price_eur_mwh": 156.0
+      "price_eur_mwh": 155.93
     },
     {
       "year": 2026,
       "pct": 9.5,
-      "price_eur_mwh": 154.32
+      "price_eur_mwh": 154.19
     },
     {
       "year": 2026,
       "pct": 10.0,
-      "price_eur_mwh": 153.1
+      "price_eur_mwh": 153.05
     },
     {
       "year": 2026,
       "pct": 10.5,
-      "price_eur_mwh": 152.13
+      "price_eur_mwh": 152.11
     },
     {
       "year": 2026,
       "pct": 11.0,
-      "price_eur_mwh": 151.04
+      "price_eur_mwh": 151.02
     },
     {
       "year": 2026,
       "pct": 11.5,
-      "price_eur_mwh": 149.87
+      "price_eur_mwh": 149.8
     },
     {
       "year": 2026,
@@ -4154,122 +4154,122 @@
     {
       "year": 2026,
       "pct": 12.5,
-      "price_eur_mwh": 147.4
+      "price_eur_mwh": 147.37
     },
     {
       "year": 2026,
       "pct": 13.0,
-      "price_eur_mwh": 146.31
+      "price_eur_mwh": 146.24
     },
     {
       "year": 2026,
       "pct": 13.5,
-      "price_eur_mwh": 145.39
+      "price_eur_mwh": 145.37
     },
     {
       "year": 2026,
       "pct": 14.0,
-      "price_eur_mwh": 144.6
+      "price_eur_mwh": 144.49
     },
     {
       "year": 2026,
       "pct": 14.5,
-      "price_eur_mwh": 143.94
+      "price_eur_mwh": 143.83
     },
     {
       "year": 2026,
       "pct": 15.0,
-      "price_eur_mwh": 143.04
+      "price_eur_mwh": 142.99
     },
     {
       "year": 2026,
       "pct": 15.5,
-      "price_eur_mwh": 142.3
+      "price_eur_mwh": 142.21
     },
     {
       "year": 2026,
       "pct": 16.0,
-      "price_eur_mwh": 141.14
+      "price_eur_mwh": 141.12
     },
     {
       "year": 2026,
       "pct": 16.5,
-      "price_eur_mwh": 140.46
+      "price_eur_mwh": 140.44
     },
     {
       "year": 2026,
       "pct": 17.0,
-      "price_eur_mwh": 139.8
+      "price_eur_mwh": 139.7
     },
     {
       "year": 2026,
       "pct": 17.5,
-      "price_eur_mwh": 139.0
+      "price_eur_mwh": 138.91
     },
     {
       "year": 2026,
       "pct": 18.0,
-      "price_eur_mwh": 138.54
+      "price_eur_mwh": 138.51
     },
     {
       "year": 2026,
       "pct": 18.5,
-      "price_eur_mwh": 137.97
+      "price_eur_mwh": 137.93
     },
     {
       "year": 2026,
       "pct": 19.0,
-      "price_eur_mwh": 137.21
+      "price_eur_mwh": 137.2
     },
     {
       "year": 2026,
       "pct": 19.5,
-      "price_eur_mwh": 136.87
+      "price_eur_mwh": 136.83
     },
     {
       "year": 2026,
       "pct": 20.0,
-      "price_eur_mwh": 136.34
+      "price_eur_mwh": 136.28
     },
     {
       "year": 2026,
       "pct": 20.5,
-      "price_eur_mwh": 135.72
+      "price_eur_mwh": 135.67
     },
     {
       "year": 2026,
       "pct": 21.0,
-      "price_eur_mwh": 135.24
+      "price_eur_mwh": 135.23
     },
     {
       "year": 2026,
       "pct": 21.5,
-      "price_eur_mwh": 134.79
+      "price_eur_mwh": 134.76
     },
     {
       "year": 2026,
       "pct": 22.0,
-      "price_eur_mwh": 134.02
+      "price_eur_mwh": 134.0
     },
     {
       "year": 2026,
       "pct": 22.5,
-      "price_eur_mwh": 133.38
+      "price_eur_mwh": 133.22
     },
     {
       "year": 2026,
       "pct": 23.0,
-      "price_eur_mwh": 132.51
+      "price_eur_mwh": 132.24
     },
     {
       "year": 2026,
       "pct": 23.5,
-      "price_eur_mwh": 131.89
+      "price_eur_mwh": 131.87
     },
     {
       "year": 2026,
       "pct": 24.0,
-      "price_eur_mwh": 131.31
+      "price_eur_mwh": 131.27
     },
     {
       "year": 2026,
@@ -4279,22 +4279,22 @@
     {
       "year": 2026,
       "pct": 25.0,
-      "price_eur_mwh": 130.2
+      "price_eur_mwh": 130.18
     },
     {
       "year": 2026,
       "pct": 25.5,
-      "price_eur_mwh": 129.7
+      "price_eur_mwh": 129.67
     },
     {
       "year": 2026,
       "pct": 26.0,
-      "price_eur_mwh": 129.11
+      "price_eur_mwh": 129.1
     },
     {
       "year": 2026,
       "pct": 26.5,
-      "price_eur_mwh": 128.52
+      "price_eur_mwh": 128.51
     },
     {
       "year": 2026,
@@ -4309,17 +4309,17 @@
     {
       "year": 2026,
       "pct": 28.0,
-      "price_eur_mwh": 127.14
+      "price_eur_mwh": 127.13
     },
     {
       "year": 2026,
       "pct": 28.5,
-      "price_eur_mwh": 126.64
+      "price_eur_mwh": 126.56
     },
     {
       "year": 2026,
       "pct": 29.0,
-      "price_eur_mwh": 126.1
+      "price_eur_mwh": 126.07
     },
     {
       "year": 2026,
@@ -4334,22 +4334,22 @@
     {
       "year": 2026,
       "pct": 30.5,
-      "price_eur_mwh": 125.0
+      "price_eur_mwh": 124.96
     },
     {
       "year": 2026,
       "pct": 31.0,
-      "price_eur_mwh": 124.32
+      "price_eur_mwh": 124.28
     },
     {
       "year": 2026,
       "pct": 31.5,
-      "price_eur_mwh": 123.77
+      "price_eur_mwh": 123.73
     },
     {
       "year": 2026,
       "pct": 32.0,
-      "price_eur_mwh": 123.1
+      "price_eur_mwh": 123.09
     },
     {
       "year": 2026,
@@ -4359,32 +4359,32 @@
     {
       "year": 2026,
       "pct": 33.0,
-      "price_eur_mwh": 121.91
+      "price_eur_mwh": 121.89
     },
     {
       "year": 2026,
       "pct": 33.5,
-      "price_eur_mwh": 121.52
+      "price_eur_mwh": 121.5
     },
     {
       "year": 2026,
       "pct": 34.0,
-      "price_eur_mwh": 120.98
+      "price_eur_mwh": 120.97
     },
     {
       "year": 2026,
       "pct": 34.5,
-      "price_eur_mwh": 120.52
+      "price_eur_mwh": 120.49
     },
     {
       "year": 2026,
       "pct": 35.0,
-      "price_eur_mwh": 119.92
+      "price_eur_mwh": 119.85
     },
     {
       "year": 2026,
       "pct": 35.5,
-      "price_eur_mwh": 119.44
+      "price_eur_mwh": 119.4
     },
     {
       "year": 2026,
@@ -4399,17 +4399,17 @@
     {
       "year": 2026,
       "pct": 37.0,
-      "price_eur_mwh": 117.98
+      "price_eur_mwh": 117.96
     },
     {
       "year": 2026,
       "pct": 37.5,
-      "price_eur_mwh": 117.44
+      "price_eur_mwh": 117.43
     },
     {
       "year": 2026,
       "pct": 38.0,
-      "price_eur_mwh": 116.89
+      "price_eur_mwh": 116.8
     },
     {
       "year": 2026,
@@ -4424,22 +4424,22 @@
     {
       "year": 2026,
       "pct": 39.5,
-      "price_eur_mwh": 115.55
+      "price_eur_mwh": 115.53
     },
     {
       "year": 2026,
       "pct": 40.0,
-      "price_eur_mwh": 115.05
+      "price_eur_mwh": 115.03
     },
     {
       "year": 2026,
       "pct": 40.5,
-      "price_eur_mwh": 114.6
+      "price_eur_mwh": 114.56
     },
     {
       "year": 2026,
       "pct": 41.0,
-      "price_eur_mwh": 114.17
+      "price_eur_mwh": 114.15
     },
     {
       "year": 2026,
@@ -4449,47 +4449,47 @@
     {
       "year": 2026,
       "pct": 42.0,
-      "price_eur_mwh": 113.38
+      "price_eur_mwh": 113.35
     },
     {
       "year": 2026,
       "pct": 42.5,
-      "price_eur_mwh": 112.98
+      "price_eur_mwh": 112.95
     },
     {
       "year": 2026,
       "pct": 43.0,
-      "price_eur_mwh": 112.34
+      "price_eur_mwh": 112.32
     },
     {
       "year": 2026,
       "pct": 43.5,
-      "price_eur_mwh": 111.85
+      "price_eur_mwh": 111.79
     },
     {
       "year": 2026,
       "pct": 44.0,
-      "price_eur_mwh": 111.3
+      "price_eur_mwh": 111.28
     },
     {
       "year": 2026,
       "pct": 44.5,
-      "price_eur_mwh": 110.97
+      "price_eur_mwh": 110.96
     },
     {
       "year": 2026,
       "pct": 45.0,
-      "price_eur_mwh": 110.5
+      "price_eur_mwh": 110.48
     },
     {
       "year": 2026,
       "pct": 45.5,
-      "price_eur_mwh": 110.02
+      "price_eur_mwh": 110.01
     },
     {
       "year": 2026,
       "pct": 46.0,
-      "price_eur_mwh": 109.69
+      "price_eur_mwh": 109.61
     },
     {
       "year": 2026,
@@ -4499,12 +4499,12 @@
     {
       "year": 2026,
       "pct": 47.0,
-      "price_eur_mwh": 108.91
+      "price_eur_mwh": 108.88
     },
     {
       "year": 2026,
       "pct": 47.5,
-      "price_eur_mwh": 108.51
+      "price_eur_mwh": 108.48
     },
     {
       "year": 2026,
@@ -4514,22 +4514,22 @@
     {
       "year": 2026,
       "pct": 48.5,
-      "price_eur_mwh": 107.53
+      "price_eur_mwh": 107.51
     },
     {
       "year": 2026,
       "pct": 49.0,
-      "price_eur_mwh": 107.17
+      "price_eur_mwh": 107.16
     },
     {
       "year": 2026,
       "pct": 49.5,
-      "price_eur_mwh": 106.6
+      "price_eur_mwh": 106.55
     },
     {
       "year": 2026,
       "pct": 50.0,
-      "price_eur_mwh": 106.21
+      "price_eur_mwh": 106.0
     },
     {
       "year": 2026,
@@ -4539,422 +4539,422 @@
     {
       "year": 2026,
       "pct": 51.0,
-      "price_eur_mwh": 105.12
+      "price_eur_mwh": 105.1
     },
     {
       "year": 2026,
       "pct": 51.5,
-      "price_eur_mwh": 104.73
+      "price_eur_mwh": 104.7
     },
     {
       "year": 2026,
       "pct": 52.0,
-      "price_eur_mwh": 104.38
+      "price_eur_mwh": 104.26
     },
     {
       "year": 2026,
       "pct": 52.5,
-      "price_eur_mwh": 103.97
+      "price_eur_mwh": 103.93
     },
     {
       "year": 2026,
       "pct": 53.0,
-      "price_eur_mwh": 103.53
+      "price_eur_mwh": 103.48
     },
     {
       "year": 2026,
       "pct": 53.5,
-      "price_eur_mwh": 102.87
+      "price_eur_mwh": 102.83
     },
     {
       "year": 2026,
       "pct": 54.0,
-      "price_eur_mwh": 102.4
+      "price_eur_mwh": 102.35
     },
     {
       "year": 2026,
       "pct": 54.5,
-      "price_eur_mwh": 102.02
+      "price_eur_mwh": 101.99
     },
     {
       "year": 2026,
       "pct": 55.0,
-      "price_eur_mwh": 101.7
+      "price_eur_mwh": 101.68
     },
     {
       "year": 2026,
       "pct": 55.5,
-      "price_eur_mwh": 101.39
+      "price_eur_mwh": 101.32
     },
     {
       "year": 2026,
       "pct": 56.0,
-      "price_eur_mwh": 101.09
+      "price_eur_mwh": 101.05
     },
     {
       "year": 2026,
       "pct": 56.5,
-      "price_eur_mwh": 100.71
+      "price_eur_mwh": 100.68
     },
     {
       "year": 2026,
       "pct": 57.0,
-      "price_eur_mwh": 100.41
+      "price_eur_mwh": 100.4
     },
     {
       "year": 2026,
       "pct": 57.5,
-      "price_eur_mwh": 100.06
+      "price_eur_mwh": 100.05
     },
     {
       "year": 2026,
       "pct": 58.0,
-      "price_eur_mwh": 99.8
+      "price_eur_mwh": 99.77
     },
     {
       "year": 2026,
       "pct": 58.5,
-      "price_eur_mwh": 99.4
+      "price_eur_mwh": 99.38
     },
     {
       "year": 2026,
       "pct": 59.0,
-      "price_eur_mwh": 99.07
+      "price_eur_mwh": 99.04
     },
     {
       "year": 2026,
       "pct": 59.5,
-      "price_eur_mwh": 98.64
+      "price_eur_mwh": 98.58
     },
     {
       "year": 2026,
       "pct": 60.0,
-      "price_eur_mwh": 98.16
+      "price_eur_mwh": 98.09
     },
     {
       "year": 2026,
       "pct": 60.5,
-      "price_eur_mwh": 97.58
+      "price_eur_mwh": 97.55
     },
     {
       "year": 2026,
       "pct": 61.0,
-      "price_eur_mwh": 97.19
+      "price_eur_mwh": 97.11
     },
     {
       "year": 2026,
       "pct": 61.5,
-      "price_eur_mwh": 96.8
+      "price_eur_mwh": 96.77
     },
     {
       "year": 2026,
       "pct": 62.0,
-      "price_eur_mwh": 96.35
+      "price_eur_mwh": 96.34
     },
     {
       "year": 2026,
       "pct": 62.5,
-      "price_eur_mwh": 95.98
+      "price_eur_mwh": 95.95
     },
     {
       "year": 2026,
       "pct": 63.0,
-      "price_eur_mwh": 95.4
+      "price_eur_mwh": 95.28
     },
     {
       "year": 2026,
       "pct": 63.5,
-      "price_eur_mwh": 95.03
+      "price_eur_mwh": 95.0
     },
     {
       "year": 2026,
       "pct": 64.0,
-      "price_eur_mwh": 94.65
+      "price_eur_mwh": 94.51
     },
     {
       "year": 2026,
       "pct": 64.5,
-      "price_eur_mwh": 94.06
+      "price_eur_mwh": 94.02
     },
     {
       "year": 2026,
       "pct": 65.0,
-      "price_eur_mwh": 93.45
+      "price_eur_mwh": 93.43
     },
     {
       "year": 2026,
       "pct": 65.5,
-      "price_eur_mwh": 93.07
+      "price_eur_mwh": 93.02
     },
     {
       "year": 2026,
       "pct": 66.0,
-      "price_eur_mwh": 92.52
+      "price_eur_mwh": 92.37
     },
     {
       "year": 2026,
       "pct": 66.5,
-      "price_eur_mwh": 91.83
+      "price_eur_mwh": 91.78
     },
     {
       "year": 2026,
       "pct": 67.0,
-      "price_eur_mwh": 91.16
+      "price_eur_mwh": 91.1
     },
     {
       "year": 2026,
       "pct": 67.5,
-      "price_eur_mwh": 90.69
+      "price_eur_mwh": 90.51
     },
     {
       "year": 2026,
       "pct": 68.0,
-      "price_eur_mwh": 89.91
+      "price_eur_mwh": 89.83
     },
     {
       "year": 2026,
       "pct": 68.5,
-      "price_eur_mwh": 89.33
+      "price_eur_mwh": 89.24
     },
     {
       "year": 2026,
       "pct": 69.0,
-      "price_eur_mwh": 88.75
+      "price_eur_mwh": 88.67
     },
     {
       "year": 2026,
       "pct": 69.5,
-      "price_eur_mwh": 88.04
+      "price_eur_mwh": 87.95
     },
     {
       "year": 2026,
       "pct": 70.0,
-      "price_eur_mwh": 87.4
+      "price_eur_mwh": 87.28
     },
     {
       "year": 2026,
       "pct": 70.5,
-      "price_eur_mwh": 86.75
+      "price_eur_mwh": 86.57
     },
     {
       "year": 2026,
       "pct": 71.0,
-      "price_eur_mwh": 86.0
+      "price_eur_mwh": 85.95
     },
     {
       "year": 2026,
       "pct": 71.5,
-      "price_eur_mwh": 85.15
+      "price_eur_mwh": 85.04
     },
     {
       "year": 2026,
       "pct": 72.0,
-      "price_eur_mwh": 84.52
+      "price_eur_mwh": 84.39
     },
     {
       "year": 2026,
       "pct": 72.5,
-      "price_eur_mwh": 83.78
+      "price_eur_mwh": 83.66
     },
     {
       "year": 2026,
       "pct": 73.0,
-      "price_eur_mwh": 82.8
+      "price_eur_mwh": 82.68
     },
     {
       "year": 2026,
       "pct": 73.5,
-      "price_eur_mwh": 81.89
+      "price_eur_mwh": 81.83
     },
     {
       "year": 2026,
       "pct": 74.0,
-      "price_eur_mwh": 81.12
+      "price_eur_mwh": 81.05
     },
     {
       "year": 2026,
       "pct": 74.5,
-      "price_eur_mwh": 80.34
+      "price_eur_mwh": 80.16
     },
     {
       "year": 2026,
       "pct": 75.0,
-      "price_eur_mwh": 79.33
+      "price_eur_mwh": 79.12
     },
     {
       "year": 2026,
       "pct": 75.5,
-      "price_eur_mwh": 78.01
+      "price_eur_mwh": 77.68
     },
     {
       "year": 2026,
       "pct": 76.0,
-      "price_eur_mwh": 76.42
+      "price_eur_mwh": 75.98
     },
     {
       "year": 2026,
       "pct": 76.5,
-      "price_eur_mwh": 75.07
+      "price_eur_mwh": 74.84
     },
     {
       "year": 2026,
       "pct": 77.0,
-      "price_eur_mwh": 74.03
+      "price_eur_mwh": 73.85
     },
     {
       "year": 2026,
       "pct": 77.5,
-      "price_eur_mwh": 72.39
+      "price_eur_mwh": 72.21
     },
     {
       "year": 2026,
       "pct": 78.0,
-      "price_eur_mwh": 71.0
+      "price_eur_mwh": 70.87
     },
     {
       "year": 2026,
       "pct": 78.5,
-      "price_eur_mwh": 69.83
+      "price_eur_mwh": 69.41
     },
     {
       "year": 2026,
       "pct": 79.0,
-      "price_eur_mwh": 68.15
+      "price_eur_mwh": 67.81
     },
     {
       "year": 2026,
       "pct": 79.5,
-      "price_eur_mwh": 66.95
+      "price_eur_mwh": 66.85
     },
     {
       "year": 2026,
       "pct": 80.0,
-      "price_eur_mwh": 65.65
+      "price_eur_mwh": 65.56
     },
     {
       "year": 2026,
       "pct": 80.5,
-      "price_eur_mwh": 64.41
+      "price_eur_mwh": 64.15
     },
     {
       "year": 2026,
       "pct": 81.0,
-      "price_eur_mwh": 62.94
+      "price_eur_mwh": 62.55
     },
     {
       "year": 2026,
       "pct": 81.5,
-      "price_eur_mwh": 60.0
+      "price_eur_mwh": 59.53
     },
     {
       "year": 2026,
       "pct": 82.0,
-      "price_eur_mwh": 57.12
+      "price_eur_mwh": 56.57
     },
     {
       "year": 2026,
       "pct": 82.5,
-      "price_eur_mwh": 54.95
+      "price_eur_mwh": 54.25
     },
     {
       "year": 2026,
       "pct": 83.0,
-      "price_eur_mwh": 52.44
+      "price_eur_mwh": 51.18
     },
     {
       "year": 2026,
       "pct": 83.5,
-      "price_eur_mwh": 49.26
+      "price_eur_mwh": 48.63
     },
     {
       "year": 2026,
       "pct": 84.0,
-      "price_eur_mwh": 45.91
+      "price_eur_mwh": 45.51
     },
     {
       "year": 2026,
       "pct": 84.5,
-      "price_eur_mwh": 43.98
+      "price_eur_mwh": 43.68
     },
     {
       "year": 2026,
       "pct": 85.0,
-      "price_eur_mwh": 41.66
+      "price_eur_mwh": 40.95
     },
     {
       "year": 2026,
       "pct": 85.5,
-      "price_eur_mwh": 37.83
+      "price_eur_mwh": 37.27
     },
     {
       "year": 2026,
       "pct": 86.0,
-      "price_eur_mwh": 33.51
+      "price_eur_mwh": 33.31
     },
     {
       "year": 2026,
       "pct": 86.5,
-      "price_eur_mwh": 30.23
+      "price_eur_mwh": 28.93
     },
     {
       "year": 2026,
       "pct": 87.0,
-      "price_eur_mwh": 24.89
+      "price_eur_mwh": 23.49
     },
     {
       "year": 2026,
       "pct": 87.5,
-      "price_eur_mwh": 20.06
+      "price_eur_mwh": 19.98
     },
     {
       "year": 2026,
       "pct": 88.0,
-      "price_eur_mwh": 17.9
+      "price_eur_mwh": 17.37
     },
     {
       "year": 2026,
       "pct": 88.5,
-      "price_eur_mwh": 14.14
+      "price_eur_mwh": 13.36
     },
     {
       "year": 2026,
       "pct": 89.0,
-      "price_eur_mwh": 10.04
+      "price_eur_mwh": 9.93
     },
     {
       "year": 2026,
       "pct": 89.5,
-      "price_eur_mwh": 7.88
+      "price_eur_mwh": 7.74
     },
     {
       "year": 2026,
       "pct": 90.0,
-      "price_eur_mwh": 5.9
+      "price_eur_mwh": 5.39
     },
     {
       "year": 2026,
       "pct": 90.5,
-      "price_eur_mwh": 4.13
+      "price_eur_mwh": 3.82
     },
     {
       "year": 2026,
       "pct": 91.0,
-      "price_eur_mwh": 2.82
+      "price_eur_mwh": 2.11
     },
     {
       "year": 2026,
       "pct": 91.5,
-      "price_eur_mwh": 1.36
+      "price_eur_mwh": 1.27
     },
     {
       "year": 2026,
       "pct": 92.0,
-      "price_eur_mwh": 0.53
+      "price_eur_mwh": 0.37
     },
     {
       "year": 2026,
       "pct": 92.5,
-      "price_eur_mwh": 0.01
+      "price_eur_mwh": 0.0
     },
     {
       "year": 2026,
@@ -4979,22 +4979,22 @@
     {
       "year": 2026,
       "pct": 95.0,
-      "price_eur_mwh": -0.52
+      "price_eur_mwh": -0.55
     },
     {
       "year": 2026,
       "pct": 95.5,
-      "price_eur_mwh": -1.06
+      "price_eur_mwh": -1.09
     },
     {
       "year": 2026,
       "pct": 96.0,
-      "price_eur_mwh": -1.75
+      "price_eur_mwh": -1.79
     },
     {
       "year": 2026,
       "pct": 96.5,
-      "price_eur_mwh": -2.49
+      "price_eur_mwh": -2.5
     },
     {
       "year": 2026,
@@ -5004,7 +5004,7 @@
     {
       "year": 2026,
       "pct": 97.5,
-      "price_eur_mwh": -8.0
+      "price_eur_mwh": -7.87
     },
     {
       "year": 2026,
