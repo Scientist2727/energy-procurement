@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-19T13:16:14.220986+00:00",
+    "last_updated": "2026-07-20T02:25:01.914668+00:00",
     "source": "SMARD.de",
     "units": "EUR/MWh, %",
     "description": "Monthly volume-weighted capture prices for solar, wind onshore, wind offshore, and combined renewables; includes baseload reference and capture rate."
@@ -2641,30 +2641,30 @@
     {
       "period": "2026-07-31T00:00:00.000Z",
       "asset": "solar",
-      "capture_price_eur_mwh": 58.6333430439,
-      "baseload_eur_mwh": 103.4005287356,
-      "capture_rate_pct": 56.7050708162
+      "capture_price_eur_mwh": 56.5235927503,
+      "baseload_eur_mwh": 101.8002178649,
+      "capture_rate_pct": 55.5240390794
     },
     {
       "period": "2026-07-31T00:00:00.000Z",
       "asset": "wind_onshore",
-      "capture_price_eur_mwh": 90.4017042855,
-      "baseload_eur_mwh": 103.4005287356,
-      "capture_rate_pct": 87.4286673298
+      "capture_price_eur_mwh": 89.5325797631,
+      "baseload_eur_mwh": 101.8002178649,
+      "capture_rate_pct": 87.9493007391
     },
     {
       "period": "2026-07-31T00:00:00.000Z",
       "asset": "wind_offshore",
-      "capture_price_eur_mwh": 96.6971110231,
-      "baseload_eur_mwh": 103.4005287356,
-      "capture_rate_pct": 93.5170372971
+      "capture_price_eur_mwh": 94.9480237296,
+      "baseload_eur_mwh": 101.8002178649,
+      "capture_rate_pct": 93.2689789088
     },
     {
       "period": "2026-07-31T00:00:00.000Z",
       "asset": "combined_renewables",
-      "capture_price_eur_mwh": 73.8291754434,
-      "baseload_eur_mwh": 103.4005287356,
-      "capture_rate_pct": 71.40115853
+      "capture_price_eur_mwh": 72.4525028541,
+      "baseload_eur_mwh": 101.8002178649,
+      "capture_rate_pct": 71.1712650264
     }
   ]
 }
