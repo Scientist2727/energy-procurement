@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-21T02:02:40.272502+00:00",
+    "last_updated": "2026-07-21T13:48:21.444762+00:00",
     "source": "SMARD.de",
     "units": "MW, EUR/MWh",
     "description": "Hourly solar & wind generation, DA spot price, and net exports (generation \u2212 load) for DE-LU, last 90 days."
