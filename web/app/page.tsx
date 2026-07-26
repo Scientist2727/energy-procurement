@@ -10,6 +10,8 @@ import YoYSection from '@/components/YoYSection'
 import PriceDurationSection from '@/components/PriceDurationSection'
 import DownloadSection from '@/components/DownloadSection'
 import SummarySection, { type SummaryStats } from '@/components/SummarySection'
+import SiteNav from '@/components/SiteNav'
+import MarketBrief, { type MarketBriefProps } from '@/components/MarketBrief'
 import { pivotQuantiles, type QuantileRecord } from '@/lib/dataUtils'
 import { toShareData, type GenerationRecord } from '@/lib/generationUtils'
 import { pivotCaptureData, type CaptureRecord } from '@/lib/capturePriceUtils'
@@ -76,21 +78,38 @@ export default function Home() {
   const renewablesShare30d = avg(
     recentDaily.map((d) => d.solar + d.wind_onshore + d.wind_offshore + d.biomass + d.hydro + d.other_renewable),
   )
+  const avg30dPrice = avg(last30d.map((d) => d.price_eur_mwh))
+  const negativeHours30d = last30d.filter((d) => d.price_eur_mwh < 0).length
 
   const summaryStats: SummaryStats = {
     latestPrice:        latest?.price_eur_mwh ?? null,
     latestPriceTime,
     avg7dPrice:         avg(last7d.map((d) => d.price_eur_mwh)),
-    avg30dPrice:        avg(last30d.map((d) => d.price_eur_mwh)),
+    avg30dPrice,
     renewablesShare30d: renewablesShare30d != null ? Math.round(renewablesShare30d * 10) / 10 : null,
-    negativeHours30d:   last30d.filter((d) => d.price_eur_mwh < 0).length,
+    negativeHours30d,
     totalHours30d:      last30d.length,
   }
+
+  // Market brief — compare latest price against 365-day rolling quantiles
+  const latestQuantile = chartData.at(-1)
+  const marketBriefProps: MarketBriefProps | null = latestQuantile && latest ? {
+    currentPrice:       latest.price_eur_mwh,
+    p10: latestQuantile.p10, p25: latestQuantile.p25, p50: latestQuantile.p50,
+    p75: latestQuantile.p75, p90: latestQuantile.p90,
+    renewablesShare30d: renewablesShare30d != null ? Math.round(renewablesShare30d * 10) / 10 : null,
+    negativeHours30d,
+    totalHours30d:      last30d.length,
+    avg30dPrice,
+  } : null
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Top accent bar */}
       <div className="h-1 bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-500 shrink-0" />
+
+      {/* Sticky section nav */}
+      <SiteNav />
 
       <main className="flex-1">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
@@ -106,15 +125,11 @@ export default function Home() {
               </h1>
               <p className="text-sm text-gray-400 mt-1.5">
                 Public market data · Source:{' '}
-                <a
-                  href="https://www.smard.de/en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline underline-offset-2 hover:text-gray-600 transition-colors"
-                >
+                <a href="https://www.smard.de/en" target="_blank" rel="noopener noreferrer"
+                  className="underline underline-offset-2 hover:text-gray-600 transition-colors">
                   SMARD.de
                 </a>
-                {' '}· Updated daily
+                {' '}· Updated twice daily
               </p>
             </div>
             <div className="flex items-center gap-1.5 self-start bg-green-50 border border-green-100 px-3 py-1.5 rounded-full shrink-0">
@@ -123,12 +138,16 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Market signal banner */}
+          {marketBriefProps && <MarketBrief {...marketBriefProps} />}
+
           {/* Summary stat cards */}
           <SummarySection stats={summaryStats} />
 
           {/* Chart sections */}
-          <div className="space-y-8">
-            <section>
+          <div className="space-y-12">
+
+            <section id="market-prices" className="scroll-mt-16">
               <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
                 Market Prices
               </p>
@@ -139,14 +158,14 @@ export default function Home() {
               </div>
             </section>
 
-            <section>
+            <section id="generation-mix" className="scroll-mt-16">
               <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
                 Generation Mix
               </p>
               <GenerationMixSection daily={genMixData} hourly={hourlyMixData} lastUpdated={genLastUpdated} />
             </section>
 
-            <section>
+            <section id="renewables" className="scroll-mt-16">
               <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
                 Renewables &amp; Price Correlation
               </p>
@@ -157,16 +176,16 @@ export default function Home() {
               />
             </section>
 
-            <section>
+            <section id="capture-prices" className="scroll-mt-16">
               <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
                 Capture Prices
               </p>
               <CapturePriceSection data={captureData} lastUpdated={captureLastUpdated} />
             </section>
 
-            <section>
+            <section id="data-export" className="scroll-mt-16">
               <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
-                Download
+                Data Export
               </p>
               <DownloadSection
                 dailyMix={genMixData}
@@ -176,8 +195,8 @@ export default function Home() {
                 lastUpdated={lastUpdated}
               />
             </section>
-          </div>
 
+          </div>
         </div>
       </main>
 
@@ -186,12 +205,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <p className="text-xs text-gray-400">
             Data:{' '}
-            <a
-              href="https://www.smard.de/en"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-2 hover:text-gray-600 transition-colors"
-            >
+            <a href="https://www.smard.de/en" target="_blank" rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-gray-600 transition-colors">
               SMARD.de
             </a>
             {' '}(Bundesnetzagentur) · Not financial advice
