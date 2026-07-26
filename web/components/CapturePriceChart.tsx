@@ -40,8 +40,8 @@ function CustomTooltip({
   })
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg px-4 py-3 shadow text-sm min-w-[200px]">
-      <p className="font-semibold text-gray-800 mb-2">{dateStr}</p>
+    <div className="bg-white border border-gray-200 rounded-xl px-4 py-3 shadow-lg text-sm min-w-[210px]">
+      <p className="font-semibold text-gray-600 text-xs uppercase tracking-wide mb-2.5">{dateStr}</p>
 
       {view === 'price' && (
         <div className="space-y-1 mb-2 pb-2 border-b border-gray-100">
@@ -100,24 +100,28 @@ export default function CapturePriceChart({
 }) {
   return (
     <ResponsiveContainer width="100%" height={380}>
-      <LineChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: 16 }}>
-        <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
+      <LineChart data={data} margin={{ top: 12, right: 20, bottom: 4, left: 4 }}>
+        <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" strokeOpacity={0.8} />
         <XAxis
           dataKey="month"
-          tick={{ fontSize: 12, fill: '#64748b' }}
+          tick={{ fontSize: 11, fill: '#94a3b8' }}
           tickFormatter={xTickFormatter}
           minTickGap={60}
+          axisLine={{ stroke: '#e2e8f0' }}
+          tickLine={false}
         />
         <YAxis
-          tick={{ fontSize: 12, fill: '#64748b' }}
+          tick={{ fontSize: 11, fill: '#94a3b8' }}
           tickFormatter={(v) => view === 'price' ? `${Math.round(v)}€` : `${Math.round(v)}%`}
-          width={48}
+          width={44}
+          axisLine={false}
+          tickLine={false}
         />
         <Tooltip content={<CustomTooltip view={view} />} />
         <Legend
           iconType="circle"
           iconSize={8}
-          formatter={(value) => <span style={{ fontSize: 12, color: '#64748b' }}>{value}</span>}
+          formatter={(value) => <span style={{ fontSize: 11, color: '#94a3b8' }}>{value}</span>}
         />
 
         {view === 'price' && (

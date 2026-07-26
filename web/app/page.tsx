@@ -7,7 +7,7 @@ import GenerationMixSection from '@/components/GenerationMixSection'
 import RenewablePriceSection from '@/components/RenewablePriceSection'
 import CapturePriceSection from '@/components/CapturePriceSection'
 import YoYSection from '@/components/YoYSection'
-import PriceDurationSection from '@/components/PriceDurationSection'
+import ProcurementSection from '@/components/ProcurementSection'
 import DownloadSection from '@/components/DownloadSection'
 import SummarySection, { type SummaryStats } from '@/components/SummarySection'
 import SiteNav from '@/components/SiteNav'
@@ -17,7 +17,6 @@ import { toShareData, type GenerationRecord } from '@/lib/generationUtils'
 import { pivotCaptureData, type CaptureRecord } from '@/lib/capturePriceUtils'
 import type { SolarWindPriceRecord } from '@/lib/solarWindPriceUtils'
 import type { YoYRecord } from '@/lib/yoyUtils'
-import type { PdcRecord } from '@/lib/priceDurationUtils'
 
 function readJson<T>(filename: string): T {
   return JSON.parse(
@@ -57,11 +56,6 @@ export default function Home() {
 
   const yoyJson = readJson<{ meta: { last_updated: string }; data: YoYRecord[] }>('yoy_overlay.json')
   const yoyLastUpdated = new Date(yoyJson.meta.last_updated).toLocaleDateString('en-GB', {
-    day: 'numeric', month: 'short', year: 'numeric',
-  })
-
-  const pdcJson = readJson<{ meta: { last_updated: string }; data: PdcRecord[] }>('price_duration.json')
-  const pdcLastUpdated = new Date(pdcJson.meta.last_updated).toLocaleDateString('en-GB', {
     day: 'numeric', month: 'short', year: 'numeric',
   })
 
@@ -154,7 +148,6 @@ export default function Home() {
               <div className="space-y-6">
                 <SpotPriceSection data={chartData} lastUpdated={lastUpdated} />
                 <YoYSection data={yoyJson.data} lastUpdated={yoyLastUpdated} />
-                <PriceDurationSection data={pdcJson.data} lastUpdated={pdcLastUpdated} />
               </div>
             </section>
 
@@ -181,6 +174,17 @@ export default function Home() {
                 Capture Prices
               </p>
               <CapturePriceSection data={captureData} lastUpdated={captureLastUpdated} />
+            </section>
+
+            <section id="procurement" className="scroll-mt-16">
+              <p className="text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">
+                Procurement Intelligence
+              </p>
+              <ProcurementSection
+                captureData={captureData}
+                latestQuantile={latestQuantile}
+                avg30dPrice={avg30dPrice}
+              />
             </section>
 
             <section id="data-export" className="scroll-mt-16">

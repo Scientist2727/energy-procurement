@@ -3,11 +3,12 @@
 import { useEffect, useState } from 'react'
 
 const SECTIONS = [
-  { id: 'market-prices',   label: 'Market Prices' },
-  { id: 'generation-mix',  label: 'Generation Mix' },
-  { id: 'renewables',      label: 'Renewables & Prices' },
-  { id: 'capture-prices',  label: 'Capture Prices' },
-  { id: 'data-export',     label: 'Data Export' },
+  { id: 'market-prices',  label: 'Market Prices' },
+  { id: 'generation-mix', label: 'Generation Mix' },
+  { id: 'renewables',     label: 'Renewables' },
+  { id: 'capture-prices', label: 'Capture Prices' },
+  { id: 'procurement',    label: 'Procurement Tools' },
+  { id: 'data-export',    label: 'Data Export' },
 ] as const
 
 export default function SiteNav() {
