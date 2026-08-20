@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T12:44:03.059085+00:00",
+    "last_updated": "2026-08-20T00:51:40.872396+00:00",
     "source": "SMARD.de",
     "units": "EUR/MWh",
     "description": "DA spot price daily averages reshaped by day-of-year for the last 5 years."
@@ -8464,7 +8464,12 @@
     {
       "day_of_year": 231,
       "year": 2026,
-      "value": 156.5361538462
+      "value": 166.0625
+    },
+    {
+      "day_of_year": 232,
+      "year": 2026,
+      "value": 153.73
     }
   ]
 }
