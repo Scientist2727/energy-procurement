@@ -1,203 +1,11 @@
 {
   "meta": {
-    "last_updated": "2026-08-28T08:26:51.993486+00:00",
+    "last_updated": "2026-08-28T21:45:14.458016+00:00",
     "source": "SMARD.de",
     "units": "MW, EUR/MWh",
     "description": "Hourly solar & wind generation, DA spot price, and net exports (generation \u2212 load) for DE-LU, last 90 days."
   },
   "data": [
-    {
-      "date": "2026-05-29T21:00",
-      "solar_mw": 0.2,
-      "wind_onshore_mw": 15503.8,
-      "wind_offshore_mw": 2127.2,
-      "price_eur_mwh": 145.19,
-      "net_exports_mw": -5363.7
-    },
-    {
-      "date": "2026-05-29T22:00",
-      "solar_mw": 0.0,
-      "wind_onshore_mw": 14768.5,
-      "wind_offshore_mw": 2270.2,
-      "price_eur_mwh": 135.52,
-      "net_exports_mw": -3565.9
-    },
-    {
-      "date": "2026-05-29T23:00",
-      "solar_mw": 0.0,
-      "wind_onshore_mw": 14263.7,
-      "wind_offshore_mw": 2511.5,
-      "price_eur_mwh": 128.45,
-      "net_exports_mw": -3779.3
-    },
-    {
-      "date": "2026-05-30T00:00",
-      "solar_mw": 0.0,
-      "wind_onshore_mw": 13628.5,
-      "wind_offshore_mw": 2664.0,
-      "price_eur_mwh": 123.77,
-      "net_exports_mw": -4037.7
-    },
-    {
-      "date": "2026-05-30T01:00",
-      "solar_mw": 0.0,
-      "wind_onshore_mw": 12001.3,
-      "wind_offshore_mw": 2420.4,
-      "price_eur_mwh": 121.09,
-      "net_exports_mw": -5026.1
-    },
-    {
-      "date": "2026-05-30T02:00",
-      "solar_mw": 0.8,
-      "wind_onshore_mw": 12008.6,
-      "wind_offshore_mw": 2607.8,
-      "price_eur_mwh": 125.36,
-      "net_exports_mw": -4643.1
-    },
-    {
-      "date": "2026-05-30T03:00",
-      "solar_mw": 467.9,
-      "wind_onshore_mw": 12051.6,
-      "wind_offshore_mw": 2686.6,
-      "price_eur_mwh": 125.05,
-      "net_exports_mw": -5553.3
-    },
-    {
-      "date": "2026-05-30T04:00",
-      "solar_mw": 3626.0,
-      "wind_onshore_mw": 10982.4,
-      "wind_offshore_mw": 2371.0,
-      "price_eur_mwh": 118.99,
-      "net_exports_mw": -7511.6
-    },
-    {
-      "date": "2026-05-30T05:00",
-      "solar_mw": 9798.1,
-      "wind_onshore_mw": 9327.4,
-      "wind_offshore_mw": 2298.2,
-      "price_eur_mwh": 109.1,
-      "net_exports_mw": -5424.4
-    },
-    {
-      "date": "2026-05-30T06:00",
-      "solar_mw": 18560.8,
-      "wind_onshore_mw": 8344.2,
-      "wind_offshore_mw": 2207.2,
-      "price_eur_mwh": 88.87,
-      "net_exports_mw": -1914.3
-    },
-    {
-      "date": "2026-05-30T07:00",
-      "solar_mw": 29016.1,
-      "wind_onshore_mw": 8726.5,
-      "wind_offshore_mw": 1574.8,
-      "price_eur_mwh": 36.68,
-      "net_exports_mw": 5384.2
-    },
-    {
-      "date": "2026-05-30T08:00",
-      "solar_mw": 36863.7,
-      "wind_onshore_mw": 9347.4,
-      "wind_offshore_mw": 1319.2,
-      "price_eur_mwh": 2.96,
-      "net_exports_mw": 12780.4
-    },
-    {
-      "date": "2026-05-30T09:00",
-      "solar_mw": 41262.5,
-      "wind_onshore_mw": 9931.1,
-      "wind_offshore_mw": 1317.4,
-      "price_eur_mwh": -0.01,
-      "net_exports_mw": 17532.7
-    },
-    {
-      "date": "2026-05-30T10:00",
-      "solar_mw": 42587.8,
-      "wind_onshore_mw": 9692.7,
-      "wind_offshore_mw": 1446.4,
-      "price_eur_mwh": -0.05,
-      "net_exports_mw": 20257.6
-    },
-    {
-      "date": "2026-05-30T11:00",
-      "solar_mw": 41409.7,
-      "wind_onshore_mw": 8730.7,
-      "wind_offshore_mw": 1196.5,
-      "price_eur_mwh": -1.44,
-      "net_exports_mw": 18214.8
-    },
-    {
-      "date": "2026-05-30T12:00",
-      "solar_mw": 39763.9,
-      "wind_onshore_mw": 8730.7,
-      "wind_offshore_mw": 1117.0,
-      "price_eur_mwh": -0.75,
-      "net_exports_mw": 16474.0
-    },
-    {
-      "date": "2026-05-30T13:00",
-      "solar_mw": 39763.9,
-      "wind_onshore_mw": 8730.7,
-      "wind_offshore_mw": 1117.0,
-      "price_eur_mwh": -0.01,
-      "net_exports_mw": 16474.0
-    },
-    {
-      "date": "2026-05-30T14:00",
-      "solar_mw": 32699.3,
-      "wind_onshore_mw": 9121.4,
-      "wind_offshore_mw": 1571.2,
-      "price_eur_mwh": 3.01,
-      "net_exports_mw": 12398.5
-    },
-    {
-      "date": "2026-05-30T15:00",
-      "solar_mw": 25090.1,
-      "wind_onshore_mw": 10218.4,
-      "wind_offshore_mw": 1542.6,
-      "price_eur_mwh": 62.5,
-      "net_exports_mw": 5596.7
-    },
-    {
-      "date": "2026-05-30T16:00",
-      "solar_mw": 15854.5,
-      "wind_onshore_mw": 8639.8,
-      "wind_offshore_mw": 1481.7,
-      "price_eur_mwh": 107.01,
-      "net_exports_mw": -1284.7
-    },
-    {
-      "date": "2026-05-30T17:00",
-      "solar_mw": 7174.6,
-      "wind_onshore_mw": 6237.5,
-      "wind_offshore_mw": 1405.0,
-      "price_eur_mwh": 139.87,
-      "net_exports_mw": -10341.9
-    },
-    {
-      "date": "2026-05-30T18:00",
-      "solar_mw": 1790.4,
-      "wind_onshore_mw": 4289.0,
-      "wind_offshore_mw": 1298.1,
-      "price_eur_mwh": 160.52,
-      "net_exports_mw": -14922.8
-    },
-    {
-      "date": "2026-05-30T19:00",
-      "solar_mw": 77.9,
-      "wind_onshore_mw": 3365.0,
-      "wind_offshore_mw": 1011.6,
-      "price_eur_mwh": 171.85,
-      "net_exports_mw": -16091.9
-    },
-    {
-      "date": "2026-05-30T20:00",
-      "solar_mw": 0.3,
-      "wind_onshore_mw": 3163.9,
-      "wind_offshore_mw": 900.9,
-      "price_eur_mwh": 159.4,
-      "net_exports_mw": -15464.1
-    },
     {
       "date": "2026-05-30T21:00",
       "solar_mw": 0.2,
@@ -17293,6 +17101,198 @@
       "wind_offshore_mw": 4310.5,
       "price_eur_mwh": 150.39,
       "net_exports_mw": 6396.9
+    },
+    {
+      "date": "2026-08-27T22:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 26196.2,
+      "wind_offshore_mw": 3492.9,
+      "price_eur_mwh": 139.52,
+      "net_exports_mw": 10652.5
+    },
+    {
+      "date": "2026-08-27T23:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 25161.3,
+      "wind_offshore_mw": 3098.5,
+      "price_eur_mwh": 139.29,
+      "net_exports_mw": 10113.0
+    },
+    {
+      "date": "2026-08-28T00:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 21445.0,
+      "wind_offshore_mw": 3725.2,
+      "price_eur_mwh": 138.24,
+      "net_exports_mw": 6124.8
+    },
+    {
+      "date": "2026-08-28T01:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 18796.5,
+      "wind_offshore_mw": 3695.3,
+      "price_eur_mwh": 138.8,
+      "net_exports_mw": 4252.7
+    },
+    {
+      "date": "2026-08-28T02:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 17606.9,
+      "wind_offshore_mw": 2610.2,
+      "price_eur_mwh": 139.09,
+      "net_exports_mw": 2338.6
+    },
+    {
+      "date": "2026-08-28T03:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 16850.2,
+      "wind_offshore_mw": 2718.0,
+      "price_eur_mwh": 146.77,
+      "net_exports_mw": 2184.7
+    },
+    {
+      "date": "2026-08-28T04:00",
+      "solar_mw": 163.3,
+      "wind_onshore_mw": 17313.0,
+      "wind_offshore_mw": 2179.6,
+      "price_eur_mwh": 171.01,
+      "net_exports_mw": -3366.1
+    },
+    {
+      "date": "2026-08-28T05:00",
+      "solar_mw": 2621.2,
+      "wind_onshore_mw": 16757.0,
+      "wind_offshore_mw": 1342.0,
+      "price_eur_mwh": 177.98,
+      "net_exports_mw": -6195.0
+    },
+    {
+      "date": "2026-08-28T06:00",
+      "solar_mw": 8072.3,
+      "wind_onshore_mw": 15534.6,
+      "wind_offshore_mw": 1659.6,
+      "price_eur_mwh": 169.47,
+      "net_exports_mw": -6328.2
+    },
+    {
+      "date": "2026-08-28T07:00",
+      "solar_mw": 14174.9,
+      "wind_onshore_mw": 13169.6,
+      "wind_offshore_mw": 1277.6,
+      "price_eur_mwh": 155.15,
+      "net_exports_mw": -5857.9
+    },
+    {
+      "date": "2026-08-28T08:00",
+      "solar_mw": 19016.6,
+      "wind_onshore_mw": 11593.6,
+      "wind_offshore_mw": 1473.8,
+      "price_eur_mwh": 137.64,
+      "net_exports_mw": -1952.3
+    },
+    {
+      "date": "2026-08-28T09:00",
+      "solar_mw": 20532.7,
+      "wind_onshore_mw": 10624.1,
+      "wind_offshore_mw": 1487.6,
+      "price_eur_mwh": 121.58,
+      "net_exports_mw": -2517.4
+    },
+    {
+      "date": "2026-08-28T10:00",
+      "solar_mw": 20774.8,
+      "wind_onshore_mw": 10267.1,
+      "wind_offshore_mw": 2282.1,
+      "price_eur_mwh": 110.89,
+      "net_exports_mw": -3642.3
+    },
+    {
+      "date": "2026-08-28T11:00",
+      "solar_mw": 22250.1,
+      "wind_onshore_mw": 12944.0,
+      "wind_offshore_mw": 3342.8,
+      "price_eur_mwh": 96.24,
+      "net_exports_mw": 1219.0
+    },
+    {
+      "date": "2026-08-28T12:00",
+      "solar_mw": 21830.2,
+      "wind_onshore_mw": 14995.8,
+      "wind_offshore_mw": 3585.6,
+      "price_eur_mwh": 104.0,
+      "net_exports_mw": 5689.2
+    },
+    {
+      "date": "2026-08-28T13:00",
+      "solar_mw": 20350.8,
+      "wind_onshore_mw": 16237.6,
+      "wind_offshore_mw": 3121.2,
+      "price_eur_mwh": 114.37,
+      "net_exports_mw": 5778.0
+    },
+    {
+      "date": "2026-08-28T14:00",
+      "solar_mw": 17257.7,
+      "wind_onshore_mw": 16789.0,
+      "wind_offshore_mw": 3215.3,
+      "price_eur_mwh": 119.56,
+      "net_exports_mw": 5130.2
+    },
+    {
+      "date": "2026-08-28T15:00",
+      "solar_mw": 11839.1,
+      "wind_onshore_mw": 17453.0,
+      "wind_offshore_mw": 3712.8,
+      "price_eur_mwh": 143.2,
+      "net_exports_mw": 754.4
+    },
+    {
+      "date": "2026-08-28T16:00",
+      "solar_mw": 6476.9,
+      "wind_onshore_mw": 16685.0,
+      "wind_offshore_mw": 3920.3,
+      "price_eur_mwh": 160.48,
+      "net_exports_mw": -3236.0
+    },
+    {
+      "date": "2026-08-28T17:00",
+      "solar_mw": 1688.8,
+      "wind_onshore_mw": 17260.3,
+      "wind_offshore_mw": 4724.2,
+      "price_eur_mwh": 172.54,
+      "net_exports_mw": -3404.7
+    },
+    {
+      "date": "2026-08-28T18:00",
+      "solar_mw": 49.2,
+      "wind_onshore_mw": 17663.3,
+      "wind_offshore_mw": 4739.5,
+      "price_eur_mwh": 176.77,
+      "net_exports_mw": -1442.2
+    },
+    {
+      "date": "2026-08-28T19:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 18361.8,
+      "wind_offshore_mw": 5077.5,
+      "price_eur_mwh": 166.11,
+      "net_exports_mw": 763.6
+    },
+    {
+      "date": "2026-08-28T20:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 19881.9,
+      "wind_offshore_mw": 6213.4,
+      "price_eur_mwh": 161.45,
+      "net_exports_mw": 1959.9
+    },
+    {
+      "date": "2026-08-28T21:00",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 19881.9,
+      "wind_offshore_mw": 6213.4,
+      "price_eur_mwh": 145.13,
+      "net_exports_mw": 1959.9
     }
   ]
 }
