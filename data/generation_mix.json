@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T15:59:49.877037+00:00",
+    "last_updated": "2026-09-10T02:33:30.059366+00:00",
     "source": "SMARD.de",
     "units": "MW (daily average)",
     "description": "Daily average electricity generation by technology for DE-LU."
@@ -40608,17 +40608,45 @@
     },
     {
       "date": "2026-09-08",
-      "solar_generation_mw": 5476.2,
-      "wind_offshore_generation_mw": 2812.7,
-      "wind_onshore_generation_mw": 12010.4,
-      "biomass_generation_mw": 3664.8,
-      "hydro_generation_mw": 976.8,
-      "other_renewable_generation_mw": 92.5,
+      "solar_generation_mw": 5019.9,
+      "wind_offshore_generation_mw": 2722.5,
+      "wind_onshore_generation_mw": 13146.9,
+      "biomass_generation_mw": 3659.3,
+      "hydro_generation_mw": 974.5,
+      "other_renewable_generation_mw": 92.4,
       "nuclear_generation_mw": null,
-      "lignite_generation_mw": 10263.2,
-      "hard_coal_generation_mw": 4207.3,
-      "natural_gas_generation_mw": 3875.3,
-      "other_conventional_generation_mw": 1814.6
+      "lignite_generation_mw": 10211.8,
+      "hard_coal_generation_mw": 4126.9,
+      "natural_gas_generation_mw": 3835.5,
+      "other_conventional_generation_mw": 1798.3
+    },
+    {
+      "date": "2026-09-09",
+      "solar_generation_mw": 0.0,
+      "wind_offshore_generation_mw": 2087.7,
+      "wind_onshore_generation_mw": 22096.8,
+      "biomass_generation_mw": 3552.1,
+      "hydro_generation_mw": 957.1,
+      "other_renewable_generation_mw": 90.5,
+      "nuclear_generation_mw": null,
+      "lignite_generation_mw": 9242.6,
+      "hard_coal_generation_mw": 3181.9,
+      "natural_gas_generation_mw": 3168.9,
+      "other_conventional_generation_mw": 1752.0
+    },
+    {
+      "date": "2026-09-10",
+      "solar_generation_mw": 0.0,
+      "wind_offshore_generation_mw": 2083.7,
+      "wind_onshore_generation_mw": 22013.9,
+      "biomass_generation_mw": 3552.1,
+      "hydro_generation_mw": 957.1,
+      "other_renewable_generation_mw": 90.5,
+      "nuclear_generation_mw": null,
+      "lignite_generation_mw": 9242.6,
+      "hard_coal_generation_mw": 3181.9,
+      "natural_gas_generation_mw": 3168.9,
+      "other_conventional_generation_mw": 1752.0
     }
   ]
 }
