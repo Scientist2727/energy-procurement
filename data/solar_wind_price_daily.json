@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-16T02:47:42.142703+00:00",
+    "last_updated": "2026-09-16T16:13:49.690226+00:00",
     "source": "SMARD.de",
     "units": "MW, EUR/MWh",
     "description": "Daily avg solar & wind generation, DA spot price, and net exports (generation \u2212 load) for DE-LU, full history."
@@ -23264,11 +23264,19 @@
     },
     {
       "date": "2026-09-15",
-      "solar_mw": 25647.5,
-      "wind_onshore_mw": 6515.3,
-      "wind_offshore_mw": 3572.4,
-      "price_eur_mwh": 161.94,
-      "net_exports_mw": 3622.6
+      "solar_mw": 18180.6,
+      "wind_onshore_mw": 7596.8,
+      "wind_offshore_mw": 3648.7,
+      "price_eur_mwh": 177.61,
+      "net_exports_mw": 278.3
+    },
+    {
+      "date": "2026-09-16",
+      "solar_mw": 0.0,
+      "wind_onshore_mw": 9806.0,
+      "wind_offshore_mw": 2569.4,
+      "price_eur_mwh": 171.8,
+      "net_exports_mw": -18972.9
     }
   ]
 }
