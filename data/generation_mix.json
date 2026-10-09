@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-09T04:01:55.626981+00:00",
+    "last_updated": "2026-10-09T18:00:41.501167+00:00",
     "source": "SMARD.de",
     "units": "MW (daily average)",
     "description": "Daily average electricity generation by technology for DE-LU."
@@ -41028,17 +41028,31 @@
     },
     {
       "date": "2026-10-08",
-      "solar_generation_mw": 5316.2,
-      "wind_offshore_generation_mw": 4479.3,
-      "wind_onshore_generation_mw": 24398.8,
-      "biomass_generation_mw": 4035.8,
-      "hydro_generation_mw": 950.2,
-      "other_renewable_generation_mw": 90.1,
+      "solar_generation_mw": 4208.7,
+      "wind_offshore_generation_mw": 4457.6,
+      "wind_onshore_generation_mw": 25639.3,
+      "biomass_generation_mw": 4030.4,
+      "hydro_generation_mw": 944.4,
+      "other_renewable_generation_mw": 90.2,
       "nuclear_generation_mw": null,
-      "lignite_generation_mw": 9695.9,
-      "hard_coal_generation_mw": 3352.7,
-      "natural_gas_generation_mw": 5106.2,
-      "other_conventional_generation_mw": 1333.7
+      "lignite_generation_mw": 9025.1,
+      "hard_coal_generation_mw": 3272.8,
+      "natural_gas_generation_mw": 5157.1,
+      "other_conventional_generation_mw": 1350.4
+    },
+    {
+      "date": "2026-10-09",
+      "solar_generation_mw": 6794.4,
+      "wind_offshore_generation_mw": 5835.1,
+      "wind_onshore_generation_mw": 34949.1,
+      "biomass_generation_mw": 4134.7,
+      "hydro_generation_mw": 1067.7,
+      "other_renewable_generation_mw": 90.6,
+      "nuclear_generation_mw": null,
+      "lignite_generation_mw": 4887.3,
+      "hard_coal_generation_mw": 1370.4,
+      "natural_gas_generation_mw": 3666.1,
+      "other_conventional_generation_mw": 1513.9
     }
   ]
 }
