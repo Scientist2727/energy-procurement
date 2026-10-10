@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-09T18:00:41.580132+00:00",
+    "last_updated": "2026-10-10T03:47:29.430425+00:00",
     "source": "SMARD.de",
     "units": "MW (hourly average)",
     "description": "Hourly average electricity generation by technology for DE-LU, last 90 days."
