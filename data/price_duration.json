@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-16T16:09:37.942267+00:00",
+    "last_updated": "2026-10-17T02:30:52.511838+00:00",
     "source": "SMARD.de",
     "units": "EUR/MWh",
     "description": "Hourly DA prices ranked descending per calendar year, sampled at 200 percentile points."
